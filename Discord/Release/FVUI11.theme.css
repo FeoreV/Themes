@@ -1,0 +1,17 @@
+/**
+* @name FVUI11
+* @author ٴFeoreVٴ#3377
+* @description FVUI11 - disabled
+* @version  AutoUpdate
+* @authorId 489785940546551831
+* @invite baEMQkgswT
+* @source src
+*/
+
+@import url("https://feorev.github.io/Themes/Discord/main.theme.css");
+@import url("https://feorev.github.io/Themes/Discord/FVUI11.theme.css");
+
+:root{
+	--DarkBG: url(https://4kwallpapers.com/images/wallpapers/windows-11-dark-mode-blue-stock-official-2880x1800-5630.jpg);
+	--LightBG: url(https://4kwallpapers.com/images/walls/thumbs_3t/5616.jpg);
+}
