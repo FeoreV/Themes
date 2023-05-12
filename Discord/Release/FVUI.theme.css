@@ -5,7 +5,27 @@
 * @version  AutoUpdate
 * @authorId 489785940546551831
 * @invite baEMQkgswT
+* @source https://github.com/FeoreV/Themes/tree/main/Discord
 */
-
 @import url("https://feorev.github.io/Themes/Discord/main.theme.css");
-@import url("https://feorev.github.io/Themes/Discord/FVUI.theme.css");
+
+	/*Guide*/
+/*
+
+Enabled - @import url(...)
+Disabled - /*@import url(...)*/
+
+/*
+
+	/*Subthemes to choose*/
+	
+/*default*/ @import url("https://feorev.github.io/Themes/Discord/FVUI.theme.css"); 
+
+/*WIN11*/ /*@import url("https://feorev.github.io/Themes/Discord/FVUI11.theme.css");*/
+
+/*WIN11 SETTINGS*/
+:root{
+	--DarkBG: url(https://4kwallpapers.com/images/wallpapers/windows-11-dark-mode-blue-stock-official-2880x1800-5630.jpg);
+	--LightBG: url(https://4kwallpapers.com/images/walls/thumbs_3t/5616.jpg);
+}
+
