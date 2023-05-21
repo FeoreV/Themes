@@ -6,33 +6,64 @@
 * @authorId 489785940546551831
 * @invite baEMQkgswT
 * @source https://github.com/FeoreV/Themes/tree/main/Discord
+ .----------------.  .----------------.  .----------------.  .----------------.   
+| .--------------. || .--------------. || .--------------. || .--------------. |  
+| |  _________   | || | ____   ____  | || | _____  _____ | || |     _____    | |  
+| | |_   ___  |  | || ||_  _| |_  _| | || ||_   _||_   _|| || |    |_   _|   | |  
+| |   | |_  \_|  | || |  \ \   / /   | || |  | |    | |  | || |      | |     | |  
+| |   |  _|      | || |   \ \ / /    | || |  | '    ' |  | || |      | |     | |  
+| |  _| |_       | || |    \ ' /     | || |   \ `--' /   | || |     _| |_    | |  
+| | |_____|      | || |     \_/      | || |    `.__.'    | || |    |_____|   | |  
+| |              | || |              | || |              | || |              | |  
+| '--------------' || '--------------' || '--------------' || '--------------' |  
+ '----------------'  '----------------'  '----------------'  '----------------'  
 */
 @import url("https://feorev.github.io/Themes/Discord/main.theme.css");
 
 	/*Guide*/
 /*
 
-Enabled - @import url(...)
-Disabled - /*@import url(...)*/
+	Enabled - @import url(...)
+	Disabled - /*@import url(...)*/
 
 /*
 	/*Guide*/
 
+
+
 	/*Subthemes to choose*/
 	
-/*default*/ @import url("https://feorev.github.io/Themes/Discord/FVUIDEF.theme.css");
+	/*default*/
+@import url("https://feorev.github.io/Themes/Discord/FVUIDEF.theme.css");
 
-/*WIN11*/ /*@import url("https://feorev.github.io/Themes/Discord/FVUI11.theme.css");*/
+	/*WIN11*/ 
+/*@import url("https://feorev.github.io/Themes/Discord/FVUI11.theme.css");*/
 
 	/*Subthemes to choose*/
 
 
-	/*WIN11 SETTINGS*/
-:root{
-	--DarkBG: url(https://4kwallpapers.com/images/wallpapers/windows-11-dark-mode-blue-stock-official-2880x1800-5630.jpg);
-	--LightBG: url(https://wallpaperaccess.com/full/8205117.jpg);
+
+	/*SETTINGS*/
+	
+:root.theme-dark {
+	--color1: 30, 40, 50; /* Additional BG */
+	--color2: 9, 18, 24; /* Background */
+	--color3: 35, 120, 200; /* Blue */
+	--color4: 63, 43, 150; /* Gradient Color*/
 }
-	/*WIN11 SETTINGS*/
+
+:root.theme-light {
+	--color1: 211, 204, 227; /* Additional BG */
+	--color2: 219, 219, 219; /* Background */
+	--color3: 96,205,255; /* Blue */
+	--color4: 63, 43, 150; /* Gradient Color*/
+}
+:root{
+	--DarkBG: url(https://feorev.github.io/Themes/Discord/assets/dark.avif);
+	--LightBG: url(https://feorev.github.io/Themes/Discord/assets/light.avif);
+}
+
+	/*SETTINGS*/
 
 
 	/*CREDITS*/
