@@ -33,17 +33,25 @@
 
 	/*Subthemes to choose*/
 	
-	/*default*/
-@import url("https://feorev.github.io/Themes/Discord/FVUIDEF.theme.css");
+	/*Default*/
+/*@import url("https://feorev.github.io/Themes/Discord/FVUIDEF.theme.css");*/
 
 	/*WIN11*/ 
-/*@import url("https://feorev.github.io/Themes/Discord/FVUI11.theme.css");*/
+@import url("https://feorev.github.io/Themes/Discord/FVUI11.theme.css");
 
 	/*Subthemes to choose*/
 
 
 
-	/*SETTINGS*/
+	/* Addons */
+	
+@import url("https://feorev.github.io/Themes/Discord/Addons/trash.css"); /* Removes all unnecessary */
+
+	/* Addons */
+
+
+
+	/* Settings */
 	
 :root.theme-dark {
 	--color1: 30, 40, 50; /* Additional BG */
@@ -59,16 +67,16 @@
 	--color4: 63, 43, 150; /* Gradient Color*/
 }
 :root{
-	--DarkBG: url(https://feorev.github.io/Themes/Discord/assets/dark.avif);
-	--LightBG: url(https://feorev.github.io/Themes/Discord/assets/light.avif);
+	--DarkBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif);
+	--LightBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif);
 }
 
-	/*SETTINGS*/
+	/* Settings */
 
 
-	/*CREDITS*/
+	/* Credits */
 /*
 	Gibbu#0001 - RadialStatus / ServerRings
 	dablulite#0001 - userpanel 
 */
-	/*CREDITS*/
+	/* Credits */
