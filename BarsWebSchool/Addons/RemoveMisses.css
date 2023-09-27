@@ -1,1 +1,2 @@
 .content > ul > li table tbody tr td:nth-child(6) {font-size: 0px!important} 
+.attendance #attendance-info>#info>ul>li>table>tbody>tr>td>div>table>tbody>tr>td{display:none}
