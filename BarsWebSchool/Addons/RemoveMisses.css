@@ -2,6 +2,6 @@
 
 .attendance #attendance-info>#info>ul>li>table>tbody>tr>td>div>table>tbody>tr>td{font-size: 0px;}
 
-tbody tr:not(:nth-child(1)) {
+.attendance tbody tr:not(:nth-child(1)) {
   display: none;
 }
