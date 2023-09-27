@@ -1,7 +1,26 @@
 .content > ul > li table tbody tr td:nth-child(6) {font-size: 0px!important} 
 
-.attendance #attendance-info>#info>ul>li>table>tbody>tr>td>div>table>tbody>tr>td{font-size: 0px;}
-
 .attendance tbody tr:not(:nth-child(1)) {
   display: none;
+}
+
+.attendance #attendance-info>#info>ul>li>table>tbody>tr>td>div>table>tbody>tr>td{font-size: 0px;}
+
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(2),
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(3),
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(4),
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(5),
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(6)
+{
+  font-size: 0;
+}
+
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(2)::before,
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(3)::before,
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(4)::before,
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(5)::before,
+.attendance #attendance-summary>#summary>ul>li>table>tbody>tr>td:nth-child(6)::before
+{
+  font-size: 1.4rem;
+  content: "0"
 }
