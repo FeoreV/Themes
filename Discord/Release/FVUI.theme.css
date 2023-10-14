@@ -1,83 +1,85 @@
 /**
 * @name FVUI
-* @author ٴFeoreVٴ#3377
+* @author ٴfeorev
 * @description FVUI - disabled
 * @version  AutoUpdate
 * @authorId 489785940546551831
 * @invite baEMQkgswT
 * @source https://github.com/FeoreV/Themes/tree/main/Discord
-* @
- .----------------.  .----------------.  .----------------.  .----------------.   
-| .--------------. || .--------------. || .--------------. || .--------------. |  
-| |  _________   | || | ____   ____  | || | _____  _____ | || |     _____    | |  
-| | |_   ___  |  | || ||_  _| |_  _| | || ||_   _||_   _|| || |    |_   _|   | |  
-| |   | |_  \_|  | || |  \ \   / /   | || |  | |    | |  | || |      | |     | |  
-| |   |  _|      | || |   \ \ / /    | || |  | '    ' |  | || |      | |     | |  
-| |  _| |_       | || |    \ ' /     | || |   \ `--' /   | || |     _| |_    | |  
-| | |_____|      | || |     \_/      | || |    `.__.'    | || |    |_____|   | |  
-| |              | || |              | || |              | || |              | |  
-| '--------------' || '--------------' || '--------------' || '--------------' |  
- '----------------'  '----------------'  '----------------'  '----------------'  
 */
-@import url("https://feorev.github.io/Themes/Discord/main.theme.css");
+
+
 
 	/*Guide*/
 /*
+
+	Select import and press ctrl+/
 
 	Enabled - @import url(...)
 	Disabled - /*@import url(...)*/
 
 /*
-	/*Guide*/
 
 
 
 	/*Subthemes to choose*/
 	
 	/*Default*/
-@import url("https://feorev.github.io/Themes/Discord/FVUIDEF.theme.css");
-
-	/*WIN11*/ 
-/*@import url("https://feorev.github.io/Themes/Discord/FVUI11.theme.css");*/
-
-	/*Subthemes to choose*/
-
-
-
-	/* Addons */
-	
-@import url("https://feorev.github.io/Themes/Discord/Addons/trash.css"); /* Removes all unnecessary */
-
-	/* Addons */
-
-
-
-	/* Settings */
-	
+/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/default.css); */
 :root.theme-dark {
 	--color1: 30, 40, 50; /* Additional BG */
 	--color2: 9, 18, 24; /* Background */
-	--color3: 35, 120, 200; /* Blue */
+	--color3: 35, 120, 200; /* Additional Color */
 	--color4: 63, 43, 150; /* Gradient Color*/
 }
 
 :root.theme-light {
 	--color1: 211, 204, 227; /* Additional BG */
 	--color2: 219, 219, 219; /* Background */
-	--color3: 96,205,255; /* Blue */
+	--color3: 96,205,255; /* Additional Color */
 	--color4: 63, 43, 150; /* Gradient Color*/
 }
+	/*Lite (Removed some animations and blur) */
+/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/lite.css); */
+
+
+	/*WIN11 ( Custom background supported ) */ 
+/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/win11.css); */
 :root{
 	--DarkBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif);
 	--LightBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif);
+	--OpacityBG: 100%;
+	--BlurBG: 0px;
 }
 
-	/* Settings */
+	/*MICA (Required "Mica For Everyone" and enabling transparency (Settings=>BD=>Settings=>Window preferences=>Enable transparency)*/
+/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/mica.css); */
 
+
+
+
+	/* Addons */
+
+	/*Trash (Removes all unnecessary)*/
+/*@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/trash.css);*/
+:root{ /* None/Flex */
+	--nitro: none; 
+	--contextmenu: none;
+	--profile: none;
+	--chat:none;
+	--other:none;
+}
+
+	/*MaterialYou (The theme color scheme adjusts to the accent color)*/
+/*@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/materialyou.css);*/
+:root.theme-dark{ 
+	--accentcolor: 210, 68%; /* First 2 HSL values */
+}
+:root.theme-light{
+    --accentcolor: 199, 100%;  /* First 2 HSL values */
+}
 
 	/* Credits */
 /*
-	Gibbu#0001 - RadialStatus / ServerRings
-	dablulite#0001 - userpanel 
+	gibbu - RadialStatus / ServerRings
 */
-	/* Credits */
