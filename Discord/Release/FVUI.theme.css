@@ -22,10 +22,34 @@
 
 
 
-	/*Subthemes to choose*/
+	/* Subthemes to choose */
 	
 	/*Default*/
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/default.css); */
+@import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/default.css);
+
+	/*Lite (Removed some animations and blur) */
+/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/lite.css); */
+
+	/*WIN11 ( Custom background supported ) */ 
+/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/win11.css); */
+
+	/*MICA (Required "Mica For Everyone" and enabling transparency (Settings=>BD=>Settings=>Window preferences=>Enable transparency)*/
+/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/mica.css); */
+
+
+    /* Addons */
+
+	/*Trash (Removes all unnecessary)*/
+@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/trash.css);
+
+	/*MaterialYou (The theme color scheme adjusts to the accent color)*/
+/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/materialyou.css); */
+
+
+
+    /* Settings */
+
+    /* General colors*/
 :root.theme-dark {
 	--color1: 30, 40, 50; /* Additional BG */
 	--color2: 9, 18, 24; /* Background */
@@ -39,12 +63,8 @@
 	--color3: 96,205,255; /* Additional Color */
 	--color4: 63, 43, 150; /* Gradient Color*/
 }
-	/*Lite (Removed some animations and blur) */
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/lite.css); */
 
-
-	/*WIN11 ( Custom background supported ) */ 
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/win11.css); */
+    /*WIN11*/
 :root{
 	--DarkBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif);
 	--LightBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif);
@@ -52,16 +72,9 @@
 	--BlurBG: 0px;
 }
 
-	/*MICA (Required "Mica For Everyone" and enabling transparency (Settings=>BD=>Settings=>Window preferences=>Enable transparency)*/
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/mica.css); */
-
-
-
-
 	/* Addons */
 
-	/*Trash (Removes all unnecessary)*/
-/*@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/trash.css);*/
+    /* Trash */
 :root{ /* None/Flex */
 	--nitro: none; 
 	--contextmenu: none;
@@ -70,8 +83,7 @@
 	--other:none;
 }
 
-	/*MaterialYou (The theme color scheme adjusts to the accent color)*/
-/*@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/materialyou.css);*/
+    /* Material You*/
 :root.theme-dark{ 
 	--accentcolor: 210, 68%; /* First 2 HSL values */
 }
