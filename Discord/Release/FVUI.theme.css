@@ -1,6 +1,6 @@
 /**
 * @name FVUI
-* @author FeoreV
+* @author feorev
 * @description FVUI - disabled
 * @version  AutoUpdate
 * @authorId 489785940546551831
@@ -43,8 +43,10 @@
 @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/trash.css);
 
 	/*MaterialYou (The theme color scheme adjusts to the accent color)*/
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/materialyou.css); */
+/*@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/materialyou.css);*/
 
+	/*ModularDesign (Adds outline to main sections)*/
+/*@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/modulardesign.css);*/
 
 
     /* Settings */
@@ -91,6 +93,26 @@
     --accentcolor: 199, 100%;  /* First 2 HSL values */
 }
 
+	/* Modular Design */
+:root{ /*MainModules*/
+	--outline: 3px; /*outline size*/
+	--outlineCLR: var(--color03); /*outline color*/
+	--outlineBR: 16px; /*outline border-radius (rounding)*/
+	--outlineMG: 2rem; /*outline margin*/
+	--outlineBS: 15px var(--outlineCLR); /*outline glow (size/color)*/
+	--outlineBG: unset;  /*outline content background color*/
+	--outlineBLUR: 0; /*backdrop blur (px) (ONLY WIN11)*/
+}
+
+:root{ /*AdditionalModules*/
+	--outline2: var(--outline); /*outline size*/
+	--outlineCLR2: var(--outlineCLR); /*outline color*/
+	--outlineBR2: var(--outlineBR); /*outline border-radius (rounding)*/
+	--outlineMG2: var(--outlineMG); /*outline margin*/
+	--outlineBS2: var(--outlineBS); /*outline glow (size/color)*/
+	--outlineBG2: unset; /*outline content background color*/
+	--outlineBLUR2: 0 /*backdrop blur (px) (Not recommended)*/
+}
 	/* Credits */
 /*
 	gibbu - RadialStatus / ServerRings
