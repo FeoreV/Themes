@@ -45,3 +45,11 @@ g.highcharts-series-group>g>rect{
   display: none;
 }
 
+
+
+
+
+tbody tr:nth-child(5) td:nth-child(19)
+{
+  font-size: 0;
+}
