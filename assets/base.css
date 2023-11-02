@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap%27'); /*font*/
   
   /*FVUI*/
-:root.theme-dark { /* Colors for users customization */
+:root { /* Colors for users customization */
 	--color1: 30, 40, 50; /* Additional BG */
 	--color2: 9, 18, 24; /* Background */
 	--color3: 35, 120, 200; /* Blue */
