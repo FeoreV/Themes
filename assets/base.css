@@ -9,7 +9,17 @@
 	--color3: 35, 120, 200; /* Blue */
 	--color4: 63, 43, 150; /* Gradient Color*/
 	
-    --text1: 174, 174, 174; /*accent*/
+ 	--text1: 174, 174, 174; /*accent*/
+	--text2: 107, 107, 107; /*no accent*/
+}
+
+:root.theme-dark { /* Colors for users customization */
+	--color1: 30, 40, 50; /* Additional BG */
+	--color2: 9, 18, 24; /* Background */
+	--color3: 35, 120, 200; /* Blue */
+	--color4: 63, 43, 150; /* Gradient Color*/
+	
+ 	--text1: 174, 174, 174; /*accent*/
 	--text2: 107, 107, 107; /*no accent*/
 }
 :root.theme-light { /* Colors for users customization */
