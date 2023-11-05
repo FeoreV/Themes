@@ -1,4 +1,4 @@
-readme (screenshots and other) in progress
+readme (screenshots and other) in progress.
 
 
 # FVUI
