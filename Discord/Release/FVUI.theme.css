@@ -104,7 +104,7 @@
 	--outlineBLUR: 0; /*backdrop blur (px) (ONLY WIN11)*/
 }
 
-:root{ /*AdditionalModules*/
+:root{ /* AdditionalModules */
 	--outline2: var(--outline); /*outline size*/
 	--outlineCLR2: var(--outlineCLR); /*outline color*/
 	--outlineBR2: var(--outlineBR); /*outline border-radius (rounding)*/
