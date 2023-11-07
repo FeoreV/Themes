@@ -114,7 +114,7 @@ html *{
 
 	/*~~~cursor~~~*/
 html{
-	cursor: url('https://cdn.discordapp.com/attachments/595306807795253258/1107955455436787722/pointer.cur'), default!important;
+	cursor: url('https://cdn.discordapp.com/attachments/595306807795253258/1107955455436787722/pointer.cur'), default;
 }
 	/*~~~keyframes~~~*/
 @keyframes menu-animation { 
