@@ -13,6 +13,8 @@
 
 ## Subthemes
 
+#### Light theme is also supported
+
 ### Default
 ![Default](https://feorev.github.io/Themes/Discord/assets/ReadMe/Default.png)
 ### WIN11 (custom image supported)
