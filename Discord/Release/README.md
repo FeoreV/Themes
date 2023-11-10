@@ -6,7 +6,7 @@
 
 ## Releases
    [WebSite](https://feorev.github.io/) (Soon)
- - [Discord](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Discord](https://betterdiscord.app/theme/FVUI)
  - [Chrome](https://github.com/FeoreV/Themes/releases/tag/chrome) 
  
 # Screenshots
