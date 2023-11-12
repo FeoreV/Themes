@@ -72,14 +72,14 @@ To change variables, find them in the theme file using any text editor.
 
 None - hide elements
 
-unset - show elements
+Flex - show elements
 |Variables    |Recomended value|Description             |
 |-------------|----------------|------------------------|
-|--nitro      |**None** or unset|Removes unnecessary items from a category|
-|--contextmenu|**None** or unset|Removes unnecessary items from a category|
-|--profile    |**None** or unset|Removes unnecessary items from a category|
-|--chat       |**None** or unset|Removes unnecessary items from a category|
-|--other      |**None** or unset|Removes unnecessary items from a category|
+|--nitro      |**None** or Flex|Removes unnecessary items from a category|
+|--contextmenu|**None** or Flex|Removes unnecessary items from a category|
+|--profile    |**None** or Flex|Removes unnecessary items from a category|
+|--chat       |**None** or Flex|Removes unnecessary items from a category|
+|--other      |**None** or Flex|Removes unnecessary items from a category|
 
 ### Material You
 [ColorPicker](https://g.co/kgs/83i83K)
