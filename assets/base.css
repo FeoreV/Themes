@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap%27'); /*font*/
   
   /*FVUI*/
-:root { /* Colors for users customization */
+:root *{ /* Colors for users customization */
 	--color1: 30, 40, 50; /* Additional BG */
 	--color2: 9, 18, 24; /* Background */
 	--color3: 35, 120, 200; /* Blue */
@@ -13,7 +13,7 @@
 	--text2: 107, 107, 107; /*no accent*/
 }
 
-:root.theme-dark { /* Colors for users customization */
+:root.theme-dark *{ /* Colors for users customization */
 	--color1: 30, 40, 50; /* Additional BG */
 	--color2: 9, 18, 24; /* Background */
 	--color3: 35, 120, 200; /* Blue */
@@ -22,14 +22,14 @@
  	--text1: 174, 174, 174; /*accent*/
 	--text2: 107, 107, 107; /*no accent*/
 }
-:root.theme-light { /* Colors for users customization */
+:root.theme-light *{ /* Colors for users customization */
 	--color1: 211, 204, 227; /* Additional BG */
 	--color2: 219, 219, 219; /* Background */
 	--color3: 96,205,255; /* Blue */
 	--color4: 63, 43, 150; /* Gradient Color*/
 }
 
-:root {
+:root *{
 /*main*/
 	--color01: rgb(var(--color1));
 	--color02: rgb(var(--color2));
