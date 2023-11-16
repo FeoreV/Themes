@@ -1,9 +1,10 @@
-
 :root{
 	--FVUI: "FVUI";
 	--warringdef: "Choose ONE of the suggested themes";
 }
-
+:root{
+	--bg-overlay-3: var(--color02);
+}
 .wordmarkWindows__05c46::after { /*THEME-DARK*/
 	left: 1%;
 	color: red;
