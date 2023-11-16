@@ -11,9 +11,11 @@
 }	
 
 :root *{
-	--background-tertiary: var(--none); 
+	--background-tertiary: var(--none)!important;  /*bg guilds*/
 }
-
+:root [id^="popout_"]{
+	--background-secondary: var(--opacity01a)!important; /* popups*/
+}
 .searchResultsWrap__9f374,	/*search bg*/
 .container_dbadf5	/*messages*/
 {
@@ -39,4 +41,8 @@
   content: "";
   opacity:var(--OpacityBG);
   filter:blur(var(--BlurBG))
+}
+
+#app-mount .mentioned__58017::after{
+	backdrop-filter:blur(16px)
 }
