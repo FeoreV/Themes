@@ -1,14 +1,15 @@
 /* HSL author - Gibbu */
 
+
 /*bottom*/
 body #app-mount .app_b1f720 .base__3e6af {
-  top: 0 !important;
+  top:0 !important;
   bottom: var(--server-container) !important;
 }
 body #app-mount .guilds__2b93a {
   top: unset !important;
   left: 100vw;
-  bottom: calc(var(--outlineMG)*-1) !important;
+  bottom: calc(var(--outlineMG)*-1)!important;
   transform-origin: bottom left;
 }
 body #app-mount .guilds__2b93a [class*=pill] {
