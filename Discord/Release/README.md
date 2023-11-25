@@ -87,7 +87,7 @@ Flex - show elements
 |--------------|-------------------------|--------------------------|-----------|
 |--accentcolor |210, 68%                 |199, 100%                 |Adjusts the theme color scheme to accentcolor|
 
-### Modular Design (temporarily may cause visual problems with blur)
+### Modular Design
 
 MainModules (ServerList/ChatArea/FriendList/Settings)
 |Variables     |Value                              |Description             |
