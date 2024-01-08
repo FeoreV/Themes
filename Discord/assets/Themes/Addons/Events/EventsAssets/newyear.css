@@ -1,0 +1,36 @@
+/*=============================================
+=                    NewYear                  =
+=============================================*/
+
+@keyframes snow {
+   0% {background-position: 0 0, 0 0, 0 0;}
+   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+.message__80c10.groupStart__56db5>.contents_f41bb2::before{
+	content: '';
+	width: 48px;
+	height: 48px;
+	background: url("https://i.imgur.com/G260nlo.png") center/cover;
+	transform: translate(-56px, -24px);
+	z-index: 99999;
+	position: absolute;
+	pointer-events: none;
+}
+
+.pictureInPicture__48d51:not(:has(.iframe__214b3)){
+	background-image: url(https://forums.everybodyedits.com/img/snow.png)!important;
+}
+
+.backdrop__7e89b::before,
+.layer__2efaa:has(.standardSidebarView__1129a)::before{
+	animation:snow 10s linear infinite!important;
+	background-image: url(https://forums.everybodyedits.com/img/snow.png)!important;
+	width: 100%;
+	height: 100%;
+	content: "";
+	position: absolute;
+}
+
+/*=====  End of Section NewYear  ======*/
