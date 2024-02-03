@@ -81,8 +81,22 @@
 
 
 
+/* MD */
+#app-mount .container__037ed>.wrapper_a7e7a8.guilds__2b93a{
+	margin: var(--HSL_10px) var(--outlineMG) 0 var(--outlineMG);
+	outline: 0;
+	box-shadow: none;
 
+	overflow: visible;
+}
+.tree__7a511{
+	margin-left: calc(var(--outlineMG) * 2);
+	border-radius: var(--outlineBR);
 
+	outline: var(--outline) solid var(--outlineCLR);
+	border-radius: var(--outlineBR)!important;
+	box-shadow: 0 0 var(--outlineBS);
+}
 
 
 
