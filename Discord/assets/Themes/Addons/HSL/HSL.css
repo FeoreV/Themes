@@ -29,7 +29,7 @@
 .applicationStore_fc7d76,
 .containerSidenav__2623a,
 .sidebar_ded4b5{
-  padding: var(--HSL);
+  margin: var(--HSL);
 }
 
 .tutorialContainer__890ea+.listItem_fa7b36{
