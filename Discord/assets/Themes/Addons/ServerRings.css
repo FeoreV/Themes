@@ -15,16 +15,27 @@
   height: fit-content;
 }
 
-.listItem_fa7b36,
+
+.listItem_fa7b36, /* default */
 .tutorialContainer_dc6fde,
 .tutorialContainer_dc6fde+.listItem_fa7b36,
-
-[id*="folder-items-"]{
-  width: 100%;
+.wrapper_ed1dea,
+[id*="folder-items-"]{ 
+  width: 100%!important;
   height: fit-content!important;
-  margin: 0 0 16px;
+  margin: 0 0 16px 0!important;
 }
 
+
+/* .listItem_fa7b36, /* HSL */ /*
+#app-mount .tutorialContainer_dc6fde,
+#app-mount .tutorialContainer_dc6fde+.listItem_fa7b36,
+#app-mount [id*="folder-items-"],
+.wrapper_ed1dea{
+  width: fit-content!important;
+  height: fit-content!important;
+  margin: 0 16px 0 0!important;
+} */
 
 .wrapper_ed1dea>.folderEndWrapper__7e489{ /* работает не трогай */
   padding-bottom:calc(var(--server-margin) / 2);
