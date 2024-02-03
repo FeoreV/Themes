@@ -1,3 +1,21 @@
+.listItem_fa7b36, /* Serverrings */
+#app-mount .tutorialContainer_dc6fde,
+#app-mount .tutorialContainer_dc6fde+.listItem_fa7b36,
+#app-mount [id*="folder-items-"],
+.wrapper_ed1dea{
+  width: fit-content!important;
+  height: fit-content!important;
+  margin: 0 16px 0 0!important;
+}
+
+
+
+
+
+
+
+
+
 .guilds__2b93a {
   position: absolute;
   z-index: +1;
