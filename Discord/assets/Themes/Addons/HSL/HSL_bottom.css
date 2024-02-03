@@ -1,5 +1,10 @@
 @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/HSL/HSL.css)
 
 :root{
-  --HSL_bottom: 0 0 72px 0;
+  --HSL: 0 0 72px 0;
+}
+
+.guilds__2b93a {
+  bottom: 0;
+  right: 0;
 }
