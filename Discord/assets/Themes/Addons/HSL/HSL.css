@@ -1,6 +1,8 @@
-
-:root{
-  --HSL: var(--HSL_top);
+.guilds__2b93a {
+  position: absolute;
+  z-index: +1;
+  height: 72px;
+  width: 100vw;
 }
 
 .chat__52833,
@@ -63,4 +65,32 @@
   width: 2px;
   margin: 0 16px;
 }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
