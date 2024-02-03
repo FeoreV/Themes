@@ -3,7 +3,9 @@
 :root{
   --HSL: 0 0 72px 0;
 }
-
+:root{
+  --HSL_bottom_enabled:2!important;
+}
 .guilds__2b93a {
   bottom: 0;
   right: 0;
