@@ -17,10 +17,12 @@
 
 .listItem_fa7b36,
 .tutorialContainer_dc6fde,
-.tutorialContainer_dc6fde+.listItem_fa7b36{
+.tutorialContainer_dc6fde+.listItem_fa7b36,
+
+[id*="folder-items-"]{
   width: 100%;
-  height: 55px;
-  margin: 0 0 8px;
+  height: fit-content!important;
+  margin: 0 0 16px;
 }
 
 
@@ -52,25 +54,7 @@
 .svg_ad7356>foreignObject{ /* notify mask */
   mask:none
 }
-.lowerBadge__669e7{
-  width: 100%;
-  height: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.lowerBadge__669e7>.numberBadge__50328.base__92a12.eyebrow__60985.baseShapeRound__95d0f{ /* notify number */
-  outline: solid 1px var(--color03);
-
-  background:var(--full03)!important;
-  backdrop-filter: var(--blur4);
-
-  min-width: 75%;
-  min-height: 75%;
-  border-radius: 100%;
-  font-size:12pt;
-}
 
 
 
