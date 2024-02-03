@@ -1,1 +1,66 @@
 
+:root{
+  --HSL: var(--HSL_top);
+}
+
+.chat__52833,
+.container_def45c,
+.container__5c7e7,
+.applicationStore_fc7d76,
+.containerSidenav__2623a,
+.sidebar_ded4b5{
+  padding: var(--HSL);
+}
+
+.tutorialContainer__890ea+.listItem_fa7b36{
+  display: flex;
+  flex-direction: column;
+}
+
+.guilds__2b93a .scroller__3d071 {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll !important;
+  align-items: center;
+  padding: 10px;
+}
+
+.listItem_fa7b36 {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0;
+}
+
+.scroller__3d071.none__51a8f.scrollerBase_dc3aa9>.listItem_fa7b36 + [aria-label] {
+  display: flex;
+}
+
+.expandedFolderBackground__1bec6 {
+  width: calc(100% - 8px);
+  height: 48px;
+  top: 0;
+  left: 8px;
+}
+
+.listItem_fa7b36 {
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+[id*="folder-items-"],
+.wrapper_ed1dea {
+  width: fit-content !important;
+  height: 48px !important;
+  display: flex;
+  align-items: center;
+}
+
+.guildSeparator_dcb3cc {
+  width: 2px;
+  height: 32px;
+}
+.listItem_fa7b36:has(.guildSeparator_dcb3cc) {
+  width: 2px;
+  margin: 0 16px;
+}  
+
