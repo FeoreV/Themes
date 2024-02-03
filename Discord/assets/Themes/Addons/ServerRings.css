@@ -1,23 +1,32 @@
+
 :root{
   --server-color: rgb(255, 255, 255);
   --server-color-mention:rgb(255, 255, 255);
   --server-color-selected:rgb(0, 231, 169);
-  --server-margin: 10px
+  --server-margin: 32px
 }
-
-
-
 
 .listItem_fa7b36>.pill__13f64,
 .listItem_fa7b36>.wrapper__3670f{
   display: none
 }
 
-.listItem_fa7b36{
-  margin: calc(var(--server-margin)*2) 0!important
+.listItem_fa7b36:has(.guildSeparator_dcb3cc){
+  height: fit-content;
+}
+
+.listItem_fa7b36,
+.tutorialContainer_dc6fde,
+.tutorialContainer_dc6fde+.listItem_fa7b36{
+  width: 100%;
+  height: 55px;
+  margin: 0 0 8px;
 }
 
 
+.wrapper_ed1dea>.folderEndWrapper__7e489{ /* работает не трогай */
+  padding-bottom:calc(var(--server-margin) / 2);
+}
 .listItem_fa7b36::before{ /* general */
   position: absolute;
   content: "";
@@ -38,7 +47,6 @@
   transition: opacity .3s;
   animation: server-color-anim 5s forwards;
 }
-
 
 
 .svg_ad7356>foreignObject{ /* notify mask */
@@ -62,21 +70,8 @@
   min-height: 75%;
   border-radius: 100%;
   font-size:12pt;
-
-  /* min-width: 50%;
-  min-height: 50%;
-  border-radius: 25%;
-
-  transition: min-width .3s, max-height .3s, font-size .1s; */
 }
-/*.listItem_fa7b36:hover .lowerBadge__669e7>.numberBadge__50328.base__92a12.eyebrow__60985.baseShapeRound__95d0f{ /* notify number hover */ /*
-  min-width: 75%;
-  min-height: 75%;
-  border-radius: 100%;
 
-  transition: min-width .3s, max-height .3s; 
-}
-*/
 
 
 .blobContainer__5ee50,
@@ -102,7 +97,6 @@
   color:var(--server-color)!important;
   opacity:1!important;
 }
-
 .listItem_fa7b36:has(.lowerBadge__669e7)::before{ /* mention */
   color:var(--server-color-mention);
   opacity:1;
@@ -112,7 +106,6 @@
   color:var(--server-color-selected)!important;
   opacity:1;
 } 
-
 
 
 .wrapper_d281dd>.childWrapper__01b9c.acronym_cd4809{
