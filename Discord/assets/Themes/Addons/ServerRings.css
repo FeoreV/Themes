@@ -39,7 +39,7 @@
 }
 
 /* default */
-/* .listItem_fa7b36, 
+.listItem_fa7b36, 
 .tutorialContainer_dc6fde,
 .tutorialContainer_dc6fde+.listItem_fa7b36,
 #app-mount .wrapper_ed1dea:not(:has(.collapsed__0a270)),
@@ -50,10 +50,10 @@
 }
 .tree__7a511>.scroller__3d071.none__51a8f.scrollerBase_dc3aa9{
   padding-right: 0!important;
-} */
+}
 
 /* HSL */
-#app-mount .listItem_fa7b36, 
+/*#app-mount .listItem_fa7b36, 
 #app-mount .tutorialContainer_dc6fde,
 #app-mount [id*="folder-items-"],
 #app-mount .wrapper_ed1dea:not(:has(.collapsed__0a270)){
@@ -62,7 +62,7 @@
 }
 #app-mount .tutorialContainer_dc6fde{
   width: 48px!important;
-} 
+} */
 /*----------  Definition of rings  ----------*/
 .listItem_fa7b36:not(:has(>.guildSeparator_dcb3cc)):hover::before { /* hover */
   color:var(--server-color)!important;
