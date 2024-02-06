@@ -72,6 +72,16 @@
 }
 
 
+@keyframes loaderr{
+  to{
+    --version: "Make sure you used at least one of the subtopics OR did not break the syntax. If this doesn't help, reinstall the theme.";
+    --FVUI: "Error. ";
+    pointer-events: none;
+    backdrop-filter: none;
+    background:var(--opacity02b);
+  }
+}
+
 .pictureInPicture__48d51:not(:has(.iframe__214b3)) {
 	display: flex;
 	justify-content: center;
@@ -84,10 +94,11 @@
 	font-size: 60px;
 	font-weight: bold;
 
-	animation: fade-out 2s ease-in-out forwards 0.5s, hide 2s linear forwards 1s;
+	animation: fade-out 2s ease-in-out forwards 0.5s, hide 2s linear forwards 1s, loaderr forwards 1s 5s;
 	background-color:var(--full02);
 	backdrop-filter: var(--blur4);
 }
+
 .pictureInPicture__48d51:not(:has(.iframe__214b3))::after {
 	position: absolute;
 
