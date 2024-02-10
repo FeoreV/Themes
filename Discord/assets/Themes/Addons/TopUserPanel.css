@@ -1,4 +1,3 @@
-
 /*=============================================
 =              FVUI compatibility            =
 =============================================*/
@@ -8,6 +7,11 @@
 } 
 .theme-dark .sidebar_ded4b5 .content__23cab:after {
   display: none;
+}
+
+#app-mount .searchBar_e4ea2a{
+  position: relative;
+  backdrop-filter: none;
 }
 
 /*=====  End of Section FVUI compatibility  ======*/
@@ -26,6 +30,11 @@
   order:-1
 }
 
+#app-mount .searchBar_e4ea2a{
+  order:10;
+  position: relative;
+}
+
 .container__7c79d.clickable__2d589{
   position: relative;
   top: 1;
@@ -36,7 +45,7 @@
 .sidebar_ded4b5>.privateChannels__93473{
   margin-top: -9vh!important;
 } 
-.content__23cab{
+.sidebar_ded4b5 .content__23cab{
   margin-top: 4.5vh
 }
 
