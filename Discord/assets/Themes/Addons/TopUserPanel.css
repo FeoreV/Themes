@@ -1,1 +1,47 @@
-#app-mount .panels__58331{order: -1;padding-top: 1px;margin-top: 10px;position: sticky;}.panels__58331>.container_ca50b9{order:-1}#app-mount .container__590e2>.container__7c79d.clickable__2d589{margin-bottom: 7vh!important;bottom: 0%;}.sidebar_ded4b5>.container__590e2,.sidebar_ded4b5>.privateChannels__93473{margin-top: -130%;}#app-mount .sidebar_ded4b5>nav>div.scrollerBase_dc3aa9>.content__23cab{margin-top: 17rem}.animatedContainer__341f6{display: none;}.content__23cab>div[aria-hidden="true"][style="height: 84px;"]{display: none;}
+
+/*=============================================
+=              FVUI compatibility            =
+=============================================*/
+.sidebar_ded4b5>.container__590e2,
+.sidebar_ded4b5>.privateChannels__93473{
+  margin-bottom: 0!important;
+} 
+.theme-dark .sidebar_ded4b5 .content__23cab:after {
+  display: none;
+}
+
+/*=====  End of Section FVUI compatibility  ======*/
+
+/*=============================================
+=                      TUP                    =
+=============================================*/
+
+#app-mount .panels__58331{
+  order: -1;
+  padding-top: 1px;
+  margin-top: 10px;
+  position: sticky;
+}
+.panels__58331>.container_ca50b9{
+  order:-1
+}
+
+.container__7c79d.clickable__2d589{
+  position: relative;
+  top: 1;
+  bottom: 0;
+}
+
+.sidebar_ded4b5>.container__590e2,
+.sidebar_ded4b5>.privateChannels__93473{
+  margin-top: -9vh!important;
+} 
+.content__23cab{
+  margin-top: 4.5vh
+}
+
+.animatedContainer__341f6,
+.content__23cab>div[aria-hidden="true"][style="height: 84px;"]
+{display: none}
+
+/*=====  End of Section TUP  ======*/
