@@ -63,7 +63,9 @@
 /*=============================================
 =                     HSL                    =
 =============================================*/
-
+.tutorialContainer__890ea+div[style="opacity: 1; height: 56px; transform: scale(1);"]{
+  margin-left: 24px;
+}
 /*----------  Position  ----------*/
 
 .guilds__2b93a {
