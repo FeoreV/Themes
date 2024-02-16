@@ -1,0 +1,100 @@
+/*=============================================
+=                   Badges                   =
+=============================================*/
+
+/*----------  General  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has( /* small - img*/
+	.avatar__991e2[src*="489785940546551831"],
+	.avatar__991e2[src*="802381130916954132"],
+	.avatar__991e2[src*="766358612930330635"])
+>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before{
+	position: absolute;
+	content:"";
+	width: 22px;
+	height: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:4px;
+	left:0px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left:3px;
+	border-radius: 100%;
+
+	background-image: var(--badges_img)!important;
+}
+
+.userPopoutInner_f545a3.userProfileInner__8065b:has( /* small - text */ 
+	.avatar__991e2[src*="489785940546551831"],
+	.avatar__991e2[src*="802381130916954132"],
+	.avatar__991e2[src*="766358612930330635"])
+>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::after{
+	position: absolute;
+	width: 100%;
+	padding: 9px 0;
+	color:#fff;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-39px;
+	left:-40%;
+	background-size: contain;
+	background:var(--opacity03);
+	margin-left:3px;
+	font-size: .9rem;
+	backdrop-filter: var(--blur4);
+}
+
+.userPopoutInner_f545a3.userProfileInner__8065b:has( /* small - padding */ 
+	.avatar__991e2[src*="489785940546551831"],
+	.avatar__991e2[src*="802381130916954132"],
+	.avatar__991e2[src*="766358612930330635"])
+>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1{
+	padding-left: 25px;
+}
+
+.userProfileModalInner__7c87d.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6 div:has(
+	.avatar__991e2[src*="489785940546551831"],
+	.avatar__991e2[src*="802381130916954132"],
+	.avatar__991e2[src*="766358612930330635"])
+.headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{ /* big - img*/
+	position: relative;
+	content:"";
+	width: 22px;
+	height: 22px;
+	background-size: contain;
+	border-radius: 100%;
+	background-image:var(--badges_img);
+
+}
+
+/*----------  feorev 489785940546551831  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="489785940546551831"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before,
+.userProfileModalInner__7c87d.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6 div:has(img.avatar__991e2[src*="489785940546551831"]) .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{
+	--badges_img: url(https://feorev.github.io/Themes/Discord/assets/HomeIcon/IconSelected.png);
+}
+
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="489785940546551831"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{ /* feorev - small - text */
+	content:"Hello";
+}
+
+/*----------  cazaservices 802381130916954132  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="802381130916954132"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before,
+.userProfileModalInner__7c87d.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6 div:has(img.avatar__991e2[src*="802381130916954132"]) .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{
+	--badges_img: url(https://cdn.discordapp.com/attachments/1177250628385378304/1196327683894812792/XvBkODH.jpg?ex=65b739fa&is=65a4c4fa&hm=b6b1035f036848f89efbac8abe98f37f39c56d8dca2141eb1b13574e900791ba&);
+}
+.userPopoutInner_f545a3.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6:has(.avatar__991e2[src*="802381130916954132"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{
+	content:"Owner Of TNB Shop";
+}
+
+/*---------- player_107 766358612930330635  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="766358612930330635"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before,
+.userProfileModalInner__7c87d.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6 div:has(img.avatar__991e2[src*="766358612930330635"]) .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{
+	--badges_img: url(https://cdn.discordapp.com/attachments/1177250628385378304/1207406254339657860/Logo-removebg.png?ex=65df87b3&is=65cd12b3&hm=37a701829a8d9786d6887ab655fb052982d8acbf914080472752f739220d5dcf&);
+}
+.userPopoutInner_f545a3.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6:has(.avatar__991e2[src*="766358612930330635"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{
+	content:"Owner Of TNB Shop";
+}
+/*=====  End of Section Badges  ======*/
