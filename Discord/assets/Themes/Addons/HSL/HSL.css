@@ -39,19 +39,19 @@
 =                   MD + HSL                  =
 =============================================*/
 #app-mount .container__037ed>.wrapper_a7e7a8.guilds__2b93a{
-	margin: var(--HSL_10px) var(--outlineMG);
+	margin: var(--HSL_10px) var(--outlineMG_e);
 	outline: 0;
 	box-shadow: none;
 
 	overflow: visible;
 }
 .tree__7a511{
-	margin-left: calc(var(--outlineMG) * 2);
-	border-radius: var(--outlineBR);
+	margin-left: calc(var(--outlineMG_e) * 2);
+	border-radius: var(--outlineBR_e);
 
-	outline: var(--outline) solid var(--outlineCLR);
-	border-radius: var(--outlineBR)!important;
-	box-shadow: 0 0 var(--outlineBS);
+	outline: var(--outline) solid var(--outlineCLR_e);
+	border-radius: var(--outlineBR_e)!important;
+	box-shadow: 0 0 var(--outlineBS_e);
 }
 /*=====  End of Section MD + HSL  ======*/
 
