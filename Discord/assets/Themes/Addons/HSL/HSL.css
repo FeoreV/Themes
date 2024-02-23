@@ -1,6 +1,6 @@
 /*=============================================
 =            ServerRings + HSL            =
-=============================================
+=============================================*/
 #app-mount .listItem_fa7b36, 
 #app-mount .tutorialContainer_dc6fde,
 #app-mount [id*="folder-items-"],
@@ -37,7 +37,7 @@
 
 /*=============================================
 =                   MD + HSL                  =
-=============================================
+=============================================*/
 #app-mount .container__037ed>.wrapper_a7e7a8.guilds__2b93a{
 	margin: var(--HSL_10px) var(--outlineMG);
 	outline: 0;
@@ -62,11 +62,19 @@
 
 /*=============================================
 =                     HSL                    =
-=============================================
-.tutorialContainer__890ea+div[style="opacity: 1; height: 56px; transform: scale(1);"]{
-  margin-left: 24px;
+=============================================*/
+[data-list-id="guildsnav"]>.scroller__3d071.none__3919e.scrollerBase__2b744{
+  padding-top:15px;
 }
-/*----------  Position  ----------
+.guilds__2b93a .scroller__3d071 {
+  overflow: auto hidden !important;
+}
+
+.listItem_fa7b36 + [aria-label] {
+  display: flex;
+}
+
+/*----------  Position  ----------*/
 
 .guilds__2b93a {
   position: absolute;
@@ -83,7 +91,6 @@
 .sidebar_ded4b5{
   margin: var(--HSL);
 }
-
 .scroller__3d071.none__51a8f.scrollerBase_dc3aa9>.listItem_fa7b36 + [aria-label] {
   display: flex;
 }
@@ -93,25 +100,26 @@
   width: fit-content !important;
 }
 
-/*----------  SL  ----------
+/*----------  SL  ----------*/
 .guilds__2b93a .scroller__3d071 {
   display: flex;
   overflow: scroll !important;
   padding: 10px;
 }
 
-.listItem_fa7b36, /* ! 
+.listItem_fa7b36, /* ! */
 .tutorialContainer_dc6fde,
 .tutorialContainer_dc6fde+.listItem_fa7b36 {
   width: 48px;
   height: 48px;
   margin-bottom: 0;
 }
-.listItem_fa7b36 { /* ! 
+.listItem_fa7b36 { /* ! */
   flex-direction: column;
   margin-left: 8px;
+
 }
-/*----------  other  ----------
+/*----------  other  ----------*/
 .expandedFolderBackground__1bec6 {
   width: calc(100% - 8px);
   height: 48px;
