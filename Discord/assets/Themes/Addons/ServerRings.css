@@ -1,7 +1,9 @@
 /*=============================================
 =                  ServerRings                =
 =============================================*/
-
+[data-list-id="guildsnav"]>.scroller__3d071.none__3919e.scrollerBase__2b744{
+  padding-top: 30px;
+}
 /*----------  Variables  ----------*/
 :root{
   --server-color: rgb(255, 255, 255);
