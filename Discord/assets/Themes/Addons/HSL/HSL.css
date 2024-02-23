@@ -103,7 +103,7 @@
 /*----------  SL  ----------*/
 .guilds__2b93a .scroller__3d071 {
   display: flex;
-  overflow: scroll !important;
+  overflow: auto hidden !important;
   padding: 10px;
 }
 
