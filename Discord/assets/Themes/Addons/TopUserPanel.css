@@ -1,4 +1,3 @@
-
 /*=============================================
 =              FVUI compatibility            =
 =============================================*/
@@ -18,17 +17,6 @@
 .flex_f5fbb7 > .inner_ab95dc{ /* todo */
 	display: none
 }
-
-/*----------  floating UP  ----------*/
-
-.sidebar_ded4b5>.container__590e2,
-.sidebar_ded4b5>.privateChannels__93473{
-  margin-top: -9vh!important;
-} 
-.sidebar_ded4b5 .content__23cab{
-  margin-top: 4.5vh
-}
-
 /*=====  End of Section FVUI compatibility  ======*/
 
 /*=============================================
@@ -42,7 +30,7 @@
   position: sticky;
 }
 .panels__58331>.container_ca50b9{
-  order:-1
+  order:-1;
 }
 
 #app-mount .searchBar_e4ea2a{
@@ -54,16 +42,31 @@
   position: relative;
   top: 1;
   bottom: 0;
+  width: 100%;
+  border-radius: 16px!important;
+
+  margin-bottom: 10px; /*floating*/
 }
+.header__104ca{
+	border-radius: 16px!important;
+}
+.sidebar_ded4b5>.container__590e2,
+.sidebar_ded4b5>.privateChannels__93473{
+  margin-top: -9vh!important;
+} 
+.sidebar_ded4b5 .content__23cab{
+  margin-top: 4.5vh
+}
+
 
 .sidebar_ded4b5 .content__23cab::after {
     content: "";
-    height: 5vh!important;
+    height: calc(5vh + 10px)!important;
     display: block!important;
 }
 .sidebar_ded4b5:has(.container_d667ff) .content__23cab::after {
     content: "";
-    height: 5vh!important;
+    height: calc(5vh + 10px)!important;
     display: block!important;
 }
 .animatedContainer__341f6,
