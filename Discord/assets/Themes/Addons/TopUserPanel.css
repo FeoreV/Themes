@@ -1,3 +1,4 @@
+
 /*=============================================
 =              FVUI compatibility            =
 =============================================*/
@@ -12,6 +13,20 @@
 #app-mount .searchBar_e4ea2a{
   position: relative;
   backdrop-filter: none;
+}
+
+.flex_f5fbb7 > .inner_ab95dc{ /* todo */
+	display: none
+}
+
+/*----------  floating UP  ----------*/
+
+.sidebar_ded4b5>.container__590e2,
+.sidebar_ded4b5>.privateChannels__93473{
+  margin-top: -9vh!important;
+} 
+.sidebar_ded4b5 .content__23cab{
+  margin-top: 4.5vh
 }
 
 /*=====  End of Section FVUI compatibility  ======*/
@@ -41,14 +56,16 @@
   bottom: 0;
 }
 
-.sidebar_ded4b5>.container__590e2,
-.sidebar_ded4b5>.privateChannels__93473{
-  margin-top: -9vh!important;
-} 
-.sidebar_ded4b5 .content__23cab{
-  margin-top: 4.5vh
+.sidebar_ded4b5 .content__23cab::after {
+    content: "";
+    height: 5vh!important;
+    display: block!important;
 }
-
+.sidebar_ded4b5:has(.container_d667ff) .content__23cab::after {
+    content: "";
+    height: 5vh!important;
+    display: block!important;
+}
 .animatedContainer__341f6,
 .content__23cab>div[aria-hidden="true"][style="height: 84px;"]
 {display: none}
