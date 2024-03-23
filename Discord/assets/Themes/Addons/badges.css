@@ -12,7 +12,8 @@
     .avatar__991e2[src*="835541619910377493"],
     .avatar__991e2[src*="766358612930330635"],
     .avatar__991e2[src*="932840579128250448"],
-    .avatar__991e2[src*="895303052595171348"]
+    .avatar__991e2[src*="895303052595171348"],
+    .avatar__991e2[src*="992777461857259610"]
 )>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1{
 	padding-left: 25px;
 }
@@ -21,13 +22,14 @@
 	.avatar__991e2[src*="489785940546551831"],
 	.avatar__991e2[src*="802381130916954132"],
 	.avatar__991e2[src*="835541619910377493"],
-    .avatar__991e2[src*="766358612930330635"],
-    .avatar__991e2[src*="932840579128250448"],
-    .avatar__991e2[src*="895303052595171348"]
+  .avatar__991e2[src*="766358612930330635"],
+  .avatar__991e2[src*="932840579128250448"],
+  .avatar__991e2[src*="895303052595171348"],
+  .avatar__991e2[src*="992777461857259610"]
 )>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before{
 	position: absolute;
 	top:4px;
-	left:3px;
+	left:4px;
 	content:"";
 
 	width: 22px;
@@ -35,7 +37,7 @@
 
 	border-radius: 100%;
 	background-size: contain;
-
+  background-repeat: no-repeat;
 	background-image: var(--badges_img)!important;
 }
 
@@ -45,7 +47,8 @@
     .avatar__991e2[src*="835541619910377493"],
     .avatar__991e2[src*="766358612930330635"],
     .avatar__991e2[src*="932840579128250448"],
-    .avatar__991e2[src*="895303052595171348"]
+    .avatar__991e2[src*="895303052595171348"],
+    .avatar__991e2[src*="992777461857259610"]
 )
 >.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::after{
 	position: absolute;
@@ -55,11 +58,16 @@
 	width: fit-content;
   height: fit-content;
 
-  min-width: 100px;
+  min-width: 120px;
   min-height: 29px;
 
-  padding: 2px 0px;
+  padding: 8px 12px;
   margin: 0 3px;
+
+  font-size: 14px!important;
+  font-style: normal;
+  line-height: 16px;
+  overflow-wrap: break-word;
 
 	border-radius: 8px;
 
@@ -78,9 +86,10 @@
 	.avatar__991e2[src*="489785940546551831"],
 	.avatar__991e2[src*="802381130916954132"],
 	.avatar__991e2[src*="835541619910377493"],
-    .avatar__991e2[src*="766358612930330635"],
-    .avatar__991e2[src*="932840579128250448"],
-    .avatar__991e2[src*="895303052595171348"]
+  .avatar__991e2[src*="766358612930330635"],
+  .avatar__991e2[src*="932840579128250448"],
+  .avatar__991e2[src*="895303052595171348"],
+  .avatar__991e2[src*="992777461857259610"]
 )
 .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{ /* big - img*/
 	position: relative;
@@ -98,21 +107,23 @@
 .avatar__991e2[src*="835541619910377493"],
 .avatar__991e2[src*="766358612930330635"],
 .avatar__991e2[src*="932840579128250448"],
-.avatar__991e2[src*="895303052595171348"]
+.avatar__991e2[src*="895303052595171348"],
+.avatar__991e2[src*="992777461857259610"]
+
 )
 .container__5bda1::after{
 	position: absolute;
 	top:-39px;
-    left: -40px;
+  left: -40px;
 
 	width: fit-content;
-    height: fit-content;
+  height: fit-content;
 
-    min-width: 100px;
-    min-height: 29px;
+  min-width: 100px;
+  min-height: 29px;
 
-    padding: 2px 0px;
-    margin: 0 3px;
+  padding: 2px 0px;
+  margin: 0 3px;
 
 	border-radius: 8px;
 
@@ -181,6 +192,16 @@
 .userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="895303052595171348"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{ /* feorev - small - text */
 	content:"official";
     color: black
+}
+
+/*---------- tnvy0_0 992777461857259610  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="992777461857259610"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before,
+.userProfileModalInner__7c87d.userProfileInner__8065b div:has(img.avatar__991e2[src*="992777461857259610"]) .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{
+	--badges_img: url(https://feorev.github.io/Themes/Discord/assets/Badges/992777461857259610.png);
+	border-radius: 0;
+}
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="992777461857259610"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{ /* feorev - small - text */
+	content:"Badlion Client User";
 }
 
 /*=====  End of Section Badges  ======*/
