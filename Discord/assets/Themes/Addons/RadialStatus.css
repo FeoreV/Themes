@@ -1,0 +1,7 @@
+@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+.wrapper_edb6e0:has(.mask__1979f.svg_f5b652>[fill="#f0b232"]){color:var(--rs-idle-color)} .wrapper_edb6e0:has(.mask__1979f.svg_f5b652>svg>rect[fill="#f0b232"]){color:var(--rs-idle-color)}
+.wrapper_edb6e0:has(.mask__1979f.svg_f5b652>[fill="#23a55a"]){color:var(--rs-online-color)} .wrapper_edb6e0:has(.mask__1979f.svg_f5b652>svg>rect[fill="#23a55a"]){color:var(--rs-online-color)}
+.wrapper_edb6e0:has(.mask__1979f.svg_f5b652>[fill="#f23f43"]){color:var(--rs-dnd-color)} .wrapper_edb6e0:has(.mask__1979f.svg_f5b652>svg>rect[fill="#f23f43"]){color:var(--rs-dnd-color)}
+.wrapper_edb6e0:has(.mask__1979f.svg_f5b652>[fill="#80848e"]){color:var(--rs-offline-color)} .wrapper_edb6e0:has(.mask__1979f.svg_f5b652>svg>rect[fill="#80848e"]){color:var(--rs-offline-color)}
+div:not(.userMenuItem__38a6a)>.wrapper_edb6e0:not(:has(.mask__1979f.svg_f5b652>[fill="#80848e"])){box-shadow: 0 0 5px 3px currentcolor}
+.wrapper_edb6e0:has(.mask__1979f.svg_f5b652>[fill="#80848e"]){box-shadow: 0 0 3px 2px currentcolor}
