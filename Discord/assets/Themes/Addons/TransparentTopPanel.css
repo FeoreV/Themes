@@ -1,13 +1,13 @@
 
-.title_b7d661.container__11d72.themed_b152d4 {
+.title_d4ba1a.container__26baa.themed_b152d4 {
     position: absolute;
     background: var(--full02)!important;
 	backdrop-filter: var(--blur8);
 }
 
 
-.sidebar_ded4b5 .searchBar_e4ea2a,
-.sidebar_ded4b5 .container__7c79d.clickable__2d589 {
+.sidebar_e031be .searchBar__621ec,
+.sidebar_e031be .container_f41675.clickable__1383f {
 	position: absolute;
     background: var(--full02);
     width: 100%;
@@ -15,20 +15,20 @@
 	backdrop-filter: var(--blur8);
 }
 
-.sidebar_ded4b5 .scroller__4b984.thin_b1c063.scrollerBase_dc3aa9,
-.chatContainer__23434 .list__5ced9.auto_a48086.scrollerBase_dc3aa9,
-.base__3e6af .customTheme_db4d28.scrollerBase_dc3aa9>.content__23cab,
-.searchResultsWrap__9f374{
+.sidebar_e031be .scroller__89969.thin_b1c063.scrollerBase_f742b2,
+.chatContainer__23434 .list__5ced9.auto_a3c0bd.scrollerBase_f742b2,
+.base_c0676e .customTheme_e72fe3.scrollerBase_f742b2>.content__690c5,
+.searchResultsWrap__2e184{
     padding-top: 3rem;
 }
 
 
-.searchBar_e4ea2a > button.searchBarComponent__22760 {
+.searchBar__621ec > button.searchBarComponent__8f95f {
     width: 90%;
 }
 
-.container__30406:has(>.channelNotice__8f7b2){margin-top: 3rem}
-.container__30406:has(>.channelNotice__8f7b2){
+.container__8567b:has(>.channelNotice__36ec1){margin-top: 3rem}
+.container__8567b:has(>.channelNotice__36ec1){
     background: var(--full02);
 	position: absolute;
 	z-index: 10;
@@ -39,13 +39,13 @@
 	top:3%;
 	backdrop-filter: var(--blur8);
 }
-.sidebar_ded4b5:has(.container__30406>.channelNotice__8f7b2) .scroller_f0f183.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0.customTheme_db4d28{
+.sidebar_e031be:has(.container__8567b>.channelNotice__36ec1) .scroller__1f498.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0.customTheme_e72fe3{
     padding-top: 12rem;
 }
 
 
-.chat__52833 aside.profilePanel__12596 .none__51a8f.scrollerBase_dc3aa9,.chat__52833 .membersWrap__90226>.members__9f47b.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0{padding-top:3.1rem;}
+.chat__52833 aside.profilePanel_e2cafe .none__7a473.scrollerBase_f742b2,.chat__52833 .membersWrap__5ca6b>.members__573eb.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0{padding-top:3.1rem;}
 
-.topicsPillContainer__5c589.barBase__4e0ba.containerMarginTop__3d57c{ /* NEW DISCORD AI SUMMARIES*/ /*
+.topicsPillContainer__2c107.barBase__8839d.containerMarginTop_ad9569{ /* NEW DISCORD AI SUMMARIES*/ /*
 	margin-top: 3rem;
 }
