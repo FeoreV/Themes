@@ -1,20 +1,20 @@
 /*=============================================
 =              FVUI compatibility            =
 =============================================*/
-.sidebar_ded4b5>.container__590e2,
-.sidebar_ded4b5>.privateChannels__93473{
+.sidebar_e031be>.container__7e23c,
+.sidebar_e031be>.privateChannels__9b518{
   margin-bottom: 0!important;
 } 
-.theme-dark .sidebar_ded4b5 .content__23cab:after {
+.theme-dark .sidebar_e031be .content__690c5:after {
   display: none;
 }
 
-#app-mount .searchBar_e4ea2a{
+#app-mount .searchBar__621ec{
   position: relative;
   backdrop-filter: none;
 }
 
-.flex_f5fbb7 > .inner_ab95dc{ /* todo */
+.flex_f18b02 > .inner_ab95dc{ /* todo */
 	display: none
 }
 /*=====  End of Section FVUI compatibility  ======*/
@@ -29,16 +29,16 @@
   margin-top: 10px;
   position: sticky;
 }
-.panels__58331>.container_ca50b9{
+.panels__58331>.container_debb33{
   order:-1;
 }
 
-#app-mount .searchBar_e4ea2a{
+#app-mount .searchBar__621ec{
   order:10;
   position: relative;
 }
 
-.container__7c79d.clickable__2d589{
+.container_f41675.clickable__1383f{
   position: relative;
   top: 1;
   bottom: 0;
@@ -47,30 +47,30 @@
 
   margin-bottom: 10px; /*floating*/
 }
-.header__104ca{
+.header__77c95{
 	border-radius: 16px!important;
 }
-.sidebar_ded4b5>.container__590e2,
-.sidebar_ded4b5>.privateChannels__93473{
+.sidebar_e031be>.container__7e23c,
+.sidebar_e031be>.privateChannels__9b518{
   margin-top: -9vh!important;
 } 
-.sidebar_ded4b5 .content__23cab{
+.sidebar_e031be .content__690c5{
   margin-top: 4.5vh
 }
 
 
-.sidebar_ded4b5 .content__23cab::after {
+.sidebar_e031be .content__690c5::after {
     content: "";
     height: calc(5vh + 10px)!important;
     display: block!important;
 }
-.sidebar_ded4b5:has(.container_d667ff) .content__23cab::after {
+.sidebar_e031be:has(.container_e1958d) .content__690c5::after {
     content: "";
     height: calc(5vh + 10px)!important;
     display: block!important;
 }
-.animatedContainer__341f6,
-.content__23cab>div[aria-hidden="true"][style="height: 84px;"]
+.animatedContainer__0e828,
+.content__690c5>div[aria-hidden="true"][style="height: 84px;"]
 {display: none}
 
 /*=====  End of Section TUP  ======*/
