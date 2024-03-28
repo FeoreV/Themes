@@ -82,7 +82,7 @@
   }
 }
 
-.pictureInPicture__48d51:not(:has(.iframe__214b3)) {
+.pictureInPicture__9579b:not(:has(.iframe__63456)) {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -99,7 +99,7 @@
 	backdrop-filter: var(--blur4);
 }
 
-.pictureInPicture__48d51:not(:has(.iframe__214b3))::after {
+.pictureInPicture__9579b:not(:has(.iframe__63456))::after {
 	position: absolute;
 
 	border-radius: 128px;
@@ -109,7 +109,7 @@
 	color: var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
 }
-.pictureInPicture__48d51:not(:has(.iframe__214b3))::before {
+.pictureInPicture__9579b:not(:has(.iframe__63456))::before {
 	position: absolute;
 	top: 95%;
 
