@@ -1,0 +1,59 @@
+/*=============================================
+=              FVUI compatibility            =
+=============================================*/
+.sidebar_ded4b5>.container__590e2,
+.sidebar_ded4b5>.privateChannels__93473{
+  margin-bottom: 0!important;
+} 
+.sidebar_e031be .content__690c5::before {
+  height: 15vh!important;
+}
+.sidebar_e031be .scroller__1f498 {
+  margin-top: -10vh;
+}
+
+#app-mount .searchBar_e4ea2a{
+  position: relative;
+  backdrop-filter: none;
+}
+
+.inner_ab95dc{display: none;}
+/*=====  End of Section FVUI compatibility  ======*/
+
+/*=============================================
+=                      TUP                    =
+=============================================*/
+
+
+#app-mount .panels__58331{
+  order: -1;
+  padding-top: 1px;
+  margin-top: 10px;
+  position: sticky;
+}
+
+
+#app-mount .searchBar__621ec{
+  order:10;
+  position: relative;
+}
+
+.container_f41675{
+  position: relative;
+  top: unset!important;
+  bottom: 12vh!important;
+}
+
+.sidebar_e031be>.container__7e23c,
+.sidebar_e031be>.privateChannels__9b518{
+  margin-top: -9vh!important;
+} 
+.sidebar_e031be .content__690c5{
+  margin-top: 4.5vh
+}
+
+.animatedContainer__0e828,
+.content__690c5>div[aria-hidden="true"][style="height: 84px;"]
+{display: none}
+
+/*=====  End of Section TUP  ======*/

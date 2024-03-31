@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM11 7.75H13.5C14.3082 7.75 14.937 8.02092 15.3643 8.44822C15.7892 8.87317 16 9.43816 16 10C16 10.5618 15.7892 11.1268 15.3643 11.5518C14.937 11.9791 14.3082 12.25 13.5 12.25H11.25V14.75H15C15.1381 14.75 15.25 14.8619 15.25 15C15.25 15.1381 15.1381 15.25 15 15.25H11.25V17C11.25 17.1381 11.1381 17.25 11 17.25C10.8619 17.25 10.75 17.1381 10.75 17V15.25H9C8.86193 15.25 8.75 15.1381 8.75 15C8.75 14.8619 8.86193 14.75 9 14.75H10.75V12.25H9C8.86193 12.25 8.75 12.1381 8.75 12C8.75 11.8619 8.86193 11.75 9 11.75H10.75V8C10.75 7.86193 10.8619 7.75 11 7.75Z" fill="#323232"/>
+<path d="M11 8V17" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 15H15" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#323232" stroke-width="2"/>
+<path d="M11 8H13.5C16.5 8 16.5 12 13.5 12H9" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

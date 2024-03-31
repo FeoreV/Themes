@@ -1,0 +1,61 @@
+/*=============================================
+=                    Data                     =
+=============================================*/
+:root{
+	--FVUI: "FVUI-Mica"!important;
+	--warringmica:  "Choose ONE of the suggested themes";
+}
+:root{
+	--BGopacity: 30%;
+	--BGcolor: var(--color2);
+	--BGMica: rgba(var(--BGcolor),var(--BGopacity));
+}
+
+/*=============================================
+=                    Alert                    =
+=============================================*/
+.wordmarkWindows__05c46::after,
+.titleBar__01af6::after{
+	left: 1%;
+	color: red;
+	font-size: 16px;
+    font-weight: 900;
+    position: fixed;
+	filter: drop-shadow(0 0 10px currentColor);
+}
+
+.wordmarkWindows__05c46::after {
+	content: var(--warring11);
+}
+.titleBar__01af6::after {
+    content: var(--warringdef);
+}
+
+/*=============================================
+=                    Code                     =
+=============================================*/
+
+:root {
+	--background-tertiary: var(--BGMica);
+}
+
+#app-mount{
+  background: none !important;
+}
+
+.theme-light .wordmarkWindows_ffbc5e::before { /*THEME-LIGHT*/
+    position: fixed;
+	left: 50%;
+
+    content: var(--FVUI) ' (Use a dark theme)'!important;
+	color: var(--color03);
+    font-size: 16px;
+    font-weight: 900;
+	filter: drop-shadow(0 0 10px currentColor);
+}
+
+
+.sidebar_ded4b5,
+.sidebar_e031be { 
+    background: none;
+}

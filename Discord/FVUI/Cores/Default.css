@@ -1,0 +1,48 @@
+/**
+* @name !default
+* @author ٴFeoreVٴ#3377
+* @description default 
+* @version  DEV
+* @authorId 489785940546551831
+*/
+
+/*=============================================
+=                    Data                     =
+=============================================*/
+:root{
+	--FVUI: "FVUI";
+	--warringdef: "Choose ONE of the suggested themes";
+}
+
+/*=============================================
+=                    Alert                    =
+=============================================*/
+
+.wordmarkWindows__05c46::after,
+.titleBar__01af6::after{
+	left: 1%;
+	color: red;
+	font-size: 16px;
+    font-weight: 900;
+    position: fixed;
+	filter: drop-shadow(0 0 10px currentColor);
+}
+
+.wordmarkWindows__05c46::after {
+	content: var(--warring11)!important;
+}
+.titleBar__01af6::after {
+    content: var(--warringmica);
+}
+
+/*=============================================
+=                    Code                     =
+=============================================*/
+
+:root{
+	--bg-overlay-3: var(--color02)!important; /* optimis */
+}
+.sidebar_ded4b5,
+.sidebar_e031be { /* optimis */
+    background: var(--color02);
+}

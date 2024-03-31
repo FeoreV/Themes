@@ -1,0 +1,44 @@
+:root.theme-dark { /* Colors for users customization */
+	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
+	--accentcolor-HUE: 210;
+	--accentcolor-SATURATION: 68%;
+}
+:root.theme-light { /* Colors for users customization */
+	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
+	--accentcolor-HUE: 199;
+	--accentcolor-SATURATION: 100%;
+}
+
+
+:root.theme-dark { /* Colors for users customization */
+	--color10: var(--accentcolor), 15%; /* Additional BG */
+	--color20: var(--accentcolor), 10%; /* Background */
+	--color30: var(--accentcolor), 46%;
+	--color40: 251, 55%, 38%; /* Gradient Color*/
+}
+:root.theme-light{ /* Colors for users customization */
+	--color1: var(--accentcolor), 80%; /* Additional BG */
+	--color2: var(--accentcolor), 86%; /* Background */
+	--color3: var(--accentcolor), 69%; /* Blue */
+	--color4: 251, 55%, 38%; /* Gradient Color*/
+}
+
+:root { /* Theme colors */
+/*main*/
+	--color01: hsl(var(--color10))!important;
+	--color02: hsl(var(--color20))!important;
+	--color03: hsl(var(--color30))!important;
+	--color04: hsl(var(--color40))!important;
+/*opacity*/
+    --opacity01: hsla(var(--color10), 0.9)!important;
+	--opacity02: hsla(var(--color20), 0.9)!important;
+	--opacity01a: hsla(var(--color10), 0.6)!important;
+	--opacity020a: hsla(var(--color20), 0.8)!important;
+	--opacity02a: hsla(var(--color20), 0.6)!important;
+	--opacity01b: hsla(var(--color10), 0.4)!important;
+	--opacity02b: hsla(var(--color20),0.4)!important;
+	--opacity01c: hsla(var(--color10), 0.2)!important;
+	--opacity02c: hsla(var(--color10), 0.2)!important;
+	--opacity03: hsla(var(--color30), 0.5)!important;
+	--opacity03a: hsla(var(--color30), 0.2)!important;
+}

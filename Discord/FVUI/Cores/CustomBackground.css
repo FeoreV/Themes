@@ -1,0 +1,71 @@
+/*=============================================
+=                    Data                     =
+=============================================*/
+:root{
+	--DarkBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif);
+	--LightBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif);
+	--OpacityBG: 60%;
+	--BlurBG: 0px;
+}
+:root{
+	--FVUI: "FVUI-11";
+	--warring11:  "Choose ONE of the suggested themes";
+}	
+:root{
+	--DisableBlur: calc(1 - var(--DisableOpacity));
+	--tblur4: blur(calc(var(--DisableBlur) * 4px))!important;
+	--tblur8: blur(calc(var(--DisableBlur) * 8px))!important;
+	--tblur16: blur(calc(var(--DisableBlur) * 16px))!important;
+}
+
+/*=============================================
+=                    Code                     =
+=============================================*/
+
+:root [id^="popout_"]{
+	--background-secondary: var(--opacity01a)!important; /* popups*/
+}
+
+.content__01e65.container__3a30a>.mainTableContainer__37b54{ /* memberlist */
+  backdrop-filter: blur(8px);
+}
+
+#app-mount .sidebar_e031be{
+  background: none!important;
+}
+.shopScroll_caa423,
+.shopScroll_caa423>.pageWrapper__18871  {
+  background: none!important;
+}
+
+.title_d4ba1a,
+.channelTextArea_c2094b, 
+.wrapper__57349{
+  background: var(--full02)!important;
+}
+
+
+.app_b1f720::before{
+  background-size: cover!important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity:var(--OpacityBG);
+  filter:blur(var(--BlurBG))
+}
+.theme-dark .app_b1f720::before{
+  background-image: var(--DarkBG);
+}
+.theme-light .app_b1f720::before{
+  background-image: var(--LightBG);
+}
+
+
+.mentioned_fa6fd2{
+  backdrop-filter: var(--blur4);
+}
+
+.callContainer__1477d{ /*screen demo*/
+  backdrop-filter: var(--blur8);
+}
