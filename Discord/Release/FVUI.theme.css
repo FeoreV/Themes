@@ -1,54 +1,73 @@
 /**
 * @name FVUI
 * @author feorev
-* @description FVUI - disabled
-* @version  AutoUpdate
+* @description Blur is the New Black
+* @version 2.0.0
 * @authorId 489785940546551831
 * @invite baEMQkgswT
-* @source https://github.com/FeoreV/Themes/tree/main/Discord
+* @source https://github.com/FeoreV/Themes/tree/main/Discord/FVUI
 */
 /* ! DO NOT TOUCH ! */
-@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Core/preload.css);
-@import url(https://feorev.github.io/Themes/Discord/assets/Versions/v2.css);
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Cores/preload.css);
+@import url(https://feorev.github.io/Themes/Discord/FVUI/assets/Versions/v2.css);
+
+/*=============================================
+=                     Info                    =
+==============================================*
+	DiscordServer: https://discord.com/invite/baEMQkgswT
+	DM - feorev
+	Site - https://feorev.github.io/
+	ThemeEditor - https://bdeditor.dev/theme/FVUI
+
+	Due to the inability to update the theme file frequently, many new additions to the theme will be posted on the discord server.
+	The FVUI theme extends not only to discord, but also to other sites and areas. You can find a complete list of themes on the discord server.
 
 
 
 /*=============================================
-=                   Guide                     =
-=============================================*/
+=                    FAQ                      =
+==============================================*
 
-/*
+/*----------  How to enable another subtheme?  ----------*
+	
+	IT IS RECOMMENDED TO USE AN EDITOR ( https://bdeditor.dev/theme/FVUI )
 
 	Select import and press ctrl+/
 
 	Enabled - @import url(...)
 	Disabled - /*@import url(...)*/
 
-/* More detailed information and support on any issue can be found at the link: https://discord.gg/baEMQkgswT */
+	
+/*----------  I want ...  ----------
+	Make the background a picture - enable WIN11
+	Make discord transparent - enable Mica
+	Change background picture - Change the settings of the win11 subtheme - the --dark/light BG variable
+
+/*----------  Any other questions?  ----------
+	Join the discord server c:
+	https://discord.com/invite/baEMQkgswT
 
 
-
+	
 /*=============================================
 =             Subthemes to choose             =
 =============================================*/
 
-/* You can find out more about all SubThemes at the following link: https://discord.com/channels/1096843985928061032/1105243361310412930/1189661990554173480 */
-
 /*----------  Default  ----------*/
 	/* Default */
-@import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/default.css);
+@import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/Default.css);
 	/* Lite */
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/lite.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/Default_lite.css); */
 
-/*----------  WIN11 ( Custom background supported )  ----------*/
+/*----------  CustomBackground  ----------*/
 	/* WIN11 */ 
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/win11.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/CustomBackground.css); */
 	/* Lite11 */
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/lite11.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/CustomBackground_lite.css); */
 
 /*----------  Other  ----------*/
 	/*MICA (Required "Mica For Everyone" and enabling transparency (Settings=>BD=>Settings=>Window preferences=>Enable transparency)*/
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/SubThemes/mica.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/Mica.css); */
 
 
 
@@ -56,32 +75,30 @@
 =                   Addons                   =
 =============================================*/
 
-/* You can find out more about all Addons at the following link: https://discord.com/channels/1096843985928061032/1105243361310412930/1190743938341031967 */
-
-	/* Trash (Removes all unnecessary. For example - nitro, unnecessary menu items, and so on. Comment out this line if you need any of this or change the addon settings below) */
-@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/trash.css);
-
 	/* Events (Any events and decorations for the holidays. For example, snow and New Year's attributes for the new year.) */
-@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/Events/Events.css);
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Events/Events.css);
+
+	/* ServerRings */
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/ServerRings.css); 
+
+	/* RadialStatus */
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/RadialStatus.css);
 
 	/* MaterialYou (The theme color scheme adjusts to the accent color) */
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/materialyou.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/MaterialYou.css); */
 
 	/* ModularDesign (Adds outline to main sections) */
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/modulardesign.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/ModularDesign.css); */
 
 	/* TopUserPanel (Moves the userpanel to the top corner) */
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/TopUserPanel.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/TopUserPanel.css); */
 
-	/* HorizontalServerList (Moves serverlist to the top or bottom corner. For FVUI, it is recommended to use this version of HSL, and not the official one. The original author of HSL is gibbu.) */
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/HSL/HSL_top.css); */
-/* @import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/HSL/HSL_bottom.css); */
+	/* HorizontalServerList (Moves serverlist to the top or bottom corner. For FVUI, it is recommended to use this version of HSL, and not the official one.) */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/HSL/HSL_top.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/HSL/HSL_bottom.css); */
 
-	/* Something new? */
-/* You can find new, current addons and more in the discord server: https://discord.gg/baEMQkgswT */
-
-
-
+	/* TitleIsland */
+/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/TitleIsland.css); */
 
 
 
@@ -89,46 +106,46 @@
 =             SubThemes Settings              =
 =============================================*/
 
-/* You can find out more about all Variables at the following link: https://discord.com/channels/1096843985928061032/1105243361310412930/1190750041464381531 */
+	/* Theme editor - https://bdeditor.dev/theme/FVUI */
 
 	/*----------  General  ----------*/
 :root{
-	--cursor:url('https://cdn.discordapp.com/attachments/595306807795253258/1107955455436787722/pointer.cur'); /* Link to cursor / unset - to set standard */
-	--font: "Comfortaa"; /* The font must be pre-installed or imported */
-    --homeicon: url("https://feorev.github.io/Themes/Discord/assets/HomeIcon/Icon.png"); /* Link to image */
+	--cursor  : url('https://feorev.github.io/Themes/Discord/FVUI/assets/Cursor.cur');         /* Link to cursor / unset - to set standard */
+	--font    : "Comfortaa";                                                                   /* The font must be pre-installed or imported */
+	--homeicon: url("https://feorev.github.io/Themes/Discord/FVUI/assets/HomeIcon/Icon.png");  /* Link to image */
 }
 
 :root{
-    --ColorOpacity: 1; /* Opacity multiplier / Default=1 (0.1-...) */
-    --DisableOpacity: 0; /* Disable Opacity / Default=0 (0 or 1) */
+    --ColorOpacity  : 1;  /* Opacity multiplier / Default=1 (0.1-...) */
+    --DisableOpacity: 0;  /* Disable Opacity / Default=0 (0 or 1) */
 }
 
 :root.theme-dark {
-	--color1: 30, 40, 50; /* Additional BG / Default= | 30, 40, 50 | (any raw rgb value) */
-	--color2: 9, 18, 24; /* Background / Default= | 9, 18, 24 | (any raw rgb value) */
-	--color3: 35, 120, 200; /* Additional Color / Default= | 35, 120, 200 | (any raw rgb value) */
-	--color4: 63, 43, 150; /* Gradient Color / Default= | 63, 43, 150 | (any raw rgb value) */
+	--color1: 30, 40,  50;   /* Additional BG / Default= | 30, 40, 50 | (any raw rgb value) */
+	--color2: 9,  18,  24;   /* Background / Default= | 9, 18, 24 | (any raw rgb value) */
+	--color3: 35, 120, 200;  /* Additional Color / Default= | 35, 120, 200 | (any raw rgb value) */
+	--color4: 63, 43,  150;  /* Gradient Color / Default= | 63, 43, 150 | (any raw rgb value) */
 }
 :root.theme-light {
-	--color1: 211, 204, 227; /* Additional BG / Default= | 211, 204, 227 | (any raw rgb value) */
-	--color2: 219, 219, 219; /* Background / Default= | 219, 219, 219 | (any raw rgb value) */
-	--color3: 96,205,255; /* Additional Color / Default= | 96,205,255 | (any raw rgb value) */
-	--color4: 63, 43, 150; /* Gradient Color / Default= | 63, 43, 150 | (any raw rgb value)  */
+	--color1: 211, 204, 227;  /* Additional BG / Default= | 211, 204, 227 | (any raw rgb value) */
+	--color2: 219, 219, 219;  /* Background / Default= | 219, 219, 219 | (any raw rgb value) */
+	--color3: 96,  205, 255;  /* Additional Color / Default= | 96,205,255 | (any raw rgb value) */
+	--color4: 63,  43,  150;  /* Gradient Color / Default= | 63, 43, 150 | (any raw rgb value)  */
 }
 
-	/*----------  WIN11  ----------*/
+	/*----------  CustomBackground  ----------*/
 :root{
-	--DarkBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif); /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif) ( url(link) ) */
-	--LightBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif); /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif) ( url(link) ) */
-	--OpacityBG: 100%; /* Background image transparency / Default=100% (0%-100%) */
-	--BlurBG: 0px; /* Background image blur / Default=0px (any value in px) */
+	--DarkBG   : url(https://feorev.github.io/Themes/Discord/FVUI/assets/Wallpapers/dark.avif);   /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif) ( url(link) ) */
+	--LightBG  : url(https://feorev.github.io/Themes/Discord/FVUI/assets/Wallpapers/light.avif);  /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif) ( url(link) ) */
+	--OpacityBG: 60%;                                                                             /* Background image transparency / Default=100% (0%-100%) */
+	--BlurBG   : 0px;                                                                             /* Background image blur / Default=0px (any value in px) */
 }
 
 
 	/*----------  Mica  ----------*/
 :root{
-	--BGopacity: 30%; /* Background image transparency / Default=30% (0%-100%) */
-	--BGcolor: var(--color2); /* Сolor in RGB / Example = rgb(255,255,255) ( any value in RGB (like example) ) */
+	--BGopacity: 30%;            /* Background image transparency / Default=30% (0%-100%) */
+	--BGcolor  : var(--color2);  /* Сolor in RGB / Example = rgb(255,255,255) ( any value in RGB (like example) ) */
 }
 
 
@@ -137,42 +154,35 @@
 =               Addons Settings               =
 =============================================*/
 
-	/*----------  Trash  ----------*/
-:root{ /* None/Flex */
-	--nitro: none; 
-	--contextmenu: none;
-	--profile: none;
-	--chat:none;
-	--other:none;
-}
-
 	/*----------  MaterialYou  ----------*/
-:root.theme-dark{ 
-	--accentcolor: 210, 68%; /* First 2 HSL values / Default= | 210, 68% | https://g.co/kgs/83i83K */
+:root.theme-dark{ /* First 2 HSL values / Default= | 210, 68% | https://g.co/kgs/83i83K */
+	--accentcolor-HUE: 210;
+	--accentcolor-SATURATION: 68%;
 }
-:root.theme-light{
-    --accentcolor: 199, 100%;  /* First 2 HSL values / Default= | 199, 100% | https://g.co/kgs/83i83K */
+:root.theme-light{ /* First 2 HSL values / Default= | 199, 100% | https://g.co/kgs/83i83K */
+	--accentcolor-HUE: 199;
+	--accentcolor-SATURATION: 100%;
 }
 
 	/*----------  ModularDesign  ----------*/
 :root{ /*MainModules*/
-	--outline: 3px; /* outline size / Default=3px (any value in px) */
-	--outlineCLR: var(--color03); /* outline color / Example = rgb(255,255,255) ( any value in RGB (like example) ) */
-	--outlineBR: 16px; /* outline rounding / Default=16px (any value in px) */
-	--outlineMG: 2rem; /* outline margin / Default=2rem (any value in px/rem/...) */
-	--outlineBS: 15px var(--outlineCLR); /* outline glow / Example = | 10px rgb(255,255,255)| (value like example - size/color) */
-	--outlineBG: unset;  /* outline content background color / Example = rgb(255,255,255) ( any value in RGB (like example) */
-	--outlineBLUR: 0; /* (ONLY WIN11) backdrop blur / Default=0 ( any value in px */
+	--outline    : 3px;                     /* outline size / Default=3px (any value in px) */
+	--outlineCLR : var(--color03);          /* outline color / Example = rgb(255,255,255) ( any value in RGB (like example) ) */
+	--outlineBR  : 16px;                    /* outline rounding / Default=16px (any value in px) */
+	--outlineMG  : 2rem;                    /* outline margin / Default=2rem (any value in px/rem/...) */
+	--outlineBS  : 15px;                    /* outline glow / Default = 15px */
+	--outlineBG  : unset;                   /* outline content background color / Example = rgb(255,255,255) ( any value in RGB (like example) */
+	--outlineBLUR: 0;                       /* (ONLY WIN11) backdrop blur / Default=0 ( any value in px */
 }
 
 :root{ /*AdditionalModules*/
-	--outline2: 0; /* outline size / Default=0px (disabled) (any value in px) */
-	--outlineCLR2: var(--outlineCLR); /* outline color / Example = rgb(255,255,255) ( any value in RGB (like example) ) */
-	--outlineBR2: var(--outlineBR); /* outline rounding / (any value in px) */
-	--outlineMG2: var(--outlineMG); /* outline margin / (any value in px/rem/...) */
-	--outlineBS2: 0; /* outline glow / Example = | 10px rgb(255,255,255)| (value like example - size/color) */
-	--outlineBG2: unset; /* outline content background color / Example = rgb(255,255,255) ( any value in RGB (like example) */
-	--outlineBLUR2: 0 /* (ONLY WIN11) (Not recommended - bad performance) backdrop blur / Default=0 ( any value in px */
+	--outline2    : 0;                  /* outline size / Default=0px (disabled) (any value in px) */
+	--outlineCLR2 : var(--outlineCLR);  /* outline color / Example = rgb(255,255,255) ( any value in RGB (like example) ) */
+	--outlineBR2  : var(--outlineBR);   /* outline rounding / (any value in px) */
+	--outlineMG2  : var(--outlineMG);   /* outline margin / (any value in px/rem/...) */
+	--outlineBS2  : 0;                  /* outline glow / Default = 0 */
+	--outlineBG2  : unset;              /* outline content background color / Example = rgb(255,255,255) ( any value in RGB (like example) */
+	--outlineBLUR2: 0                   /* (ONLY WIN11) (Not recommended - bad performance) backdrop blur / Default=0 ( any value in px ) */
 }
 
 	/*----------  Have you tuned the theme well?   ----------*/
