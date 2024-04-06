@@ -10,7 +10,12 @@
 	--text1: 174, 174, 174;  /*accent*/
 	--text2: 107, 107, 107;  /*no accent*/
 }
-
+:root{
+    --shadow03: inset 0 0 15px var(--color03);
+    --outline01: 2px solid var(--color01);
+    --outline02: 2px solid var(--color02);
+    --outline03: 2px solid var(--color03);
+}
 :root {
 /*main*/
 	--color01: rgb(var(--color1));
