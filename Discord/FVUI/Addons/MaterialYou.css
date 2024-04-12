@@ -1,13 +1,14 @@
-:root.theme-dark { /* Colors for users customization */
+:root{
 	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
+}
+:root{ /* Colors for users customization */
 	--accentcolor-HUE: 210;
 	--accentcolor-SATURATION: 68%;
 }
-:root.theme-light { /* Colors for users customization */
-	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
+/* :root.theme-light {
 	--accentcolor-HUE: 199;
 	--accentcolor-SATURATION: 100%;
-}
+} */
 
 
 :root.theme-dark { /* Colors for users customization */
