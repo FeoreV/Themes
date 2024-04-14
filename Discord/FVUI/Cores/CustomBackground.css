@@ -3,13 +3,12 @@
 =============================================*/
 :root.theme-dark{
 	--DarkBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif);
-  --image: var(--DarkBG)
 }
 :root.theme-light{
 	--LightBG: url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif);
-  --image: var(--LightBG)
 }
 :root{
+  --image: var(--DarkBG, var(--LightBG));
 	--OpacityBG: 60%;
 	--BlurBG: 0px;
 }
