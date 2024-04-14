@@ -5,7 +5,7 @@
   --font: "Comfortaa" ;
 }
 
-:root.theme-dark { /* Colors for users customization */
+:root { /* Colors for users customization */
 	--color1: 30, 40,  50;   /* Additional BG */
 	--color2: 9,  18,  24;   /* Background */
 	--color3: 35, 120, 200;  /* Blue */
