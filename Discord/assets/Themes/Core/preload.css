@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap%27'); /*font*/
+:root{ /* DEV */
+	--none: none;
+}
 
 :root {
-  --FVUI: "Loading";
+  --FVUI: "DEV"!important;
   --font: "Comfortaa" ;
 }
 
@@ -53,23 +56,24 @@
 }
 
 :root {
-    --full01: rgba(var(--color1), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-    --full02: rgba(var(--color2), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full01: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full02: var(--full02_lite_MUI, rgba(var(--color2), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-    --full020a: rgba(var(--color2), calc(var(--ColorOpacity)*0.8*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full020a: var(--full02_lite_MUI, rgba(var(--color2), calc(var(--ColorOpacity)*0.8*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-    --full01a: rgba(var(--color1), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-    --full02a: rgba(var(--color2), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full01a: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full02a: var(--full02_lite_MUI, rgba(var(--color2), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-    --full01b: rgba(var(--color1), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-    --full02b: rgb(var(--color2), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full01b: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full02b: var(--full02_lite_MUI, rgb(var(--color2), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-    --full01c: rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-    --full02c: rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full01c: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full02c: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-    --full03: rgba(var(--color3), calc(var(--ColorOpacity)*0.5*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-    --full03a: rgba(var(--color3), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full03: var(--full03_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.5*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full03a: var(--full03_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 }
+
 
 
 @keyframes loaderr{
