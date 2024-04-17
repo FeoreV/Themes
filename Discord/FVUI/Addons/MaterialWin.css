@@ -1,0 +1,91 @@
+:root {
+	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
+}
+:root {
+	--accentcolor-HUE: 210;
+	--accentcolor-SATURATION: 68%;
+}
+
+/* :root.theme-light {
+	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
+	--accentcolor-HUE: 199;
+	--accentcolor-SATURATION: 100%;
+} */
+
+
+:root.theme-dark { /* Colors for users customization */
+	--color1_MUI: from var(--os-accent-color) h s 15%; /* Additional BG */
+	--color2_MUI: from var(--os-accent-color) h s 10%; /* Background */
+	--color3_MUI: from var(--os-accent-color) h s 46%;
+	--color4_MUI: 251, 55%, 38%; /* Gradient Color*/
+}
+:root.theme-light { /* Colors for users customization */
+	--color1_MUI: from var(--os-accent-color) h s 80%; /* Additional BG */
+	--color2_MUI: from var(--os-accent-color) h s 86%; /* Background */
+	--color3_MUI: from var(--os-accent-color) h s 69%;
+	--color4_MUI: 251, 55%, 38%; /* Gradient Color*/
+}
+
+
+
+:root { /* Theme colors */
+/*main*/
+	--color01: hsl(var(--color1_MUI))!important;
+	--color02: hsl(var(--color2_MUI))!important;
+	--color03: hsl(var(--color3_MUI))!important;
+	--color04: hsl(var(--color4_MUI))!important;
+/*opacity*/
+    --opacity01: hsl(var(--color1_MUI) / 0.9)!important;
+	--opacity02: hsl(var(--color2_MUI) / 0.9)!important;
+
+	--opacity020a: hsl(var(--color2_MUI) / 0.8)!important;
+
+	--opacity01a: hsl(var(--color1_MUI) / 0.6)!important;
+	--opacity02a: hsl(var(--color2_MUI) / 0.6)!important;
+
+	--opacity01b: hsl(var(--color1_MUI) / 0.4)!important;
+	--opacity02b: hsl(var(--color2_MUI) /0.4)!important;
+
+	--opacity01c: hsl(var(--color1_MUI) / 0.2)!important;
+	--opacity02c: hsl(var(--color1_MUI) / 0.2)!important;
+
+	--opacity03: hsl(var(--color3_MUI) / 0.5)!important;
+	--opacity03a: hsl(var(--color3_MUI) / 0.2)!important;
+}
+
+:root {
+	--full01_lite_MUI: hsl(var(--color1_MUI) / 0.9)!important;
+	--full02_lite_MUI: hsl(var(--color2_MUI) / 0.9)!important;
+
+	--full020a_lite_MUI: hsl(var(--color2_MUI) / 0.8)!important;
+
+	--full01a_lite_MUI: hsl(var(--color1_MUI) / 0.6)!important;
+	--full02a_lite_MUI: hsl(var(--color2_MUI) / 0.6)!important;
+
+	--full01b_lite_MUI: hsl(var(--color1_MUI) / 0.4)!important;
+	--full02b_lite_MUI: hsl(var(--color2_MUI) /0.4)!important;
+
+	--full01c_lite_MUI: hsl(var(--color1_MUI) / 0.2)!important;
+	--full02c_lite_MUI: hsl(var(--color1_MUI) / 0.2)!important;
+
+	--full03_lite_MUI: hsl(var(--color3_MUI) / 0.5)!important;
+	--full03a_lite_MUI: hsl(var(--color3_MUI) / 0.2)!important;
+}
+:root {
+	--full01_full_MUI: hsl(var(--color1_MUI) / 0.4)!important;
+	--full02_full_MUI: hsl(var(--color2_MUI) / 0.4)!important;
+
+	--full020a_full_MUI: hsl(var(--color2_MUI) / 0.1)!important;
+
+	--full01a_full_MUI: hsl(var(--color1_MUI) / 0.3)!important;
+	--full02a_full_MUI: hsl(var(--color2_MUI) / 0.3)!important;
+
+	--full01b_full_MUI: hsl(var(--color1_MUI) / 0.2)!important;
+	--full02b_full_MUI: hsl(var(--color2_MUI) /0.2)!important;
+
+	--full01c_full_MUI: hsl(var(--color1_MUI) / 0.1)!important;
+	--full02c_full_MUI: hsl(var(--color1_MUI) / 0.1)!important;
+
+	--full03_full_MUI: hsl(var(--color3_MUI) / 0.5)!important;
+	--full03a_full_MUI: hsl(var(--color3_MUI) / 0.2)!important;
+}
