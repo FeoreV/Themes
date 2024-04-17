@@ -1,15 +1,8 @@
-/**
-* @name !materialyou
-* @author ٴFeoreVٴ#3377
-* @description materialyou 
-* @version  DEV
-* @authorId 489785940546551831
-*/
 :root {
 	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
 }
 :root {
-	--accentcolor-HUE: 110;
+	--accentcolor-HUE: 210;
 	--accentcolor-SATURATION: 68%;
 }
 
@@ -21,59 +14,78 @@
 
 
 :root.theme-dark { /* Colors for users customization */
-	--color10: var(--accentcolor), 15%; /* Additional BG */
-	--color20: var(--accentcolor), 10%; /* Background */
-	--color30: var(--accentcolor), 46%;
-	--color40: 251, 55%, 38%; /* Gradient Color*/
+	--color1_MUI: var(--accentcolor), 15%; /* Additional BG */
+	--color2_MUI: var(--accentcolor), 10%; /* Background */
+	--color3_MUI: var(--accentcolor), 46%;
+	--color4_MUI: 251, 55%, 38%; /* Gradient Color*/
 }
 :root.theme-light{ /* Colors for users customization */
-	--color1: var(--accentcolor), 80%; /* Additional BG */
-	--color2: var(--accentcolor), 86%; /* Background */
-	--color3: var(--accentcolor), 69%; /* Blue */
-	--color4: 251, 55%, 38%; /* Gradient Color*/
+	--color1_MUI: var(--accentcolor), 80%; /* Additional BG */
+	--color2_MUI: var(--accentcolor), 86%; /* Background */
+	--color3_MUI: var(--accentcolor), 69%; /* Blue */
+	--color4_MUI: 251, 55%, 38%; /* Gradient Color*/
 }
+
+
 
 :root { /* Theme colors */
 /*main*/
-	--color01: hsl(var(--color10))!important;
-	--color02: hsl(var(--color20))!important;
-	--color03: hsl(var(--color30))!important;
-	--color04: hsl(var(--color40))!important;
+	--color01: hsl(var(--color1_MUI))!important;
+	--color02: hsl(var(--color2_MUI))!important;
+	--color03: hsl(var(--color3_MUI))!important;
+	--color04: hsl(var(--color4_MUI))!important;
 /*opacity*/
-  	--opacity01: hsla(var(--color10), 0.9)!important;
-	--opacity02: hsla(var(--color20), 0.9)!important;
+    --opacity01: hsla(var(--color1_MUI), 0.9)!important;
+	--opacity02: hsla(var(--color2_MUI), 0.9)!important;
 
-	--opacity020a: hsla(var(--color20), 0.8)!important;
+	--opacity020a: hsla(var(--color2_MUI), 0.8)!important;
 
-	--opacity01a: hsla(var(--color10), 0.6)!important;
-	--opacity02a: hsla(var(--color20), 0.6)!important;
+	--opacity01a: hsla(var(--color1_MUI), 0.6)!important;
+	--opacity02a: hsla(var(--color2_MUI), 0.6)!important;
 
-	--opacity01b: hsla(var(--color10), 0.4)!important;
-	--opacity02b: hsla(var(--color20),0.4)!important;
+	--opacity01b: hsla(var(--color1_MUI), 0.4)!important;
+	--opacity02b: hsla(var(--color2_MUI),0.4)!important;
 
-	--opacity01c: hsla(var(--color10), 0.2)!important;
-	--opacity02c: hsla(var(--color10), 0.2)!important;
+	--opacity01c: hsla(var(--color1_MUI), 0.2)!important;
+	--opacity02c: hsla(var(--color1_MUI), 0.2)!important;
 
-	--opacity03: hsla(var(--color30), 0.5)!important;
-	--opacity03a: hsla(var(--color30), 0.2)!important;
+	--opacity03: hsla(var(--color3_MUI), 0.5)!important;
+	--opacity03a: hsla(var(--color3_MUI), 0.2)!important;
 }
 
-
 :root {
-	--full01_MUI: hsla(var(--color10), 0.4)!important;
-	--full02_MUI: hsla(var(--color20), 0.4)!important;
+	--full01_lite_MUI: hsla(var(--color1_MUI), 0.9)!important;
+	--full02_lite_MUI: hsla(var(--color2_MUI), 0.9)!important;
 
-	--full020a_MUI: hsla(var(--color20), 0.1)!important;
+	--full020a_lite_MUI: hsla(var(--color2_MUI), 0.8)!important;
 
-	--full01a_MUI: hsla(var(--color10), 0.3)!important;
-	--full02a_MUI: hsla(var(--color20), 0.3)!important;
+	--full01a_lite_MUI: hsla(var(--color1_MUI), 0.6)!important;
+	--full02a_lite_MUI: hsla(var(--color2_MUI), 0.6)!important;
 
-	--full01b_MUI: hsla(var(--color10), 0.2)!important;
-	--full02b_MUI: hsla(var(--color20),0.2)!important;
+	--full01b_lite_MUI: hsla(var(--color1_MUI), 0.4)!important;
+	--full02b_lite_MUI: hsla(var(--color2_MUI),0.4)!important;
 
-	--full01c_MUI: hsla(var(--color10), 0.1)!important;
-	--full02c_MUI: hsla(var(--color10), 0.1)!important;
+	--full01c_lite_MUI: hsla(var(--color1_MUI), 0.2)!important;
+	--full02c_lite_MUI: hsla(var(--color1_MUI), 0.2)!important;
 
-	--full03_MUI: hsla(var(--color30), 0.5)!important;
-	--full03a_MUI: hsla(var(--color30), 0.2)!important;
+	--full03_lite_MUI: hsla(var(--color3_MUI), 0.5)!important;
+	--full03a_lite_MUI: hsla(var(--color3_MUI), 0.2)!important;
+}
+:root {
+	--full01_full_MUI: hsla(var(--color1_MUI), 0.4)!important;
+	--full02_full_MUI: hsla(var(--color2_MUI), 0.4)!important;
+
+	--full020a_full_MUI: hsla(var(--color2_MUI), 0.1)!important;
+
+	--full01a_full_MUI: hsla(var(--color1_MUI), 0.3)!important;
+	--full02a_full_MUI: hsla(var(--color2_MUI), 0.3)!important;
+
+	--full01b_full_MUI: hsla(var(--color1_MUI), 0.2)!important;
+	--full02b_full_MUI: hsla(var(--color2_MUI),0.2)!important;
+
+	--full01c_full_MUI: hsla(var(--color1_MUI), 0.1)!important;
+	--full02c_full_MUI: hsla(var(--color1_MUI), 0.1)!important;
+
+	--full03_full_MUI: hsla(var(--color3_MUI), 0.5)!important;
+	--full03a_full_MUI: hsla(var(--color3_MUI), 0.2)!important;
 }
