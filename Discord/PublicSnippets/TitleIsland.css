@@ -1,0 +1,7 @@
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/TitleIsland.css);
+:root{
+  --bg-title  : var(--background-secondary-alt);   /* color */
+  --bg-toolbar: var(--background-secondary-alt);   /* color */
+  --bg-blur   : none;  /* blur(*px) */
+  --br-title  : 8px;  /* border radius */
+}
