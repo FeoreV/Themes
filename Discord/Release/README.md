@@ -5,7 +5,6 @@
 
 [THEME EDITOR](https://bdeditor.dev/theme/FVUI)
 
-
 # Screenshots
 
 ## Subthemes
