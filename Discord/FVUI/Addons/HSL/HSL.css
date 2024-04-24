@@ -147,3 +147,25 @@
 } */
 
 /*=====  End of Section HSL  ======*/
+
+/* SL buttons*/
+.tree__7a511>.scroller_de945b{
+  grid-template-areas: "homebutton buttons divider list"!important;
+  grid-template-columns: 48px 48px 30px auto;
+  grid-template-rows: auto!important
+}
+.tutorialContainer__6835f{
+  align-self: center;
+  top: 6px!important;
+
+  justify-self: unset!important;
+  margin-left: unset!important;
+}
+
+.tutorialContainer__6835f+.listItem__48528{
+  grid-area: buttons;
+  top: -6px!important;
+
+  justify-self: unset!important;
+  margin-right: unset!important;
+}
