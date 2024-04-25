@@ -50,7 +50,7 @@
 /*=============================================
 =                   MD + HSL                  =
 =============================================*/
-#app-mount .container_d1f8f5>.wrapper__216eb.guilds__2b93a{
+.guilds__2b93a{
 	margin: var(--HSL_10px) var(--outlineMG_e);
 	outline: 0;
 	box-shadow: none;
@@ -59,9 +59,12 @@
 }
 .tree__7a511{
 	margin-left: calc(var(--outlineMG_e) * 2);
+  max-width: calc(100% - var(--outlineMG_e) * 2);
+
 	border-radius: var(--outlineBR_e);
 
-	outline: var(--outline) solid var(--outlineCLR_e);
+
+	outline: var(--outline) solid rgb(var(--outlineCLR_e));
 	border-radius: var(--outlineBR_e)!important;
 	box-shadow: 0 0 var(--outlineBS_e);
 }
@@ -75,7 +78,7 @@
 /*=============================================
 =                     HSL                    =
 =============================================*/
-[data-list-id="guildsnav"]>.scroller_de945b.none_ff9f86.scrollerBase__65223{
+[data-list-id="guildsnav"]>.scroller_de945b{
   padding-top:15px;
 }
 .guilds__2b93a .scroller_de945b {
@@ -95,12 +98,10 @@
   width: 100vw;
 }
 
-.chat__52833,
 .container__694a1,
 .container_bd15da,
 .applicationStore__444b9,
-.containerSidenav_c2b517,
-.sidebar_e031be{
+.containerSidenav_c2b517{
   margin: var(--HSL);
 }
 .scroller_de945b.none__7a473.scrollerBase_f742b2>.listItem__48528 + [aria-label] {
