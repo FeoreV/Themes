@@ -52,8 +52,6 @@
 
 /* default */
 .listItem__48528, 
-.tutorialContainer__6835f,
-.tutorialContainer__6835f+.listItem__48528,
 #app-mount .wrapper__832f2:not(:has(.collapsed__98ad5)),
 [id*="folder-items-"]{ 
   width: 100%!important;
