@@ -1,16 +1,11 @@
 /*=============================================
 =              FVUI compatibility            =
 =============================================*/
-.sidebar_ded4b5>.container__590e2,
-.sidebar_ded4b5>.privateChannels__93473{
+.sidebar_ded4b5>:is(.container__590e2,.privateChannels__93473){
   margin-bottom: 0!important;
 } 
-.sidebar_e031be .content__690c5::before {
-  height: 15vh!important;
-}
-.sidebar_e031be .scroller__1f498 {
-  margin-top: -10vh;
-}
+
+
 
 #app-mount .searchBar_e4ea2a{
   position: relative;
@@ -28,32 +23,40 @@
 #app-mount .panels__58331{
   order: -1;
   padding-top: 1px;
-  margin-top: 10px;
-  position: sticky;
+  position: absolute!important;
+  width: 235px;
+  top: 10px;
+  height: fit-content;
 }
 
 
-#app-mount .searchBar__621ec{
-  order:10;
-  position: relative;
-}
-
+.searchBar__621ec,
 .container_f41675{
+  order:10;
   position: relative;
   top: unset!important;
   bottom: 12vh!important;
+  z-index: 999;
 }
 
-.sidebar_e031be>.container__7e23c,
-.sidebar_e031be>.privateChannels__9b518{
-  margin-top: -9vh!important;
-} 
+
+
 .sidebar_e031be .content__690c5{
-  margin-top: 4.5vh
+  margin-top: 5.5vh;
+}
+.sidebar_e031be .content__690c5::after{
+  position: relative;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 180px;
+}
+.animatedContainer__0e828{
+  display: none
 }
 
-.animatedContainer__0e828,
-.content__690c5>div[aria-hidden="true"][style="height: 84px;"]
-{display: none}
+.content__690c5>[style="height: 84px;"]{
+  display: none;
+}
 
 /*=====  End of Section TUP  ======*/
