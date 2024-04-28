@@ -22,4 +22,7 @@
   .membersGroup_cad095:has(+.member_aa4760){
     border-radius: var(--ML-border-radius) var(--ML-border-radius) 0 0;
   }
+.memberInner__4dac6{
+  border-radius: inherit!important;
+}
   /*=====  End of Section MemberList background  ======*/
