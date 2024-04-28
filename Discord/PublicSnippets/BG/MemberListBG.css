@@ -1,0 +1,15 @@
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/BG/MemberListBG.css);
+
+:root{
+  --ML-border-radius:16px; /* Rounding */
+  --ML-member-background: var(--background-tertiary); /* member color */
+  --ML-role-background: var(--background-tertiary); /* role color */
+}
+
+[class^=membersGroup]{
+  height: fit-content;
+  text-align: center;
+  padding: 12px 8px 0 16px;
+  margin-top: 10px;
+  margin-left: 8px;
+}

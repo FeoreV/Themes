@@ -1,0 +1,7 @@
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/BG/ChannelsBG.css);
+
+:root{
+  --channel-border-radius:16px; /*Rounding*/
+  --channel-background:var(--background-tertiary); /*background color*/
+  --channel-title-background: var(--background-tertiary);
+}
