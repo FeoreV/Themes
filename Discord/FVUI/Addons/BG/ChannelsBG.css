@@ -55,3 +55,6 @@
 .containerDefault_ae2ea4{
   border-radius: 0;
 }
+.container__342a0:has(+.containerDefault_ae2ea4) .containerDefault_ae2ea4{
+  border-radius: 0!important;
+}
