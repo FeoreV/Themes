@@ -24,7 +24,8 @@
 }
 
 .containerDefault_ae2ea4:first-of-type, /* first elements*/
-[style="height: 12px;"]+:is(.containerDefault_ae2ea4, .link_ddbb36){ 
+[style="height: 12px;"]+:is(.containerDefault_ae2ea4, .link_ddbb36),
+[style="height: 12px;"]+.containerDefault_ae2ea4 .link_ddbb36{ 
   border-radius: var(--channel-border-radius) var(--channel-border-radius) 0 0;
 }
 
