@@ -230,6 +230,6 @@
 }
 .userPopoutInner_ac0960:has(.avatar__991e2[src*="486130080263700480"])>.profileBadges__1f2ab:not(:has(.anchor_c8ddc0:hover)):hover::after{ /* feorev - small - text */
 	content:"Jägermeister";
-    color: #7fd673
+    color: #7fd673!important
 }
 /*=====  End of Section Badges  ======*/
