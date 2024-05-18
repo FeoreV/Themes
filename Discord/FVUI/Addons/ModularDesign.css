@@ -1,6 +1,11 @@
+:root{
+	--outlineMGFL: calc(var(--outlineMG) + 10px)!important; /* friendlist */
+}
+	/*ModularDesign*/
+
 :root{ /*MainModules*/
 	--outline: 3px; /*outline size*/
-	--outlineCLR: var(--color3); /*outline color*/
+	--outlineCLR: var(--color03); /*outline color*/
 	--outlineBR: 16px; /*outline border-radius (rounding)*/
 	--outlineMG: 2rem!important; /*outline margin*/
 	--outlineBS: 15px; /*outline glow (size/color)*/
@@ -46,10 +51,11 @@
 /*settings*/
 .layer_f7d46a >.standardSidebarView__12528>:is(.sidebarRegion__36437,.contentRegion__08eba)
 {
-	outline: var(--outline) solid rgb(var(--outlineCLR));
+	color: rgb(var(--outlineCLR, var(--color03)));
+	outline: var(--outline) solid currentcolor;
 	border-radius: var(--outlineBR)!important;
 	margin: calc(var(--outlineMG) * var(--HSL_top_enabled_MD)) 0 calc(var(--outlineMG) * var(--HSL_bottom_enabled_MD)) var(--outlineMG);
-	box-shadow: 0 0 var(--outlineBS) rgb(var(--outlineCLR));
+	box-shadow: 0 0 var(--outlineBS) rgb(var(--outlineCLR), var(--color3));
 	background: rgb(var(--outlineBG));
 }
 
@@ -78,10 +84,10 @@
 .nowPlayingColumn_b025fe,
 .profilePanel_e2cafe,
 .container_f79ab4 .members__573eb {
-	outline: calc(var(--outline2)/1.5) solid rgb(var(--outlineCLR));
+	outline: calc(var(--outline2)/1.5) solid rgb(var(--outlineCLR), var(--color3));
 	border-radius: var(--outlineBR2);
 	margin: calc(var(--outlineMG2)/2);
-	box-shadow: 0 0 var(--outlineBS2) rgb(var(--outlineCLR));
+	box-shadow: 0 0 var(--outlineBS2) rgb(var(--outlineCLR), var(--color3));
 }
 
 
