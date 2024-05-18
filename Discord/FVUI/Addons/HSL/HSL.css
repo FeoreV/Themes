@@ -1,3 +1,4 @@
+
 /*=============================================
 =            ServerRings + HSL            =
 =============================================*/
@@ -32,6 +33,18 @@
 
 
 
+
+
+
+
+
+/*=====  End of Section FriendList + MD  ======*/
+
+
+
+
+
+
 /*=============================================
 =              FVUI compatibility            =
 /*==========================================*/
@@ -50,16 +63,16 @@
 /*=============================================
 =                   MD + HSL                  =
 =============================================*/
-.guilds__2b93a{
+#app-mount .guilds__2b93a{
 	margin: var(--HSL_10px) var(--outlineMG_e);
 	outline: 0;
 	box-shadow: none;
 
 	overflow: visible;
 }
-.tree__7a511{
+#app-mount .tree__7a511{
 	margin-left: calc(var(--outlineMG_e) * 2);
-  max-width: calc(100% - var(--outlineMG_e) * 2);
+     max-width: calc(100% - var(--outlineMG_e) * 2);
 
 	border-radius: var(--outlineBR_e);
 
@@ -98,12 +111,12 @@
   width: 100vw;
 }
 
-.container__694a1,
+/* .container__694a1,
 .container_bd15da,
 .applicationStore__444b9,
 .containerSidenav_c2b517{
   margin: var(--HSL);
-}
+} */
 .scroller_de945b.none__7a473.scrollerBase_f742b2>.listItem__48528 + [aria-label] {
   display: flex;
 }
