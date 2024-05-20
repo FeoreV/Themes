@@ -1,28 +1,30 @@
-:root{
-	--outlineMGFL: calc(var(--outlineMG) + 10px)!important; /* friendlist */
-}
-	/*ModularDesign*/
+/*=============================================
+=                 ModularDesign               =
+=============================================*/
 
-:root{ /*MainModules*/
-	--outline: 3px; /*outline size*/
-	--outlineCLR: var(--color03); /*outline color*/
-	--outlineBR: 16px; /*outline border-radius (rounding)*/
-	--outlineMG: 2rem!important; /*outline margin*/
-	--outlineBS: 15px; /*outline glow (size/color)*/
-	--outlineBG: unset;  /*outline content background color*/
-	--outlineBLUR: 0; /*backdrop blur (ONLY WIN11)*/ /* Value: blur(8px) - enabled / none - disables (Don't use blur(0) to disable) */
+/*----------  Root  ----------*/
+
+:root{ /* MainModules */
+	--outline: 3px;
+	--outlineCLR: var(--color3);
+	--outlineBR: 16px;
+	--outlineMG: 2rem!important;
+	--outlineBS: 15px;
+	--outlineBG: unset;
+	--outlineBLUR: 0;
 }
 
-:root{ /*AdditionalModules*/
-	--outline2: 0; /*outline size*/
-	--outlineCLR2: var(--outlineCLR); /*outline color*/
-	--outlineBR2: var(--outlineBR); /*outline border-radius (rounding)*/
-	--outlineMG2: var(--outlineMG); /*outline margin*/
-	--outlineBS2: 0; /*outline glow (size/color)*/
-	--outlineBG2: unset; /*outline content background color*/
-	--outlineBLUR2: 0 /*backdrop blur (Not recommended)*/ /* Value: blur(8px) - enabled / none - disables (Don't use blur(0) to disable) */
+:root{ /* AdditionalModules */
+	--outline2: 0;
+	--outlineCLR2: var(--outlineCLR);
+	--outlineBR2: var(--outlineBR);
+	--outlineMG2: var(--outlineMG);
+	--outlineBS2: 0;
+	--outlineBG2: unset;
+	--outlineBLUR2: 0;
 }
-:root{
+
+:root{ /* Internal values */
   --bottomMG: var(--outlineMG)!important;
 
   --HSL_top_enabled:0;
@@ -33,7 +35,7 @@
   
   --HSL_10px:10px;
 }
-:root{ /*MainModules*/
+:root{ /* Internal values */
 	--outline_e: var(--outline);
 	--outlineCLR_e: var(--outlineCLR);
 	--outlineBR_e: var(--outlineBR);
@@ -42,14 +44,18 @@
 	--outlineBG_e: var(--outlineBG);
 	--outlineBLUR_e: var(--outlineBLUR);
 }
+:root{
+	--outlineMGFL: calc(var(--outlineMG) + 10px)!important; /* friendlist */
+}
+/*----------  General - Main  ----------*/
 
-
-.guilds__2b93a, /*guilds*/ 
-.sidebar_e031be, /*list*/
-.container_bd15da,
-.chat__52833,
-/*settings*/
-.layer_f7d46a >.standardSidebarView__12528>:is(.sidebarRegion__36437,.contentRegion__08eba)
+.guilds__2b93a, /* guilds */ 
+.sidebar_e031be, /* list */
+.container_bd15da, /* friendlist */
+.chat__52833, /* chat */
+.applicationStore__444b9, /* applicationStore */
+.shop_b31ed2, /* shop */
+.layer_f7d46a > .standardSidebarView__12528>:is(.sidebarRegion__36437,.contentRegion__08eba) /* settings */
 {
 	color: rgb(var(--outlineCLR, var(--color03)));
 	outline: var(--outline) solid currentcolor;
@@ -59,26 +65,26 @@
 	background: rgb(var(--outlineBG));
 }
 
+.chat__52833,
+.applicationStore__444b9,
+.container_bd15da,
+.contentRegion__08eba,
+.shop_b31ed2{
+	margin-right: var(--outlineMG)
+}
 
-
-
-
-
-
-
-.base_c0676e{
+.base_c0676e{ /* HSL fix */
 	margin: calc(var(--outlineMG) * var(--HSL_top_enabled)) 0 calc(var(--outlineMG) * var(--HSL_bottom_enabled)) 0;
 }
 
-
-.peopleColumn__0c784,
-.nowPlayingColumn_b025fe .scroller__7c25e,
-.profilePanel_e2cafe .none_ff9f86,
-.chat__52833 .container_f79ab4{
-	background: rgb(var(--outlineBG2))!important;
-	border-radius: 16px;
-
+.shop_b31ed2{
+	height: calc(100% - var(--outlineMG) * 2);
 }
+.shopScroll_caa423 {
+	max-height: calc(100% - var(--outlineMG) * 2);
+}
+
+/*----------  General - Additional  ----------*/
 
 .peopleColumn__0c784,
 .nowPlayingColumn_b025fe,
@@ -89,19 +95,15 @@
 	margin: calc(var(--outlineMG2)/2);
 	box-shadow: 0 0 var(--outlineBS2) rgb(var(--outlineCLR), var(--color3));
 }
-
-
-
-
-
-.chat__52833,
-.applicationStore__444b9,
-.container_bd15da,
-.contentRegion__08eba{
-	margin-right: var(--outlineMG)
+.peopleColumn__0c784,
+.nowPlayingColumn_b025fe .scroller__7c25e,
+.profilePanel_e2cafe .none_ff9f86,
+.chat__52833 .container_f79ab4{
+	background: rgb(var(--outlineBG2))!important;
+	border-radius: 16px;
 }
+/*=====  End of Section ModularDesign  ======*/
 
-
-.guilds__2b93a{
+/* .guilds__2b93a{
 	top:var(--topMG)!important
-}
+} */
