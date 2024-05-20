@@ -1,3 +1,13 @@
+/**
+* @name !ModularDesign
+* @author ٴFeoreVٴ#3377
+* @description ModularDesign
+* @version  DEV
+* @authorId 489785940546551831
+*/
+
+
+
 /*=============================================
 =                 ModularDesign               =
 =============================================*/
@@ -63,6 +73,27 @@
 	margin: calc(var(--outlineMG) * var(--HSL_top_enabled_MD)) 0 calc(var(--outlineMG) * var(--HSL_bottom_enabled_MD)) var(--outlineMG);
 	box-shadow: 0 0 var(--outlineBS) rgb(var(--outlineCLR), var(--color3));
 	background: rgb(var(--outlineBG));
+	position: relative;
+}
+
+:is(
+.guilds__2b93a, /* guilds */ 
+.sidebar_e031be, /* list */
+.container_bd15da, /* friendlist */
+.chat__52833, /* chat */
+.applicationStore__444b9, /* applicationStore */
+.shop_b31ed2, /* shop */
+.layer_f7d46a > .standardSidebarView__12528>:is(.sidebarRegion__36437,.contentRegion__08eba) /* settings */
+)::before
+{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+	border-radius: var(--outlineBR)!important;
+	
+	backdrop-filter: var(--outlineBLUR);
 }
 
 .chat__52833,
@@ -70,7 +101,7 @@
 .container_bd15da,
 .contentRegion__08eba,
 .shop_b31ed2{
-	margin-right: var(--outlineMG)
+	margin-right: var(--outlineMG)!important
 }
 
 .base_c0676e{ /* HSL fix */
