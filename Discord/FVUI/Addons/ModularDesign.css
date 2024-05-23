@@ -71,7 +71,7 @@
 	outline: var(--outline) solid currentcolor;
 	border-radius: var(--outlineBR)!important;
 	margin: calc(var(--outlineMG) * var(--HSL_top_enabled_MD)) 0 calc(var(--outlineMG) * var(--HSL_bottom_enabled_MD)) var(--outlineMG);
-	box-shadow: 0 0 var(--outlineBS) rgb(var(--outlineCLR), var(--color3));
+	box-shadow: 0 0 var(--outlineBS) rgb(var(--outlineCLR, var(--color03)));
 	background: rgb(var(--outlineBG));
 	position: relative;
 }
