@@ -5,7 +5,7 @@
 }
 :root{
   --HSL_top_enabled:1!important;
-  --HSL_top_enabled:2.5!important;
+  --HSL_top_enabled:2.5_MD!important;
 }
 .guilds__2b93a {
   top: 0;
