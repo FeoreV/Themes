@@ -41,8 +41,12 @@
 /*=====  End of Section FriendList + MD  ======*/
 
 
-
-
+/* MD + HSL*/
+.guilds__2b93a{
+	position: absolute!important;
+	width: calc(100% - var(--outlineMG) * 2 )!important;
+	left: 0!important;
+}
 
 
 /*=============================================
