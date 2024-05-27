@@ -96,7 +96,7 @@
 }
 
 .base_c0676e{ /* HSL fix */
-	margin: calc(var(--outlineMG) * var(--HSL_top_enabled) * 3 ) 0 calc(var(--outlineMG) * var(--HSL_bottom_enabled) * 3 ) 0!important;
+	margin: calc(var(--outlineMG) * var(--HSL_top_enabled_MD) * 3 ) 0 calc(var(--outlineMG) * var(--HSL_bottom_enabled_MD) * 3 ) 0!important;
 }
 
 .shop_b31ed2{
