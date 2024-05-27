@@ -4,8 +4,11 @@
   --HSL: 72px 0 0 0;
 }
 :root{
-  --HSL_top_enabled:1!important;
-  --HSL_top_enabled_MD:2.5!important;
+  --HSL_top_enabled: 1!important;
+  --HSL_top_enabled_MD: 1!important;
+
+  --HSL_bottom_enabled: 1!important;
+  --HSL_bottom_enabled_MD: 0!important;
 }
 .guilds__2b93a {
   top: 0;
