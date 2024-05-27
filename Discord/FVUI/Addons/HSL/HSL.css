@@ -144,7 +144,7 @@
 /* SL buttons*/
 .tree__7a511>.scroller_de945b{
   grid-template-areas: "homebutton buttons divider list"!important;
-  grid-template-columns: 48px 48px 30px auto;
+  grid-template-columns: 48px 48px 30px auto!important;
   grid-template-rows: auto!important
 }
 .tutorialContainer__6835f{
