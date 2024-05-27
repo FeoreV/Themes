@@ -93,8 +93,8 @@
 } */
 
 .base_c0676e{
-	margin-bottom: calc(72px * var(--HSL_bottom_enabled));
-	margin-top: calc(72px * var(--HSL_top_enabled)) 
+	margin-bottom: calc(72px * var(--HSL_bottom_enabled_MD));
+	margin-top: calc(72px * var(--HSL_top_enabled_MD)) 
 }
 
 .scroller_de945b > .listItem__48528 + [aria-label] {
