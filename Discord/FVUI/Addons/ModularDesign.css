@@ -47,12 +47,6 @@
 }
 /*----------  General - Main  ----------*/
 
-.guilds__2b93a{
-	position: absolute!important;
-	width: calc(100% - var(--outlineMG) * 2 )!important;
-	margin-left: 0!important;
-	left: var(--outlineMG)!important;
-}
 
 
 
