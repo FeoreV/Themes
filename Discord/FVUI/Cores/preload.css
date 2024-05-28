@@ -23,54 +23,53 @@
 
 :root {
     /*main*/
-  --color01: rgb(var(--color1));
-  --color02: rgb(var(--color2));
-  --color03: rgb(var(--color3));
-  --color04: rgb(var(--color4));
+    --color01: rgb(var(--color1));
+    --color02: rgb(var(--color2));
+    --color03: rgb(var(--color3));
+    --color04: rgb(var(--color4));
     /*opacity*/
-  --ColorOpacity  : 1;  /* opacity multiplier (0.1-...) */
-  --DisableOpacity: 0;  /* Default=0 (0 or 1) */
+    --ColorOpacity: 1; /* opacity multiplier (0.1-...) */
+    --DisableOpacity: 0; /* Default=0 (0 or 1) */
 	
-  --opacity01: rgba(var(--color1), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --opacity02: rgba(var(--color2), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity01: rgba(var(--color1), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity02: rgba(var(--color2), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
 
-  --opacity020a: rgba(var(--color2), calc(var(--ColorOpacity)*0.8*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity020a: rgba(var(--color2), calc(var(--ColorOpacity)*0.8*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
 
-  --opacity01a: rgba(var(--color1), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --opacity02a: rgba(var(--color2), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity01a: rgba(var(--color1), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity02a: rgba(var(--color2), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
 
-  --opacity01b: rgba(var(--color1), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --opacity02b: rgb(var(--color2),calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity01b: rgba(var(--color1), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity02b: rgb(var(--color2),calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
 
-  --opacity01c: rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --opacity02c: rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity01c: rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity02c: rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
 
-  --opacity03 : rgba(var(--color3), calc(var(--ColorOpacity)*0.5*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --opacity03a: rgba(var(--color3), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-      /*text*/
-  --text01: rgb(var(--text1));
-  --text02: rgb(var(--text2));
+    --opacity03: rgba(var(--color3), calc(var(--ColorOpacity)*0.5*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    --opacity03a: rgba(var(--color3), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+    /*text*/
+    --text01: rgb(var(--text1));
+    --text02: rgb(var(--text2));
 }
 
 :root {
-  --full01: rgba(var(--color1), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --full02: rgba(var(--color2), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full01: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full02: var(--full02_lite_MUI, rgba(var(--color2), calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-  --full020a: rgba(var(--color2), calc(var(--ColorOpacity)*0.8*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full020a: var(--full02_lite_MUI, rgba(var(--color2), calc(var(--ColorOpacity)*0.8*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-  --full01a: rgba(var(--color1), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --full02a: rgba(var(--color2), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full01a: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full02a: var(--full02_lite_MUI, rgba(var(--color2), calc(var(--ColorOpacity)*0.6*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-  --full01b: rgba(var(--color1), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --full02b: rgb(var(--color2), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full01b: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full02b: var(--full02_lite_MUI, rgb(var(--color2), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-  --full01c: rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --full02c: rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full01c: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full02c: var(--full01_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-  --full03 : rgba(var(--color3), calc(var(--ColorOpacity)*0.5*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
-  --full03a: rgba(var(--color3), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
+  --full03: var(--full03_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.5*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full03a: var(--full03_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 }
-
 @keyframes loaderr{
   to{
     --version      : "Make sure you used at least one of the subtheme OR did not break the syntax. If this doesn't help, reinstall the theme.";
