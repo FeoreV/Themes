@@ -22,7 +22,7 @@
 :root.theme-light{ /* Colors for users customization */
 	--color1_MUI: var(--accentcolor), 80%; /* Additional BG */
 	--color2_MUI: var(--accentcolor), 86%; /* Background */
-	--color3_MUI: var(--accentcolor), 69%; /* Blue */
+	--color3_MUI: var(--accentcolor), 40%; /* Blue */
 	--color4_MUI: 251, 55%, 38%; /* Gradient Color*/
 }
 
