@@ -14,7 +14,7 @@
 	--text1: 174, 174, 174;  /*accent*/
 	--text2: 107, 107, 107;  /*no accent*/
 }
-:root.theme-light { /* Colors for users customization */
+:roo:where(.theme-light) { /* Colors for users customization */
 	--color1: 211, 204, 227;  /* Additional BG */
 	--color2: 219, 219, 219;  /* Background */
 	--color3: 96,  205, 255;  /* Blue */
