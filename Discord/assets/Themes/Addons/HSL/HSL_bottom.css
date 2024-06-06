@@ -1,13 +1,1 @@
-@import url(https://feorev.github.io/Themes/Discord/assets/Themes/Addons/HSL/HSL.css);
-
-:root{
-  --HSL: 0 0 72px 0;
-}
-:root{
-  --HSL_bottom_enabled:1!important;
-  --HSL_bottom_enabled_MD:2.5!important;
-}
-.guilds__2b93a {
-  bottom: 0;
-  right: 0;
-}
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/HSL/HSL_bottom.css);
