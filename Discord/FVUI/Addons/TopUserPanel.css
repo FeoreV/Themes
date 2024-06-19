@@ -2,23 +2,23 @@
 /*=============================================
 =              FVUI compatibility            =
 =============================================*/
-.sidebar_ded4b5>.container__590e2,
-.sidebar_ded4b5>.privateChannels__93473{
+.sidebar_a4d4d9>.container_ee69e0,
+.sidebar_a4d4d9>.privateChannels_f0963d{
   margin-bottom: 0!important;
 } 
-.container__7e23c .content__690c5::before {
+.container_ee69e0 .content_eed6a8::before {
   height: 15vh!important;
 }
-.sidebar_e031be .scroller__1f498 {
+.sidebar_a4d4d9 .scroller_c43953 {
   margin-top: -10vh;
 }
 
-#app-mount .searchBar_e4ea2a{
+#app-mount .searchBar_f0963d{
   position: relative;
   backdrop-filter: none;
 }
 
-.inner_ab95dc{display: none;}
+.inner_adcaac{display: none;}
 /*=====  End of Section FVUI compatibility  ======*/
 
 /*=============================================
@@ -26,7 +26,7 @@
 =============================================*/
 
 
-#app-mount .panels__58331{
+#app-mount .panels_a4d4d9{
   order: -1;
   padding-top: 1px;
   margin-top: 10px;
@@ -35,27 +35,27 @@
 }
 
 
-#app-mount .searchBar__621ec{
+#app-mount .searchBar_f0963d{
   order:10;
   position: relative;
 }
 
-.container_f41675{
+.container_fd6364{
   position: relative;
   top: unset!important;
   bottom: 12vh!important;
 }
 
-.sidebar_e031be>.container__7e23c,
-.sidebar_e031be>.privateChannels__9b518{
+.sidebar_a4d4d9>.container_ee69e0,
+.sidebar_a4d4d9>.privateChannels_f0963d{
   margin-top: -9vh!important;
 } 
-.sidebar_e031be .content__690c5{
+.sidebar_a4d4d9 .content_eed6a8{
   margin-top: 4.5vh
 }
 
-.animatedContainer__0e828,
-.content__690c5>div[aria-hidden="true"][style="height: 84px;"]
+.animatedContainer_fd6364,
+.content_eed6a8>div[aria-hidden="true"][style="height: 84px;"]
 {display: none}
 
 /*=====  End of Section TUP  ======*/
