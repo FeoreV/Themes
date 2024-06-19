@@ -1,4 +1,11 @@
-@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/badges.css);
+/**
+* @name !mica
+* @author ٴFeoreVٴ#3377
+* @description mica 
+* @version  DEV
+* @authorId 489785940546551831
+*/
+
 /*=============================================
 =                    Data                     =
 =============================================*/
@@ -15,8 +22,8 @@
 /*=============================================
 =                    Alert                    =
 =============================================*/
-.wordmarkWindows__05c46::after,
-.titleBar__01af6::after{
+.wordmarkWindows_a934d8::after,
+.titleBar_a934d8::after{
 	left: 1%;
 	color: red;
 	font-size: 16px;
@@ -25,10 +32,10 @@
 	filter: drop-shadow(0 0 10px currentColor);
 }
 
-.wordmarkWindows__05c46::after {
+.wordmarkWindows_a934d8::after {
 	content: var(--warring11);
 }
-.titleBar__01af6::after {
+.titleBar_a934d8::after {
     content: var(--warringdef);
 }
 
@@ -44,7 +51,7 @@
   background: none !important;
 }
 
-.theme-light .wordmarkWindows_ffbc5e::before { /*THEME-LIGHT*/
+.theme-light .wordmarkWindows_a934d8::before { /*THEME-LIGHT*/
     position: fixed;
 	left: 50%;
 
@@ -56,7 +63,7 @@
 }
 
 
-.sidebar_ded4b5,
-.sidebar_e031be,.container__7e23c { 
-    background: none!important;
+.sidebar_a4d4d9,
+.sidebar_a4d4d9 { 
+    background: none;
 }
