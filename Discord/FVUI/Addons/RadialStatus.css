@@ -1,8 +1,8 @@
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 /*  */
-.wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>[fill="#f0b232"]){color:var(--rs-idle-color)} .wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>svg>rect[fill="#f0b232"]){color:var(--rs-idle-color)}
-.wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>[fill="#23a55a"]){color:var(--rs-online-color)} .wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>svg>rect[fill="#23a55a"]){color:var(--rs-online-color)}
-.wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>[fill="#f23f43"]){color:var(--rs-dnd-color)} .wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>svg>rect[fill="#f23f43"]){color:var(--rs-dnd-color)}
-.wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>[fill="#80848e"]){color:var(--rs-offline-color)} .wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>svg>rect[fill="#80848e"]){color:var(--rs-offline-color)}
-div:not(.userMenuItem__7b29e)>.wrapper__3ed10:not(:has(.mask_d5067d.svg_a6bf1c>[fill="#80848e"])){box-shadow: 0 0 5px 3px currentcolor}
-.wrapper__3ed10:has(.mask_d5067d.svg_a6bf1c>[fill="#80848e"]){box-shadow: 0 0 3px 2px currentcolor}
+.wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>[fill="#f0b232"]){color:var(--rs-idle-color)} .wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>svg>rect[fill="#f0b232"]){color:var(--rs-idle-color)}
+.wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>[fill="#23a55a"]){color:var(--rs-online-color)} .wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>svg>rect[fill="#23a55a"]){color:var(--rs-online-color)}
+.wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>[fill="#f23f43"]){color:var(--rs-dnd-color)} .wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>svg>rect[fill="#f23f43"]){color:var(--rs-dnd-color)}
+.wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>[fill="#80848e"]){color:var(--rs-offline-color)} .wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>svg>rect[fill="#80848e"]){color:var(--rs-offline-color)}
+div:not(.userMenuItem_e1268c)>.wrapper_c51b4e:not(:has(.mask_c51b4e.svg_c51b4e>[fill="#80848e"])){box-shadow: 0 0 5px 3px currentcolor}
+.wrapper_c51b4e:has(.mask_c51b4e.svg_c51b4e>[fill="#80848e"]){box-shadow: 0 0 3px 2px currentcolor}
