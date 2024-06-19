@@ -56,6 +56,9 @@
 }
 /*----------  General - Main  ----------*/
 
+#app-mount .container_ee69e0{
+	background: transparent; /* !!! */
+}
 
 .guilds_a4d4d9, /* guilds */ 
 .sidebar_a4d4d9, /* list */
@@ -70,9 +73,10 @@
 	border-radius: var(--outlineBR)!important;
 	margin: calc(var(--outlineMG)) 0 calc(var(--outlineMG)) var(--outlineMG);
 	box-shadow: 0 0 var(--outlineBS) rgb(var(--outlineCLR, var(--color03)));
-	background: rgb(var(--outlineBG));
+	background: rgb(var(--outlineBG))!important;
 	position: relative;
 }
+
 
 :is(
 .guilds_a4d4d9, /* guilds */ 
