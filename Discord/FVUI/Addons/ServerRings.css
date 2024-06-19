@@ -2,7 +2,7 @@
 /*=============================================
 =                  ServerRings                =
 =============================================*/
-[data-list-id="guildsnav"]>.scroller_de945b.none_ff9f86.scrollerBase__65223{
+[data-list-id="guildsnav"]>.scroller_fea3ef.none_c49869.scrollerBase_c49869{
   padding-top: 30px;
 }
 /*----------  Variables  ----------*/
@@ -14,12 +14,12 @@
 }
 
 /*----------  Pills  ----------*/
-.listItem__48528>.pill__13f64,
-.listItem__48528>.wrapper_b4903b{
+.listItem_c96c45>.pill_db6521,
+.listItem_c96c45>.wrapper_fd07a3{
   display: none
 }
 
-.listItem__48528::before{ /* general */
+.listItem_c96c45::before{ /* general */
   position: absolute;
   content: "";
   width: 48px;  
@@ -51,71 +51,71 @@
 
 
 /* default */
-.listItem__48528, 
-#app-mount .wrapper__832f2:not(:has(.collapsed__98ad5)),
+.listItem_c96c45, 
+#app-mount .wrapper_bc7085:not(:has(.collapsed_bc7085)),
 [id*="folder-items-"]{ 
   width: 100%!important;
   height: fit-content!important;
   margin: 0 0 var(--server-margin) 0!important;
 }
-.tree__7a511>.scroller_de945b.none__7a473.scrollerBase_f742b2{
+.tree_fea3ef>.scroller_fea3ef.none_eed6a8.scrollerBase_eed6a8{
   padding-right: 0!important;
 } 
 
 /* HSL */
-/* #app-mount .listItem__48528, 
-#app-mount .tutorialContainer__6835f,
+/* #app-mount .listItem_c96c45, 
+#app-mount .tutorialContainer_c96c45,
 #app-mount [id*="folder-items-"],
-#app-mount .wrapper__832f2:not(:has(.collapsed__98ad5)){
+#app-mount .wrapper_bc7085:not(:has(.collapsed_bc7085)){
   width: fit-content!important;
   margin: 0 16px 0 0!important;
 } */
 
 /*----------  Definition of rings  ----------*/
-.listItem__48528:not(:has(>.guildSeparator__75928)):hover::before { /* hover */
+.listItem_c96c45:not(:has(>.guildSeparator_d0c57e)):hover::before { /* hover */
   color:var(--server-color)!important;
   opacity:1!important;
 }
-/* .listItem__48528:has(>.wrapper_b4903b>.item_f9d377[style*="transform: none;"])::before {
+/* .listItem_c96c45:has(>.wrapper_fd07a3>.item_fd07a3[style*="transform: none;"])::before {
   color:var(--server-color)!important;
   opacity:1!important;
 } */
 
-.listItem__48528:has(>.wrapper_b4903b>.item_f9d377[style="opacity: 1; height: 8px; transform: none;"])::before { /* unread */
+.listItem_c96c45:has(>.wrapper_fd07a3>.item_fd07a3[style="opacity: 1; height: 8px; transform: none;"])::before { /* unread */
   color:var(--server-color)!important;
   opacity:1!important;
 }
-.listItem__48528:has(.lowerBadge_e89e22)::before{ /* mention */
+.listItem_c96c45:has(.lowerBadge_c5f96a)::before{ /* mention */
   color:var(--server-color-mention);
   opacity:1;
 }
 
-.listItem__48528:has(>.wrapper_b4903b>.item_f9d377[style*="height: 40"])::before { /* selected */
+.listItem_c96c45:has(>.wrapper_fd07a3>.item_fd07a3[style*="height: 40"])::before { /* selected */
   color:var(--server-color-selected)!important;
   opacity:1;
 } 
 
 /*---------- OnClick  ----------*/
-.blobContainer_c44493,
-.listItemWrapper__3d465 {
+.blobContainer_a5ad63,
+.listItemWrapper_dfb2f8 {
   transition: .3s transform;
 }
-.blobContainer_c44493:active,
-.listItemWrapper__3d465:active {
+.blobContainer_a5ad63:active,
+.listItemWrapper_dfb2f8:active {
   transform: scale(.9);
 }
 
 /*----------  Other  ----------*/
 
 /* default separator */
-.listItem__48528:has(.guildSeparator__75928){
+.listItem_c96c45:has(.guildSeparator_d0c57e){
   height: fit-content;
   width: 100%!important;
   margin: 0 0 var(--server-margin) 0!important;
 }
 
 /* HSL separator */
-/* #app-mount .listItem__48528:has(.guildSeparator__75928){
+/* #app-mount .listItem_c96c45:has(.guildSeparator_d0c57e){
   height: fit-content!important;
   width: fit-content!important;
   margin: 0 var(--server-margin) 0 0!important;
@@ -124,32 +124,32 @@
 
 
  /* notify mask  */
-/* .svg__34dd4>foreignObject{
+/* .svg_c5f96a>foreignObject{
   mask:none
 } */
 
-/* .scroller_de945b {
+/* .scroller_fea3ef {
   overflow: visible scroll !important;
 } */
-.tree__7a511 {
+.tree_fea3ef {
   width: 200%;
 }
 
-.listItem__48528{
+.listItem_c96c45{
   left: -25%;
   position: relative;
 }
-.expandedFolderBackground_b1385f.collapsed__98ad5+.listItem__48528{
+.expandedFolderBackground_bc7085.collapsed_bc7085+.listItem_c96c45{
   left: 0;
 }
 
-.guilds__2b93a {
+.guilds_a4d4d9 {
   overflow: visible;
   z-index: 1;
 }
 
 
-.channel__0aef5.container__3792d{
+.channel_c91bad.container_b15955{
   z-index: 2;
 }
 /*=====  End of Section ServerRings  ======*/
