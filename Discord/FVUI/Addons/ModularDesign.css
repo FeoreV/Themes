@@ -56,13 +56,6 @@
 }
 /*----------  General - Main  ----------*/
 
-.guilds_a4d4d9{
-	position: absolute!important;
-	width: calc(100% - var(--outlineMG) * 2 )!important;
-	left: 0!important;
-}
-
-
 
 .guilds_a4d4d9, /* guilds */ 
 .sidebar_a4d4d9, /* list */
