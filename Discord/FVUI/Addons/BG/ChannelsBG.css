@@ -12,50 +12,50 @@
 }
 
 /*----------  Code  ----------*/
-.containerDefault_ae2ea4{ /* channels bg*/
+.containerDefault_f6f816{ /* channels bg*/
   background: var(--channel-background);
 }
 
-.containerDefault_e3b32b{ /* title */
+.containerDefault_a08117{ /* title */
   background: var(--channel-title-background);
   border-radius: var(--channel-border-radius) var(--channel-border-radius) 0 0;
   margin: 8px 0 0 8px;
   padding:0
 }
 
-.containerDefault_ae2ea4:first-of-type, /* first elements*/
-[style="height: 12px;"]+:is(.containerDefault_ae2ea4, .link_ddbb36),
-[style="height: 12px;"]+.containerDefault_ae2ea4 .link_ddbb36{ 
+.containerDefault_f6f816:first-of-type, /* first elements*/
+[style="height: 12px;"]+:is(.containerDefault_f6f816, .link_d8bfb3),
+[style="height: 12px;"]+.containerDefault_f6f816 .link_d8bfb3{ 
   border-radius: var(--channel-border-radius) var(--channel-border-radius) 0 0;
 }
 
-.link_ddbb36{
+.link_d8bfb3{
   border-radius: inherit;
 }
 
-.containerDefault_ae2ea4:is(:not(:is(:has(+.containerDefault_ae2ea4)),:has(+div>.containerDefault_ae2ea4),:has(+.container__342a0)),:has(+.containerDefault_e3b32b)), 
-:is(.containerDefault_ae2ea4:hover, .selected__11b62):has(+.containerDefault_e3b32b) .link_ddbb36{
+.containerDefault_f6f816:is(:not(:is(:has(+.containerDefault_f6f816)),:has(+div>.containerDefault_f6f816),:has(+.container_e1e976)),:has(+.containerDefault_a08117)), 
+:is(.containerDefault_f6f816:hover, .selected_f6f816):has(+.containerDefault_a08117) .link_d8bfb3{
   border-radius: 0 0 var(--channel-border-radius) var(--channel-border-radius);
 }
 
-.containerDefault_ae2ea4{
+.containerDefault_f6f816{
   margin-left: 8px;
 }
-.containerDefault_ae2ea4  .wrapper__612a5{
+.containerDefault_f6f816  .wrapper_d8bfb3{
   margin: 0;
 }
 
-.containerDefault_ae2ea4:has(+.sectionDivider__9dbcb){
+.containerDefault_f6f816:has(+.sectionDivider_c43953){
   border-radius: calc(var(--channel-border-radius)/2)!important;
 }
 
-.containerDefault_e3b32b:has(>.collapsed_c227d2):not(:has(+.containerDefault_ae2ea4)){ 
+.containerDefault_a08117:has(>.collapsed_a08117):not(:has(+.containerDefault_f6f816)){ 
   border-radius: calc(var(--channel-border-radius)/2);
 }
 
-.containerDefault_ae2ea4{
+.containerDefault_f6f816{
   border-radius: 0;
 }
-.container__342a0:has(+.containerDefault_ae2ea4) .containerDefault_ae2ea4{
+.container_e1e976:has(+.containerDefault_f6f816) .containerDefault_f6f816{
   border-radius: 0!important;
 }
