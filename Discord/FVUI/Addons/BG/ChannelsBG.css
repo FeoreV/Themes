@@ -48,7 +48,8 @@ li:has([data-list-item-id^="channels___members"]){
 }
 
 .containerDefault_a08117:has(+.containerDefault_a08117),
-.containerDefault_a08117:nth-last-child(1){
+.containerDefault_a08117:nth-last-child(1),
+[style="height: 12px;"] + .containerDefault_f6f816:has(+.containerDefault_a08117){
 	border-radius: calc(var(--channel-border-radius) / 2);
 }
 
@@ -61,6 +62,8 @@ li:has([data-list-item-id^="channels___members"]){
 
 li:not([class]) > .containerDefault_f6f816{
 	border-radius: 0;
+	margin: 0!important;
+	max-width: none!important;
 }
 
 #app-mount li:not([class]):has(+.sectionDivider_c43953){
