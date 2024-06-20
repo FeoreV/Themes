@@ -2,27 +2,34 @@
 =            MemberList background            =
 =============================================*/
 :root{
-    --ML-border-radius:16px; /* Rounding */
-    --ML-member-background: var(--opacity01a); /* member color */
-    --ML-role-background: var(--opacity02a); /* role color */
-  }
-  
-  .member_aa4760{
-    background: var(--ML-member-background)!important;
-    border-radius: 0;
-  }
-  .membersGroup_cad095{
-    background: var(--ML-role-background)!important;
-  }
-  
-  .member_aa4760:has(+.membersGroup_cad095){
-    border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius);
-    margin-bottom: 10px;
-  }
-  .membersGroup_cad095:has(+.member_aa4760){
-    border-radius: var(--ML-border-radius) var(--ML-border-radius) 0 0;
-  }
-.memberInner__4dac6{
+  --ML-border-radius:16px; /* Rounding */
+  --ML-member-background: var(--opacity01a); /* member color */
+  --ML-role-background: var(--opacity02a); /* role color */
+}
+
+.member_a31c43{
+  background: var(--ML-member-background)!important;
+  border-radius: 0;
+}
+.membersGroup_cbd271{
+  background: var(--ML-role-background)!important;
+  margin-left: 8px;
+
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member_a31c43:has(+.membersGroup_cbd271){
+  border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius);
+  margin-bottom: 10px;
+}
+.membersGroup_cbd271:has(+.member_a31c43){
+  border-radius: var(--ML-border-radius) var(--ML-border-radius) 0 0;
+}
+.memberInner_a31c43{
   border-radius: inherit!important;
 }
-  /*=====  End of Section MemberList background  ======*/
+/*=====  End of Section MemberList background  ======*/
