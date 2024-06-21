@@ -1,3 +1,10 @@
+/**
+* @name !materialyou
+* @author ٴFeoreVٴ#3377
+* @description materialyou 
+* @version  DEV
+* @authorId 489785940546551831
+*/
 :root {
 	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
 }
@@ -5,7 +12,9 @@
 	--accentcolor-HUE: 210;
 	--accentcolor-SATURATION: 68%;
 }
-
+:root{
+	--outlineCLR_MUI: rgb(from hsl(var(--color3_MUI)) r g b);
+}
 /* :root.theme-light {
 	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
 	--accentcolor-HUE: 199;
@@ -22,7 +31,7 @@
 :root.theme-light{ /* Colors for users customization */
 	--color1_MUI: var(--accentcolor), 80%; /* Additional BG */
 	--color2_MUI: var(--accentcolor), 86%; /* Background */
-	--color3_MUI: var(--accentcolor), 40%; /* Blue */
+	--color3_MUI: var(--accentcolor), 69%; /* Blue */
 	--color4_MUI: 251, 55%, 38%; /* Gradient Color*/
 }
 
