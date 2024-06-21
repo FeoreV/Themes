@@ -30,6 +30,8 @@
   --HSL_top_enabled_MD:0;
   --HSL_bottom_enabled_MD:0;
   
+  --MD_enabled: 1;
+
   --HSL_10px:10px;
 }
 :root{ /* Internal values */
@@ -66,6 +68,8 @@
 	background: rgb(var(--outlineBG))!important;
 	position: relative;
 }
+
+
 
 
 :is(
