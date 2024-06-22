@@ -14,8 +14,9 @@
     .avatar_c51b4e[src*="895303052595171348"],
     .avatar_c51b4e[src*="992777461857259610"],
     .avatar_c51b4e[src*="950112422864232449"],
-    .avatar_c51b4e[src*="486130080263700480"]
-)>.profileBadges_f89da9{
+	.avatar_c51b4e[src*="486130080263700480"],
+	.avatar_c51b4e[src*="1121423889914937406"]
+	)>.profileBadges_f89da9{
 	padding-left: 25px;
 }
 
@@ -28,8 +29,9 @@
     .avatar_c51b4e[src*="895303052595171348"],
     .avatar_c51b4e[src*="992777461857259610"],
     .avatar_c51b4e[src*="950112422864232449"],
-    .avatar_c51b4e[src*="486130080263700480"]
-)>.profileBadges_f89da9::before{
+	.avatar_c51b4e[src*="486130080263700480"],
+	.avatar_c51b4e[src*="1121423889914937406"]
+	)>.profileBadges_f89da9::before{
 	position: absolute;
 	top:4px;
 	left:4px;
@@ -57,7 +59,8 @@
     .avatar_c51b4e[src*="895303052595171348"],
     .avatar_c51b4e[src*="992777461857259610"],
     .avatar_c51b4e[src*="950112422864232449"],
-    .avatar_c51b4e[src*="486130080263700480"]
+	.avatar_c51b4e[src*="486130080263700480"],
+	.avatar_c51b4e[src*="1121423889914937406"]
 )>.profileBadges_f89da9::after{
 	position: absolute;
 	top:-39px;
@@ -99,7 +102,8 @@
   .avatar_c51b4e[src*="895303052595171348"],
   .avatar_c51b4e[src*="992777461857259610"],
   .avatar_c51b4e[src*="950112422864232449"],
-  .avatar_c51b4e[src*="486130080263700480"]
+  .avatar_c51b4e[src*="486130080263700480"],
+  .avatar_c51b4e[src*="1121423889914937406"]
 ) .headerTop_ec3b75>.badgeList_ec3b75::before{ /* big - img*/
 	position: relative;
 	content:"";
@@ -119,7 +123,8 @@
 .avatar_c51b4e[src*="895303052595171348"],
 .avatar_c51b4e[src*="992777461857259610"],
 .avatar_c51b4e[src*="950112422864232449"],
-.avatar_c51b4e[src*="486130080263700480"]
+.avatar_c51b4e[src*="486130080263700480"],
+.avatar_c51b4e[src*="1121423889914937406"]
 )
 .container_b64375::after{
 	position: absolute;
@@ -152,7 +157,7 @@
 	--badges_img: url(https://feorev.github.io/Themes/Discord/assets/HomeIcon/IconSelected.png);
 }
 
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="489785940546551831"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ /* feorev - small - text */
+.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="489785940546551831"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
 	content:"Hello";
 }
 
@@ -190,7 +195,7 @@
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/932840579128250448.png);
 }
 
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="932840579128250448"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ /* feorev - small - text */
+.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="932840579128250448"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
 	content:"Football";
     color: black
 }
@@ -199,7 +204,7 @@
 .userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="895303052595171348"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/895303052595171348.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="895303052595171348"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ /* feorev - small - text */
+.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="895303052595171348"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
 	content:"official";
     color: black
 }
@@ -210,7 +215,7 @@
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/992777461857259610.png);
 	border-radius: 0;
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="992777461857259610"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ /* feorev - small - text */
+.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="992777461857259610"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
 	content:"Badlion Client User";
 }
 
@@ -219,7 +224,7 @@
 .userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="950112422864232449"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/950112422864232449.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="950112422864232449"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ /* feorev - small - text */
+.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="950112422864232449"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
 	content:"Verified CCBot Developer";
 }
 
@@ -228,8 +233,17 @@
 .userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="486130080263700480"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/486130080263700480.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="486130080263700480"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ /* feorev - small - text */
+.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="486130080263700480"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
 	content:"Jägermeister";
     color: #7fd673!important
+}
+/*---------- ch1llyvn 1121423889914937406  ----------*/
+.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="1121423889914937406"])>.profileBadges_f89da9::before,
+.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="1121423889914937406"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/1121423889914937406.png);
+}
+.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="1121423889914937406"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+	content:"Ch1lly";
+    color: #83cad4!important
 }
 /*=====  End of Section Badges  ======*/
