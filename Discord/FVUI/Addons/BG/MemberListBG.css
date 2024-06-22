@@ -7,13 +7,16 @@
   --ML-role-background: var(--opacity02a); /* role color */
 }
 
-.member_a31c43{
+#app-mount .member_a31c43{
   background: var(--ML-member-background)!important;
   border-radius: 0;
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
 }
 .membersGroup_cbd271{
   background: var(--ML-role-background)!important;
-  margin-left: 8px;
+  margin: 0px!important;
 
   padding: 0;
 
@@ -23,13 +26,13 @@
 }
 
 .member_a31c43:has(+.membersGroup_cbd271){
-  border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius);
+  border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius)!important;
   margin-bottom: 10px;
 }
 .membersGroup_cbd271:has(+.member_a31c43){
-  border-radius: var(--ML-border-radius) var(--ML-border-radius) 0 0;
+  border-radius: var(--ML-border-radius) var(--ML-border-radius) 0 0!important;
 }
 .memberInner_a31c43{
-  border-radius: inherit!important;
+  border-radius: inherit;
 }
 /*=====  End of Section MemberList background  ======*/
