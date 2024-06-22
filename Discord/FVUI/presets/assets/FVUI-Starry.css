@@ -1,0 +1,31 @@
+/*=============================================
+=                 FVUI-Starry                 =
+=============================================*/
+:root{
+  --FVUI: "FVUI-Starry";
+  --customdesc: "Do you like the stars?";
+}
+.theme-dark .focused_d90b3d{
+  --white-500: black!important
+}
+
+.tooltipContent_b6c360,
+.tooltipContent_b6c360 :is(.guildNameText_a6ae3c,.muteText_a6ae3c),
+[aria-selected="true"],
+.result_f14193[aria-selected="true"] :is(span, .miscContainer_f4e139),
+.withTagAsButton_b2ca13:hover .title_d1da5f,
+.welcomeCTAButton_f6dde0{
+  color:black!important
+}
+
+#app-mount .guilds_a4d4d9 .childWrapper_a6ce15{
+  filter: grayscale(100%);
+}
+.selected_a0::before{
+  filter: none!important;
+}
+
+.result_f14193[aria-selected="true"] path{
+  fill: black!important;
+}
+/*=====  End of Section FVUI-Starry  ======*/
