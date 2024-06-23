@@ -1,5 +1,5 @@
 :root{
-  --HSL_enabled: 1
+  --HSL_enabled: 1!important
 }
 /*=============================================
 =            ServerRings + HSL            =
