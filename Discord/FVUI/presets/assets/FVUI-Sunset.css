@@ -1,0 +1,83 @@
+.channel_c91bad:has([href="/channels/@me"],[href="/store"],[href="/shop"]),
+.channel_c91bad:has([href="/channels/@me"])::after,
+.panels_a4d4d9,
+.wrapper_d880dc.minimum_d880dc,
+.wrapper_cbf230,
+.searchBar_f0963d > .searchBarComponent_f0963d,
+.headerContent_fd6364.primaryInfo_fd6364,
+.chat_a7d72e>.header_f1fd9c,
+.chat_a7d72e.page_d20375>.header_d20375,
+.title_a7d72e,
+.channelTextArea_a7d72e,
+.wrapper_faf5ab,
+
+.search_a46bef.open_a46bef.focused_a46bef,
+.resultsGroup_b0286e,
+#app-mount .queryContainer_eedf95,
+
+.navList_af5dbb,
+.header_c6ee36,
+.wrapper_ba23fe,
+.scrollerInner_e2e187>.container_c2668b,
+.searchBar_e0840f,
+.inner__999f6,
+.container_e44302[role="navigation"],
+.searchBar_e0840f,
+.layer_cd0de5:has(>.menu_d90b3d,[aria-modal="true"],.fixed_d90b3d,[role="dialog"],>.didRender_f88ae3:not(.fade_f88ae3)):not(:has(.quickswitcher_f4e139))::before,
+.focusLock_f9a4c9:not(:has(.quickswitcher_f4e139,.carouselModal_d2b9a1)), .focusLock_f9a4c9:not(:has(>.quickswitcher_f4e139,.carouselModal_d2b9a1,.userProfileModalOuter_c69a7b))>.root_f9a4c9,
+.submenuPaddingContainer_d90b3d::before,
+.bd-modal-root,
+.userProfileModalOuter_c69a7b>div,
+.userPopoutOuter_c69a7b0>.userPopoutInner_c69a7b,
+.accountProfilePopoutWrapper_b2ca13
+{
+    outline:none!important
+}
+.panels_a4d4d9>:is(.wrapper_adcaac,.container_b2ca13,.panel_bf1a22){
+    border:none!important
+}
+
+.channel_c91bad:has([href="/channels/@me"],[href="/store"],[href="/shop"]),
+.channel_c91bad:has([href="/channels/@me"])::after,
+.panels_a4d4d9,
+.wrapper_d880dc.minimum_d880dc,
+.wrapper_cbf230,
+.searchBar_f0963d > .searchBarComponent_f0963d,
+.headerContent_fd6364.primaryInfo_fd6364,
+.chat_a7d72e>.header_f1fd9c,
+.chat_a7d72e.page_d20375>.header_d20375,
+.title_a7d72e,
+.channelTextArea_a7d72e,
+.wrapper_faf5ab,
+
+.search_a46bef.open_a46bef.focused_a46bef,
+.resultsGroup_b0286e,
+#app-mount .queryContainer_eedf95,
+
+.navList_af5dbb,
+.header_c6ee36,
+.wrapper_ba23fe,
+.scrollerInner_e2e187>.container_c2668b,
+.searchBar_e0840f,
+.inner__999f6,
+.container_e44302[role="navigation"],
+.searchBar_e0840f,
+.layer_cd0de5:has(>.menu_d90b3d,[aria-modal="true"],.fixed_d90b3d,[role="dialog"],>.didRender_f88ae3:not(.fade_f88ae3)):not(:has(.quickswitcher_f4e139))::before,
+.focusLock_f9a4c9:not(:has(.quickswitcher_f4e139,.carouselModal_d2b9a1)), .focusLock_f9a4c9:not(:has(>.quickswitcher_f4e139,.carouselModal_d2b9a1,.userProfileModalOuter_c69a7b))>.root_f9a4c9,
+.submenuPaddingContainer_d90b3d::before,
+.bd-modal-root,
+.userProfileModalOuter_c69a7b>div,
+.userPopoutOuter_c69a7b0>.userPopoutInner_c69a7b,
+.accountProfilePopoutWrapper_b2ca13
+{
+    box-shadow:0 0 15px 3px #000!important;
+}
+
+.layer_cd0de5{
+	border-radius: var(--modal-border); /* !important! */
+}
+
+.membersGroup_cbd271.container_cc72c1{
+    border-radius: 10px;
+    box-shadow:0 0 10px #000!important;
+}
