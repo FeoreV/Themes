@@ -34,7 +34,7 @@
 
   --HSL_10px:10px;
 }
-:root{ /* Internal values */
+:root #app-mount{ /* Internal values */
 	--outline_e: var(--outline);
 	--outlineCLR_e: var(--outlineCLR);
 	--outlineBR_e: var(--outlineBR);
@@ -89,7 +89,7 @@
 
 	border-radius: var(--outlineBR)!important;
 	
-	backdrop-filter: blur(var(--outlineBLUR));
+	backdrop-filter: var(--outlineBLUR);
 }
 
 .chat_a7d72e,
