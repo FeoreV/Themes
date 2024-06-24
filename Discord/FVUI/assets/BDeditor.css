@@ -30,3 +30,7 @@
   z-index: 99999999;
   pointer-events: none;
 }
+
+.wordmarkWindows_a934d8::after{
+  display:none!important;
+}
