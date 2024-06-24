@@ -18,22 +18,18 @@
 =                    Alert                    =
 =============================================*/
 
-.wordmarkWindows_a934d8::after,
-.titleBar_a934d8::after{
-	left: 1%;
-	color: red;
+.wordmarkWindows_a934d8::after{
+	position: absolute;
+	left: 10px;
+
+  	color: red;
 	font-size: 16px;
-    font-weight: 900;
-    position: fixed;
+  	font-weight: 900;
 	filter: drop-shadow(0 0 10px currentColor);
+
+	content: var(--warringmica, var(--warring11));
 }
 
-.wordmarkWindows_a934d8::after {
-	content: var(--warring11)!important;
-}
-.titleBar_a934d8::after {
-    content: var(--warringmica);
-}
 
 /*=============================================
 =                    Code                     =
@@ -42,7 +38,6 @@
 :root{
 	--bg-overlay-3: var(--color02)!important; /* optimis */
 }
-.sidebar_a4d4d9,
 .sidebar_a4d4d9 { /* optimis */
     background: var(--color02);
 }
