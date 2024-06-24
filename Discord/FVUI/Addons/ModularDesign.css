@@ -58,13 +58,13 @@
 	background: transparent; /* !!! */
 }
 
-.guilds_a4d4d9, /* guilds */ 
-.sidebar_a4d4d9, /* list */
-.container_c2739c, /* friendlist */
-.chat_a7d72e, /* chat */
-.applicationStore_cecc86, /* applicationStore */
-.shop_e77fa3, /* shop */
-.layer_d4b6c5 > .standardSidebarView_c25c6d>:is(.sidebarRegion_c25c6d,.contentRegion_c25c6d) /* settings */
+#app-mount .guilds_a4d4d9, /* guilds */ 
+#app-mount .sidebar_a4d4d9, /* list */
+#app-mount .container_c2739c, /* friendlist */
+#app-mount .chat_a7d72e, /* chat */
+#app-mount .applicationStore_cecc86, /* applicationStore */
+#app-mount .shop_e77fa3, /* shop */
+#app-mount .layer_d4b6c5 > .standardSidebarView_c25c6d>:is(.sidebarRegion_c25c6d,.contentRegion_c25c6d) /* settings */
 {
 	color: var(--outlineCLR_MUI, rgb(var(--outlineCLR)));
 	outline: var(--outline) solid currentcolor;
@@ -79,13 +79,13 @@
 
 
 :is(
-.guilds_a4d4d9, /* guilds */ 
-.sidebar_a4d4d9, /* list */
-.container_c2739c, /* friendlist */
-.chat_a7d72e, /* chat */
-.applicationStore_cecc86, /* applicationStore */
-.shop_e77fa3, /* shop */
-.layer_d4b6c5 > .standardSidebarView_c25c6d>:is(.sidebarRegion_c25c6d,.contentRegion_c25c6d) /* settings */
+#app-mount .guilds_a4d4d9, /* guilds */ 
+#app-mount .sidebar_a4d4d9, /* list */
+#app-mount .container_c2739c, /* friendlist */
+#app-mount .chat_a7d72e, /* chat */
+#app-mount .applicationStore_cecc86, /* applicationStore */
+#app-mount .shop_e77fa3, /* shop */
+#app-mount .layer_d4b6c5 > .standardSidebarView_c25c6d>:is(.sidebarRegion_c25c6d,.contentRegion_c25c6d) /* settings */
 )::before
 {
 	content: "";
@@ -98,11 +98,11 @@
 	backdrop-filter: var(--outlineBLUR);
 }
 
-.chat_a7d72e,
-.applicationStore_cecc86,
-.container_c2739c,
-.contentRegion_c25c6d,
-.shop_e77fa3{
+#app-mount .chat_a7d72e,
+#app-mount .applicationStore_cecc86,
+#app-mount .container_c2739c,
+#app-mount .contentRegion_c25c6d,
+#app-mount .shop_e77fa3{
 	margin-right: var(--outlineMG)!important
 }
 
