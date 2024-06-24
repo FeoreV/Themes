@@ -1,3 +1,6 @@
 @import url(https://feorev.github.io/Themes/Discord/FVUI/Cores/lite.css);
 @import url(https://feorev.github.io/Themes/Discord/FVUI/Cores/full.css);
 @import url(https://feorev.github.io/Themes/Discord/FVUI/Cores/CustomBackground.css);
+:root{
+  --bdeditoralern: 0!important;
+}
