@@ -1,3 +1,10 @@
+/**
+* @name !11
+* @author ٴFeoreVٴ#3377
+* @description 11 
+* @version  DEV
+* @authorId 489785940546551831
+*/
 
 /*=============================================
 =                    Data                     =
@@ -21,7 +28,22 @@
 :root{
 	--subtheme: "FVUI-11";
 	--warring11:  "Choose ONE of the suggested themes";
-}	
+}
+
+.wordmarkWindows_a934d8::after{
+	position: absolute;
+	left: 10px;
+
+  color: red;
+	font-size: 16px;
+  font-weight: 900;
+	filter: drop-shadow(0 0 10px currentColor);
+
+	content: var(--warringmica, var(--warringdef));
+}
+
+
+
 :root{
 	--DisableBlur: calc(1 - var(--DisableOpacity));
 	--tblur4: blur(calc(var(--DisableBlur) * 4px))!important;
@@ -41,7 +63,7 @@
   backdrop-filter: blur(8px);
 }
 
-.sidebar_a4d4d9{
+#app-mount .sidebar_a4d4d9{
   background: none!important;
 }
 .shopScroll_e77fa3,
