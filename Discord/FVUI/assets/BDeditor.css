@@ -1,3 +1,32 @@
 @import url(https://feorev.github.io/Themes/Discord/FVUI/Cores/lite.css);
 @import url(https://feorev.github.io/Themes/Discord/FVUI/Cores/full.css);
 @import url(https://feorev.github.io/Themes/Discord/FVUI/Cores/Default.css);
+
+:root{
+  --bdeditoralern: 1;
+}
+
+.app_bd26cc::after{
+  position: absolute;
+  content: "IMPORTANT: Enable one of the subthemes in the Addon tab. IF YOU SKIP THIS STEP THE THEME WILL NOT WORK";
+  
+  transition: 1s opacity;
+  opacity: var(--bdeditoralern);
+
+  background: var(--opacity03);
+  text-align: center;
+
+  width: calc(100% - 80px);
+  height: fit-content;
+
+  margin: 20px;
+  padding: 20px;
+
+  backdrop-filter: blur(8px);
+  border-radius: 32px;
+  bottom: 0;
+  color:red;
+  font-size: 30px;
+  z-index: 99999999;
+  pointer-events: none;
+}
