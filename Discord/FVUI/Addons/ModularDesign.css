@@ -20,8 +20,14 @@
 	--outlineBR: 16px;
 	--outlineMG: 2rem;
 	--outlineBS: 15px;
-	--outlineBG: unset;
+
+	--outlineBG: var(--outlineBGclr), var(--outlineBGalpha);
+	--outlineBGclr: unset;
+	--outlineBGalpha: 1;
+
 	--outlineBLUR: 0;
+
+	--outlineCLRopacity:1;
 }
 
 :root{ /* Internal values */
@@ -30,7 +36,7 @@
   --HSL_top_enabled_MD:0;
   --HSL_bottom_enabled_MD:0;
   
-  --MD_enabled: 1;
+  --MD_enabled: 1!important;
 
   --HSL_10px:10px;
 }
