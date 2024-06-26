@@ -4,41 +4,23 @@
 
 /*----------  General  ----------*/
 
-/* small */
-.userPopoutInner_c69a7b:has( /* small - padding */ 
-    .avatar_c51b4e[src*="489785940546551831"],
-    .avatar_c51b4e[src*="802381130916954132"],
-    .avatar_c51b4e[src*="835541619910377493"],
-    .avatar_c51b4e[src*="766358612930330635"],
-    .avatar_c51b4e[src*="932840579128250448"],
-    .avatar_c51b4e[src*="895303052595171348"],
-    .avatar_c51b4e[src*="992777461857259610"],
-    .avatar_c51b4e[src*="950112422864232449"],
-	.avatar_c51b4e[src*="486130080263700480"],
-	.avatar_c51b4e[src*="1121423889914937406"]
-	)>.profileBadges_f89da9{
-	padding-left: 25px;
-}
-
-.userPopoutInner_c69a7b:has( /* img */
-	.avatar_c51b4e[src*="489785940546551831"],
+.userProfileInner_c69a7b:has( /* img */
+  .avatar_c51b4e[src*="489785940546551831"],
 	.avatar_c51b4e[src*="802381130916954132"],
 	.avatar_c51b4e[src*="835541619910377493"],
-    .avatar_c51b4e[src*="766358612930330635"],
-    .avatar_c51b4e[src*="932840579128250448"],
-    .avatar_c51b4e[src*="895303052595171348"],
-    .avatar_c51b4e[src*="992777461857259610"],
-    .avatar_c51b4e[src*="950112422864232449"],
+  .avatar_c51b4e[src*="766358612930330635"],
+  .avatar_c51b4e[src*="932840579128250448"],
+  .avatar_c51b4e[src*="895303052595171348"],
+  .avatar_c51b4e[src*="992777461857259610"],
+  .avatar_c51b4e[src*="950112422864232449"],
 	.avatar_c51b4e[src*="486130080263700480"],
 	.avatar_c51b4e[src*="1121423889914937406"]
-	)>.profileBadges_f89da9::before{
-	position: absolute;
-	top:4px;
-	left:4px;
+)
+.container_e5a42d::before{
 	content:"";
 
-	width: 22px;
-  height: 22px;
+	width: 20px;
+  height: 20px;
 
 	border-radius: 100%;
 	background-size: contain;
@@ -46,25 +28,22 @@
 	background-image: var(--badges_img)!important;
 }
 
-.userPopoutOuter_c69a7b {
-  overflow: visible;
-}
-
-#app-mount .userPopoutInner_c69a7b:has( /* text */ 
-    .avatar_c51b4e[src*="489785940546551831"],
-    .avatar_c51b4e[src*="802381130916954132"],
-    .avatar_c51b4e[src*="835541619910377493"],
-    .avatar_c51b4e[src*="766358612930330635"],
-    .avatar_c51b4e[src*="932840579128250448"],
-    .avatar_c51b4e[src*="895303052595171348"],
-    .avatar_c51b4e[src*="992777461857259610"],
-    .avatar_c51b4e[src*="950112422864232449"],
+#app-mount .userProfileInner_c69a7b:has( /* text */ 
+  .avatar_c51b4e[src*="489785940546551831"],
+  .avatar_c51b4e[src*="802381130916954132"],
+  .avatar_c51b4e[src*="835541619910377493"],
+  .avatar_c51b4e[src*="766358612930330635"],
+  .avatar_c51b4e[src*="932840579128250448"],
+  .avatar_c51b4e[src*="895303052595171348"],
+  .avatar_c51b4e[src*="992777461857259610"],
+  .avatar_c51b4e[src*="950112422864232449"],
 	.avatar_c51b4e[src*="486130080263700480"],
 	.avatar_c51b4e[src*="1121423889914937406"]
-)>.profileBadges_f89da9::after{
+)
+.container_e5a42d::after{
 	position: absolute;
-	top:-39px;
-  left: -40px;
+
+  transform: translate(-39px, -40px);
 
 	width: fit-content;
   height: fit-content;
@@ -86,164 +65,94 @@
 	justify-content: center;
 	align-items: center;
 
-	background:var(--opacity03);
+	background:var(--full03);
 	backdrop-filter: var(--blur4);
 
 	color:#fff;
 }
 
-/* big */
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(
-	.avatar_c51b4e[src*="489785940546551831"],
-	.avatar_c51b4e[src*="802381130916954132"],
-	.avatar_c51b4e[src*="835541619910377493"],
-  .avatar_c51b4e[src*="766358612930330635"],
-  .avatar_c51b4e[src*="932840579128250448"],
-  .avatar_c51b4e[src*="895303052595171348"],
-  .avatar_c51b4e[src*="992777461857259610"],
-  .avatar_c51b4e[src*="950112422864232449"],
-  .avatar_c51b4e[src*="486130080263700480"],
-  .avatar_c51b4e[src*="1121423889914937406"]
-) .headerTop_ec3b75>.badgeList_ec3b75::before{ /* big - img*/
-	position: relative;
-	content:"";
-	width: 22px;
-	height: 22px;
-	background-size: contain;
-	border-radius: 100%;
-	background-image:var(--badges_img);
-}
-
-.userPopoutInner_c69a7b:has( /* text */ 
-.avatar_c51b4e[src*="489785940546551831"],
-.avatar_c51b4e[src*="802381130916954132"],
-.avatar_c51b4e[src*="835541619910377493"],
-.avatar_c51b4e[src*="766358612930330635"],
-.avatar_c51b4e[src*="932840579128250448"],
-.avatar_c51b4e[src*="895303052595171348"],
-.avatar_c51b4e[src*="992777461857259610"],
-.avatar_c51b4e[src*="950112422864232449"],
-.avatar_c51b4e[src*="486130080263700480"],
-.avatar_c51b4e[src*="1121423889914937406"]
-)
-.container_b64375::after{
-	position: absolute;
-	top:-39px;
-     left: -40px;
-
-	width: fit-content;
-    height: fit-content;
-
-    min-width: 100px;
-    min-height: 29px;
-
-     padding: 2px 0px;
-    margin: 0 3px;
-
-	border-radius: 8px;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	background:var(--opacity03);
-	backdrop-filter: var(--blur4);
-
-	color:#fff;
-}
 /*----------  feorev 489785940546551831  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="489785940546551831"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="489785940546551831"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="489785940546551831"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/assets/HomeIcon/IconSelected.png);
 }
-
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="489785940546551831"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="489785940546551831"]) .container_e5a42d:hover::after{ 
 	content:"Hello";
 }
 
 /*----------  cazaservices 802381130916954132  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="802381130916954132"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="802381130916954132"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="802381130916954132"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/802381130916954132.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="802381130916954132"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="802381130916954132"]) .container_e5a42d:hover::after{
 	content:"Owner Of TNB Shop";
 }
 
 /*---------- player_107 766358612930330635  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="766358612930330635"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="766358612930330635"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="766358612930330635"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/766358612930330635.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="766358612930330635"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="766358612930330635"]) .container_e5a42d:hover::after{
 	content:"Player_107";
 }
 
 /*---------- andreasomg1000 835541619910377493  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="835541619910377493"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="835541619910377493"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="835541619910377493"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/835541619910377493.png);
 }
 
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="835541619910377493"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="835541619910377493"]) .container_e5a42d:hover::after{ 
 	content:"DEATH";
 }
 
 /*---------- moey_o 932840579128250448  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="932840579128250448"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="932840579128250448"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="932840579128250448"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/932840579128250448.png);
 }
 
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="932840579128250448"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="932840579128250448"]) .container_e5a42d:hover::after{ 
 	content:"Football";
-    color: black
+  color: black
 }
 /*---------- elmorens 895303052595171348  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="895303052595171348"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="895303052595171348"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="895303052595171348"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/895303052595171348.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="895303052595171348"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="895303052595171348"]) .container_e5a42d:hover::after{ 
 	content:"official";
-    color: black
+  color: black
 }
 
 /*---------- tnvy0_0 992777461857259610  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="992777461857259610"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="992777461857259610"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
-	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/992777461857259610.png);
-	border-radius: 0;
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="992777461857259610"]) .container_e5a42d::before{
+  --badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/992777461857259610.png);
+  border-radius: 0;
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="992777461857259610"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="992777461857259610"]) .container_e5a42d:hover::after{ 
 	content:"Badlion Client User";
 }
 
 /*---------- alessiotsu 950112422864232449  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="950112422864232449"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="950112422864232449"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="950112422864232449"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/950112422864232449.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="950112422864232449"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="950112422864232449"]) .container_e5a42d:hover::after{ 
 	content:"Verified CCBot Developer";
 }
 
 /*---------- rebqi 486130080263700480  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="486130080263700480"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="486130080263700480"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="486130080263700480"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/486130080263700480.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="486130080263700480"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="486130080263700480"]) .container_e5a42d:hover::after{ 
 	content:"Jägermeister";
     color: #7fd673!important
 }
 /*---------- ch1llyvn 1121423889914937406  ----------*/
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="1121423889914937406"])>.profileBadges_f89da9::before,
-.userProfileModalInner_c69a7b.userProfileInner_c69a7b div:has(.avatar_c51b4e[src*="1121423889914937406"]) .headerTop_ec3b75>.badgeList_ec3b75::before{
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="1121423889914937406"]) .container_e5a42d::before{
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/1121423889914937406.png);
 }
-.userPopoutInner_c69a7b:has(.avatar_c51b4e[src*="1121423889914937406"])>.profileBadges_f89da9:not(:has(.anchor_af404b:hover)):hover::after{ 
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="1121423889914937406"]) .container_e5a42d:hover::after{ 
 	content:"Ch1lly";
-    color: #83cad4!important
+  color: #83cad4!important
 }
 /*=====  End of Section Badges  ======*/
