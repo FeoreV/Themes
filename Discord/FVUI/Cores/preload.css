@@ -69,8 +69,8 @@
   --full01c: var(--full01c_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))))
   --full02c: var(--full02c_lite_MUI, rgba(var(--color1), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 
-  --full03 : var(--full03_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.5*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
-  --full03a: var(--full03a_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.2*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full03 : var(--full03_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.8*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
+  --full03a: var(--full03a_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 }
 
 @keyframes loaderr{
