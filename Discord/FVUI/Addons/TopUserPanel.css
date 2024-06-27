@@ -13,11 +13,6 @@
   margin-top: -10vh;
 }
 
-#app-mount .searchBar_f0963d{
-  position: relative;
-  backdrop-filter: none;
-}
-
 .inner_adcaac{display: none;}
 /*=====  End of Section FVUI compatibility  ======*/
 
@@ -35,15 +30,11 @@
 }
 
 
-#app-mount .searchBar_f0963d{
+#app-mount .searchBar_f0963d,
+#app-mount .container_fd6364 {
   order:10;
-  position: relative;
-}
-
-.container_fd6364{
-  position: relative;
-  top: unset!important;
-  bottom: 12vh!important;
+  position: absolute;
+  bottom: 0!important;
 }
 
 .sidebar_a4d4d9>.container_ee69e0,
