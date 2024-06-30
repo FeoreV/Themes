@@ -5,59 +5,65 @@
 /*----------  General  ----------*/
 
 .userProfileInner_c69a7b:has( /* img */
-  .avatar_c51b4e[src*="489785940546551831"],
+	.avatar_c51b4e[src*="489785940546551831"],
 	.avatar_c51b4e[src*="802381130916954132"],
 	.avatar_c51b4e[src*="835541619910377493"],
-  .avatar_c51b4e[src*="766358612930330635"],
-  .avatar_c51b4e[src*="932840579128250448"],
-  .avatar_c51b4e[src*="895303052595171348"],
-  .avatar_c51b4e[src*="992777461857259610"],
-  .avatar_c51b4e[src*="950112422864232449"],
+	.avatar_c51b4e[src*="766358612930330635"],
+	.avatar_c51b4e[src*="932840579128250448"],
+	.avatar_c51b4e[src*="895303052595171348"],
+	.avatar_c51b4e[src*="992777461857259610"],
+	.avatar_c51b4e[src*="950112422864232449"],
 	.avatar_c51b4e[src*="486130080263700480"],
-	.avatar_c51b4e[src*="1121423889914937406"]
+	.avatar_c51b4e[src*="1121423889914937406"],
+	.avatar_c51b4e[src*="615359270367526912"]
 )
 .container_e5a42d::before{
 	content:"";
 
 	width: 20px;
-  height: 20px;
+	height: 20px;
 
 	border-radius: 100%;
 	background-size: contain;
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-image: var(--badges_img)!important;
 }
 
+.body_b07019{
+	z-index: 5;
+}
+
 #app-mount .userProfileInner_c69a7b:has( /* text */ 
-  .avatar_c51b4e[src*="489785940546551831"],
-  .avatar_c51b4e[src*="802381130916954132"],
-  .avatar_c51b4e[src*="835541619910377493"],
-  .avatar_c51b4e[src*="766358612930330635"],
-  .avatar_c51b4e[src*="932840579128250448"],
-  .avatar_c51b4e[src*="895303052595171348"],
-  .avatar_c51b4e[src*="992777461857259610"],
-  .avatar_c51b4e[src*="950112422864232449"],
+	.avatar_c51b4e[src*="489785940546551831"],
+	.avatar_c51b4e[src*="802381130916954132"],
+	.avatar_c51b4e[src*="835541619910377493"],
+	.avatar_c51b4e[src*="766358612930330635"],
+	.avatar_c51b4e[src*="932840579128250448"],
+	.avatar_c51b4e[src*="895303052595171348"],
+	.avatar_c51b4e[src*="992777461857259610"],
+	.avatar_c51b4e[src*="950112422864232449"],
 	.avatar_c51b4e[src*="486130080263700480"],
-	.avatar_c51b4e[src*="1121423889914937406"]
+	.avatar_c51b4e[src*="1121423889914937406"],
+	.avatar_c51b4e[src*="615359270367526912"]
 )
 .container_e5a42d::after{
-	position: absolute;
+	position: fixed;
 
-  transform: translate(-39px, -40px);
+	transform: translate(-39px, -40px);
 
 	width: fit-content;
-  height: fit-content;
+	height: fit-content;
 
-  min-width: 120px;
-  min-height: 29px;
+	min-width: 120px;
+	min-height: 29px;
 
-  padding: 4px 6px;
-  margin: 0 3px;
+	padding: 4px 6px;
+	margin: 0 3px;
 
-  font-size: 14px!important;
-  font-style: normal;
-  line-height: 16px;
-  overflow-wrap: break-word;
+	font-size: 14px!important;
+	font-style: normal;
+	line-height: 16px;
+	overflow-wrap: break-word;
 
 	border-radius: 8px;
 
@@ -69,7 +75,14 @@
 	backdrop-filter: var(--blur4);
 
 	color:#fff;
+
+	z-index: 999999999999999999999999;
 }
+
+
+
+
+
 
 /*----------  feorev 489785940546551831  ----------*/
 .userProfileInner_c69a7b:has(.avatar_c51b4e[src*="489785940546551831"]) .container_e5a42d::before{
@@ -152,7 +165,17 @@
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/1121423889914937406.png);
 }
 .userProfileInner_c69a7b:has(.avatar_c51b4e[src*="1121423889914937406"]) .container_e5a42d:hover::after{ 
-	content:"Ch1lly";
-  color: #83cad4!important
+ 	content: "Ch1lly";
+	 color  : #83cad4!important
 }
+/*---------- oogaboogabrain 615359270367526912  ----------*/
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="615359270367526912"]) .container_e5a42d::before{
+	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/615359270367526912.png);
+}
+.userProfileInner_c69a7b:has(.avatar_c51b4e[src*="615359270367526912"]) .container_e5a42d:hover::after{ 
+ 	content: "'to Québec icitte";
+	color  : #fff!important;
+	background: #003DA5!important;
+}
+
 /*=====  End of Section Badges  ======*/
