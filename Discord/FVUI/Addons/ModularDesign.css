@@ -73,6 +73,9 @@
 	box-shadow: 0 0 var(--outlineBS) currentcolor;
 	background: rgb(var(--outlineBG))!important;
 	position: relative;
+
+	padding: 3px;
+	box-sizing: border-box;
 }
 
 
