@@ -1,170 +1,235 @@
 :root{
-  --HSL_enabled: 1!important
-}
-/*=============================================
-=            ServerRings + HSL            =
-=============================================*/
-#app-mount .listItem_c96c45, 
-#app-mount .tutorialContainer_c96c45,
-#app-mount [id*="folder-items-"],
-#app-mount .wrapper_bc7085:not(:has(.collapsed_bc7085)){
-  width: fit-content!important;
-  margin: 0 16px 0 0!important;
-}
-#app-mount .tutorialContainer_c96c45,
-#app-mount .tutorialContainer_f9623d{
-  width: 48px!important;
-} 
-
-#app-mount .listItem_c96c45:has(.guildSeparator_d0c57e){
-  height: 32px!important;
-  width: fit-content!important;
-  margin: 8px 8px 0 !important;
-}
-#app-mount .guildSeparator_d0c57e{
-  width: 2px!important;
-  height: 32px!important;
+  --guilds-md-hsl-temp-height: calc(100vw - var(--outlineMG_e) * 2 )!important;
+  --guilds-md-hsl-temp-margin: calc(var(--outlineMG_e) / 2 * var(--HSL-top-enabled)) 0 calc(var(--outlineMG_e) / 2 * var(--HSL-bottom-enabled)) 0!important;
+  --guilds-md-hsl-temp-left: calc(100vw * var(--HSL-bottom-enabled) var(--hsl_math_temp) var(--outlineMG_e))!important;
 }
 
 
+:root {
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+  --server-spacing: 16px;
+  --server-container: calc(var(--server-size) + 20px);
+  --server-direction: var(--HSL-server-direction, column);
+  --server-alignment: var(--HSL-server-alignment, flex-start);
+}
 
-.listItem_c96c45:has(.guildSeparator_d0c57e) {
-  width: 20px;
-}  
-/*=====  End of Section ServerRings + HSL  ======*/
+:root{
+  --HSL-bottom-enabled: 0;
+  --HSL-top-enabled: 1;
 
-
-
-
-
-
-
-
-/*=====  End of Section FriendList + MD  ======*/
-
-
-/* MD + HSL*/
-.guilds_a4d4d9{
-	position: absolute!important;
-	width: calc(100% - var(--outlineMG) * 2 )!important;
-	left: 0!important;
+  --hsl_math_temp: +;
 }
 
 
-/*=============================================
-=              FVUI compatibility            =
-/*==========================================*/
-.tree_fea3ef {
-  width: 100%!important;
+#app-mount .guilds_a4d4d9 {
+  width: var(--server-container);
 }
-.listItem_c96c45{
-  left: 0!important;
-  position: relative;
+#app-mount .guilds_a4d4d9 .scrollerWrap-1IAIlv {
+  width: calc(100% + 30px);
 }
-/*=====  End of Section FVUI compatibility  ======*/
-
-
-
-
-
-
-/*=============================================
-=                     HSL                    =
-=============================================*/
-[data-list-id="guildsnav"]>.scroller_fea3ef{
-  padding-top:15px;
+#app-mount .guilds_a4d4d9 .svg_c5f96a,
+#app-mount .guilds_a4d4d9 .wrapper_c5f96a,
+#app-mount .guilds_a4d4d9 .guildsError-b7zR5H,
+#app-mount .guilds_a4d4d9 .placeholderMask_f734d8 {
+  width: var(--server-size);
+  height: var(--server-size);
 }
-.guilds_a4d4d9 .scroller_fea3ef {
-  overflow: auto hidden !important;
+#app-mount .guilds_a4d4d9 [role=group] {
+  height: auto !important;
+}
+#app-mount .guilds_a4d4d9 [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 50%;
+  translate: -50% 0;
+}
+#app-mount .guilds_a4d4d9 .wrapper_fd07a3 {
+  height: var(--server-size) !important;
+}
+#app-mount .guilds_a4d4d9 .wrapper_bc7085 {
+  width: var(--server-container);
+}
+#app-mount .guilds_a4d4d9 [class*=listItem]:not([class*=listItemWrapper]) {
+  width: var(--server-container);
 }
 
-.listItem_c96c45 + [aria-label] {
+#app-mount .app_bd26cc .base_a4d4d9 {
+  top: var(--server-container) !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+}
+#app-mount .sidebar_a4d4d9 {
+  border-radius: 0;
+}
+#app-mount [class*=unreadMentionsIndicator] {
+  width: var(--server-size);
+  padding: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+}
+#app-mount .guilds_a4d4d9 {
+  transform-origin: top left;
+  transform: rotate(-90deg);
+  height: 100vw !important;
+  top: var(--server-container);
+  bottom: unset;
+  position: absolute !important;
+  left: 0;
+}
+#app-mount .guilds_a4d4d9 > [data-list-id=guildsnav] {
+  margin-bottom: 0 !important;
+}
+#app-mount .guilds_a4d4d9 .scrollerBase_c49869 {
+  padding: var(--server-spacing) 0 !important;
   display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
+  align-items: var(--server-alignment);
+  justify-content: var(--server-alignment);
 }
+#app-mount .guilds_a4d4d9 .scrollerBase_c49869 > div[style]:not(.listItem-2P_4kh) {
+  height: auto !important;
+}
+#app-mount .guilds_a4d4d9 .scrollerBase_c49869 > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
+  padding-top: 1px;
+}
+#app-mount .guilds_a4d4d9 .scrollerBase_c49869 > div[aria-label] {
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
 
-/*----------  Position  ----------*/
+  width: 100%; /* ! */
+  height: 100%; /* ! */
+}
+#app-mount .guilds_a4d4d9 [class*=pill] span {
+  height: 100% !important;
+  transform: scale(0, 1) !important;
+  transition: 0.15s ease !important;
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+}
+#app-mount .guilds_a4d4d9 .wrapper_bc7085 {
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
+}
+#app-mount .guilds_a4d4d9 .wrapper_bc7085 ul[role=group] {
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
+}
+#app-mount .guilds_a4d4d9 [class*=listItem]:not([class*=listItemWrapper]) {
+  width: var(--server-size);
+  transform: rotate(90deg);
+  margin: 0 7px;
+  position: unset;
+}
+#app-mount .guilds_a4d4d9 [class*=guildSeparator] {
+  transform: rotate(90deg);
+  width: var(--server-size);
+}
+#app-mount .guilds_a4d4d9 [class*=expandedFolderBackground] {
+  border-radius: 10px;
+  height: 100%;
 
-.guilds_a4d4d9 {
   position: absolute;
-  z-index: +1;
-  height: 72px;
-  width: 100vw;
-}
 
-/* .container_d1c246,
-.container_c2739c,
-.applicationStore_cecc86,
-.containerSidenav_d576e9{
-  margin: var(--HSL);
-} */
-
-.base_a4d4d9{
-	margin-bottom: calc(72px * var(--HSL_bottom_enabled_MD));
-	margin-top: calc(72px * var(--HSL_top_enabled_MD)) 
+  left: calc(50% - 3px);
 }
-
-.scroller_fea3ef > .listItem_c96c45 + [aria-label] {
-  display: flex;
+#app-mount .guilds_a4d4d9 .folder_bc7085 {
+  background: transparent;
 }
-[id*="folder-items-"],
-.wrapper_bc7085 {
-  display: flex;
-  width: fit-content !important;
-}
-
-/*----------  SL  ----------*/
-.guilds_a4d4d9 .scroller_fea3ef {
-  overflow: auto hidden !important;
-  padding: 10px;
-}
-
-.listItem_c96c45, /* ! */
-.tutorialContainer_c96c45,
-.tutorialContainer_c96c45+.listItem_c96c45 {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 0;
-}
-.listItem_c96c45 { /* ! */
-  flex-direction: column;
-  margin-left: 8px;
-
-}
-/*----------  other  ----------*/
-.expandedFolderBackground_bc7085 {
-  width: calc(100% - 8px);
-  height: 48px;
+#app-mount .guilds_a4d4d9 .wrapper_b7c66a {
   top: 0;
-  left: 8px;
+  bottom: 0;
 }
-.childWrapper_a6ce15.acronym_fb7739{
-  border-radius: 100%;
+#app-mount .guilds_a4d4d9 .target_b7c66a::before {
+  top: 0;
+  height: var(--server-size);
+  width: 4px;
+  left: -6px;
 }
-/* .tutorialContainer_f9623d+.listItem_c96c45{
+#app-mount .guilds_a4d4d9.hidden_fea3ef + .base_a4d4d9 {
+  top: 0 !important;
+}
+#app-mount [class*=listItemTooltip] {
+  position: absolute;
+  max-width: unset;
+  white-space: nowrap;
+  margin-left: calc(var(--server-size) / -1 - 20px);
+  top: calc(var(--server-size) - 10px);
+}
+#app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
+  transform: rotate(180deg);
+  top: -5px !important;
+  right: unset;
+  left: 13px;
+  z-index: 1;
+}
+#app-mount .friendsOnline-2JkivWm, #app-mount .friendsOnline_2JkivW {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  top: calc(-50% + var(--server-spacing));
+  left: -50%;
+  width: calc(var(--server-size) + var(--server-spacing));
   display: flex;
-  flex-direction: column;
-} */
-
-/*=====  End of Section HSL  ======*/
-
-/* SL buttons*/
-.tree_fea3ef>.scroller_fea3ef{
-  grid-template-areas: "homebutton buttons divider list"!important;
-  grid-template-columns: 48px 48px 30px auto!important;
-  grid-template-rows: auto!important
+  justify-content: center;
 }
-.tutorialContainer_c96c45{
-  align-self: center;
-  top: 6px!important;
-
-  justify-self: unset!important;
-  margin-left: unset!important;
+#app-mount .guilds_a4d4d9.content_Pph8t6,
+#app-mount .BF-folderSidebar {
+  position: absolute !important;
+  top: calc(var(--server-container) * 2) !important;
+}
+#app-mount .guilds_a4d4d9.content_Pph8t6:not(.closed-j55_T-) + .base_a4d4d9,
+#app-mount .BF-folderSidebar:not(.closed-j55_T-) + .base_a4d4d9 {
+  top: calc(var(--server-container) * 2.5) !important;
+}
+#app-mount .guilds_a4d4d9 .frame_oXWS21[class*=listItem] {
+  height: var(--server-size) !important;
+}
+#app-mount .guilds_a4d4d9 .frame_oXWS21[class*=listItem] .wrapper__8436d {
+  height: 100% !important;
+}
+#app-mount .guilds_a4d4d9 .frame_oXWS21[class*=listItem] .button-Jt-tIg {
+  width: 100%;
+  height: 100% !important;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#app-mount .BF-folderSidebar {
+  top: calc(var(--server-container)) !important;
+}
+#app-mount .serverCountWrap_k8F5De {
+  height: var(--server-size);
+}
+#app-mount .serverCount_FsTTs1 {
+  white-space: pre-line;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
 }
 
-.tutorialContainer_c96c45+.listItem_c96c45{
-  grid-area: buttons;
-  top: -6px!important;
+html.platform-osx #app-mount .typeMacOS_a934d8 {
+  width: 100%;
+}
+html.platform-osx #app-mount .base_a4d4d9 {
+  top: calc(var(--server-container) + 30px) !important;
+}
+html.platform-osx #app-mount #pluginNotice {
+  top: 32px;
+  z-index: 100000 !important;
+}
 
-  justify-self: unset!important;
-  margin-right: unset!important;
+body.folderContentIsOpen_zz6FgW .base_a4d4d9 {
+  transition: 0.2s ease !important;
+}
+
+.accountProfilePopoutWrapper_b2ca13 {
+  left: 0;
 }
