@@ -1,16 +1,50 @@
 @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/HSL/HSL.css);
 
 :root{
-  --HSL: 0 0 72px 0;
-}
-:root{
-  --HSL_bottom_enabled:1!important;
-  --HSL_bottom_enabled_MD:1!important;
+  --HSL-bottom-enabled: 1;
+  --HSL-top-enabled: 0;
 
-  --HSL_top_enabled: 1!important;
-  --HSL_top_enabled_MD: 0!important;
+  --hsl_math_temp: -;
 }
-.guilds_a4d4d9 {
-  bottom: 0;
-  right: 0;
+
+
+body #app-mount .app_bd26cc .base_a4d4d9 {
+  top: 0 !important;
+  bottom: var(--server-container) !important;
+}
+body #app-mount .guilds_a4d4d9 {
+  top: unset !important;
+  left: 100vw;
+  bottom: 0 !important;
+  transform-origin: bottom left;
+}
+body #app-mount .guilds_a4d4d9 [class*=pill] {
+  top: unset !important;
+  bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+}
+body #app-mount .guilds_a4d4d9 [class*=pill] span {
+  border-radius: 4px 0 0 4px;
+}
+body #app-mount .guilds_a4d4d9.content-Pph8t6 {
+  top: unset !important;
+  bottom: var(--server-container) !important;
+}
+body #app-mount .guilds_a4d4d9.content-Pph8t6:not(.closed-j55_T-) + .base_a4d4d9 {
+  top: 0 !important;
+  bottom: calc(var(--server-container) * 2) !important;
+}
+body #app-mount [class*=listItemTooltip] {
+  position: absolute;
+  white-space: nowrap;
+  top: calc(var(--server-size) / -1 - 30px) !important;
+  margin-left: calc(var(--server-size) / -1 - 20px);
+}
+body #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
+  transform: rotate(0) !important;
+  top: unset !important;
+  bottom: -10px !important;
+}
+
+html.platform-osx #app-mount .base_a4d4d9 {
+  top: 32px !important;
 }
