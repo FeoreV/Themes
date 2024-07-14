@@ -11,7 +11,11 @@
 /*=============================================
 =                 ModularDesign               =
 =============================================*/
-
+body #app-mount .guilds_a4d4d9{
+	height: var(--guilds-md-hsl-temp-height, calc(100vh - var(--outlineMG) * 2) - 18px /*titlebar*/)!important;
+	margin: var(--guilds-md-hsl-temp-margin, calc(var(--outlineMG)) 0 calc(var(--outlineMG)) var(--outlineMG))!important;
+	left  : var(--guilds-md-hsl-temp-left)!important;
+}
 /*----------  Root  ----------*/
 
 :root{ /* MainModules */
@@ -40,7 +44,7 @@
 
   --HSL_10px:10px;
 }
-:root #app-mount{ /* Internal values */
+:root{ /* Internal values */
 	--outline_e: var(--outline);
 	--outlineCLR_e: var(--outlineCLR);
 	--outlineBR_e: var(--outlineBR);
@@ -123,6 +127,8 @@
 /*----------  General - Additional  ----------*/
 
 /*=====  End of Section ModularDesign  ======*/
+
+
 
 
 
