@@ -4,6 +4,14 @@
   --guilds-md-hsl-temp-left: calc(100vw * var(--HSL-bottom-enabled) var(--hsl_math_temp) var(--outlineMG_e))!important;
 }
 
+.scroller_fea3ef > .tutorialContainer_c96c45,
+.scroller_fea3ef > .listItem_c96c45{
+  order: -1;
+}
+
+.tutorialContainer_f9623d{
+  order: -2;
+}
 
 :root {
   --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
