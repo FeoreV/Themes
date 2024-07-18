@@ -77,7 +77,7 @@
       var(--profile-gradient-overlay-color) 100%,
       var(--profile-gradient-secondary-color)
     )
-  );
+  )!important;
 }
 
 
