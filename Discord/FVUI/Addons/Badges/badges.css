@@ -157,8 +157,7 @@
 	--badges_img: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/486130080263700480.png);
 }
 .userProfileInner_c69a7b:has(.avatar_c51b4e[src*="486130080263700480"]) .container_e5a42d:hover::after{ 
-	content:"Jägermeister";
-    color: #7fd673!important
+	content:"Certified Alcoholic";
 }
 /*---------- ch1llyvn 1121423889914937406  ----------*/
 .userProfileInner_c69a7b:has(.avatar_c51b4e[src*="1121423889914937406"]) .container_e5a42d::before{
