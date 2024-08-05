@@ -1,4 +1,3 @@
 :root{
 	--version:var(--showversion)!important;
-	--FVUI_build: "Pre-Release v2"!important;
 }
