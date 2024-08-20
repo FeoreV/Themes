@@ -3,7 +3,8 @@
 =============================================*/
 
 .userProfileOuter_c69a7b:has( 
-  [src*="489785940546551831"]
+  [src*="489785940546551831"], /* feorev */
+  [src*="950112422864232449"] /* Alessio */
   ){
   --profile-gradient-primary-color: var(--profile-color01)!important;
   --profile-gradient-secondary-color: var(--profile-color02)!important;
@@ -49,6 +50,7 @@
 }
 }
 
+
 .userProfileInner_c69a7b{
   --profile-gradient-start: color-mix(
     in oklab,
@@ -92,6 +94,14 @@
     --profile-decoration: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png)
   }
 
+/*----------  Alessio 950112422864232449  ----------*/
+.userProfileOuter_c69a7b:has( 
+  [src*="950112422864232449"]
+  ){
+    --profile-color01: rgb(3, 195, 253);
+    --profile-color02: rgb(19, 91, 207);
+    --profile-banner: url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/banner_950112422864232449.jpg);
+  }
 
 
 
