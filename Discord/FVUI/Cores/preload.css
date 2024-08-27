@@ -83,7 +83,7 @@
   }
 }
 
-.pictureInPicture_d0596b:not(:has(.iframe_d5ef29)) {
+.pictureInPicture_e0c856:not(:has(.iframe_d5ef29)) {
 	display        : flex;
 	justify-content: center;
 	align-items    : center;
@@ -99,7 +99,7 @@
 	background-color: var(--full02);
 	backdrop-filter : var(--blur4);
 }
-.pictureInPicture_d0596b:not(:has(.iframe_d5ef29))::after {
+.pictureInPicture_e0c856:not(:has(.iframe_d5ef29))::after {
 	position: absolute;
 
 	content    : var(--FVUI);
@@ -107,7 +107,7 @@
 	color      : var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
 }
-.pictureInPicture_d0596b:not(:has(.iframe_d5ef29))::before {
+.pictureInPicture_e0c856:not(:has(.iframe_d5ef29))::before {
 	position: absolute;
 	top     : 95%;
 
