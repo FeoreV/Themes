@@ -45,7 +45,7 @@
 .chat_a7d72e
   .children_fc4f04
   > :is(
-    .nicknames__12efb.overflow_c74e70,
+    .nicknames_d6c26f.overflow_a82120,
     .topic_bf3bbb,
     .followButton_a7d72e
   ) {
@@ -58,7 +58,7 @@
 .chat_a7d72e
   .children_fc4f04
   > :is(
-    .nicknames__12efb.overflow_c74e70,
+    .nicknames_d6c26f.overflow_a82120,
     .topic_bf3bbb,
     .followButton_a7d72e,
     .iconWrapper_fc4f04
@@ -69,7 +69,7 @@
 .chat_a7d72e
   .children_fc4f04:hover
   > :is(
-    .nicknames__12efb.overflow_c74e70,
+    .nicknames_d6c26f.overflow_a82120,
     .topic_bf3bbb,
     .followButton_a7d72e,
     .iconWrapper_fc4f04
@@ -115,7 +115,7 @@
 }
 .children_fc4f04
   > :is(
-    .nicknames__12efb.overflow_c74e70,
+    .nicknames_d6c26f.overflow_a82120,
     .topic_bf3bbb,
     .followButton_a7d72e,
     div:has(> .wrapper_c51b4e.avatar_a7d72e) + .titleWrapper_fc4f04
@@ -132,8 +132,8 @@
 .children_fc4f04:has(> .caret_fc4f04) > .iconWrapper_fc4f04 {
   display: none;
 }
-.akaBadge__27cd4.textBadge_f05120.base__5ed84.eyebrow_c15ff6.baseShapeRound_df8943 {
-  display: none;
+.akaBadge_d6c26f.textBadge_df8943 {
+  display: none!important;
 }
 .toolbar_fc4f04 {
   background: var(--bg-toolbar);
@@ -143,4 +143,14 @@
 .members_cbd271.thin_eed6a8.scrollerBase_eed6a8.fade_eed6a8,
 .profilePanel_b433b4 {
   margin-top: 50px;
+}
+
+.children_fc4f04{
+    transition: box-shadow 1s;
+    border-radius: 8px;
+}
+
+
+.children_fc4f04:hover{
+    box-shadow: 0 0 10px 5px var(--color01);
 }
