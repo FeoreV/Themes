@@ -75,7 +75,7 @@
 
 @keyframes loaderr{
   to{
-    --version      : "Make sure you used at least one of the subtopics OR did not break the syntax. If this doesn't help, reinstall the theme.";
+    --version      : "Make sure you used at least one of the subthemes OR did not break the syntax. If this doesn't help, reinstall the theme.";
     --FVUI         : "Error. ";
     pointer-events : none;
     backdrop-filter: none;
