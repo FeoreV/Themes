@@ -73,44 +73,136 @@
   --full03a: var(--full03a_lite_MUI, rgba(var(--color3), calc(var(--ColorOpacity)*0.4*(1 - var(--DisableOpacity)) + var(--DisableOpacity))));
 }
 
+
+/*=============================================
+=                Loading screen               =
+=============================================*/
+
+:root{
+  --loading-screen: 3s
+}
+
+/*----------  Keyframes  ----------*/
 @keyframes loaderr{
   to{
     --version      : "Make sure you used at least one of the subthemes OR did not break the syntax. If this doesn't help, reinstall the theme.";
-    --FVUI         : "Error. ";
+    --FVUI         : "Error.";
     pointer-events : none;
     backdrop-filter: none;
     background     : var(--opacity02b);
   }
 }
 
-.pictureInPicture_e0c856:not(:has(.iframe_d5ef29)) {
+@keyframes loading-effects {
+  0%{
+    filter: blur(4px);
+    transform: scale(1);
+  }
+  50%{
+    filter: blur(25px);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes loading-bg {
+  0%{
+    box-shadow: 0px 0px 100px 30px inset var(--color03);
+  }
+  50%{
+    box-shadow: 0px 0px 100px 50px inset var(--color03);
+    filter: blur(100px);
+  }
+  70%{
+    box-shadow: 0px 0px 30px 50px inset var(--color03);
+  }
+  100%{
+    box-shadow: 0;
+  }
+}
+
+@keyframes loadingscreen_unblur_title {
+  0%{
+    filter: blur(12px);
+    text-shadow: 0 0 500px var(--color03);
+  }
+  50%{
+    filter: blur(0px);
+    text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
+  }
+  100%{
+    filter: blur(36px);
+    text-shadow: 0 0 500px var(--color03);
+  }
+}
+
+/*----------  BG  ----------*/
+
+.app_bd26cc{
+  animation: loading-effects var(--loading-screen)!important;
+}
+
+.appMount_ea7e65::before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  box-shadow: 0 0 100px 30px inset var(--color03);
+
+  animation: 
+  loading-bg var(--loading-screen) alternate ease-in-out,
+  fade-out var(--loading-screen) ease-in-out forwards 1s,
+  hide var(--loading-screen) linear forwards var(--loading-screen);
+
+  content: "";
+  z-index: 999;
+
+  pointer-events: none;
+}
+
+/*----------  Text  ----------*/
+
+.containerTop_b18d5c {
 	display        : flex;
 	justify-content: center;
 	align-items    : center;
 
-	width  : 100%;
-	height : 100%;
+  position: absolute;
+  left: 0!important;
+  bottom: 0!important;
+  transform: none;
+
+	width  : 100vw;
+	height : 100vh;
 	z-index: 9999;
 
-	font-size  : 60px;
 	font-weight: bold;
-
-	animation       : fade-out 2s ease-in-out forwards 0.5s, hide 2s linear forwards 1s, loaderr forwards 1s 5s;
-	background-color: var(--full02);
-	backdrop-filter : var(--blur4);
+  
+  animation: 
+  fade-out var(--loading-screen) ease-in-out forwards 1s,
+  hide var(--loading-screen) linear forwards var(--loading-screen),
+  loaderr forwards 1s 5s!important;
 }
-.pictureInPicture_e0c856:not(:has(.iframe_d5ef29))::after {
+
+.containerTop_b18d5c::after {
 	position: absolute;
 
 	content    : var(--FVUI);
+
+  /* font-family: anurati!important;
+  text-transform: uppercase; */
+
 	font-size  : 150px;
 	color      : var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
+  animation: loadingscreen_unblur_title 3s forwards;
 }
-.pictureInPicture_e0c856:not(:has(.iframe_d5ef29))::before {
-	position: absolute;
-	top     : 95%;
 
+
+.containerTop_b18d5c::before {
+	position: absolute;
+
+  bottom: 50px;
+  
 	content  : var(--version);
 	font-size: 30px;
 	color    : var(--color03);
