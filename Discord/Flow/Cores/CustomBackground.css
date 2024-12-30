@@ -1,0 +1,29 @@
+@import url(https://feorev.github.io/Themes/Discord/Flow/Cores/Mica.css);
+
+/*=============================================
+=                    Data                     =
+=============================================*/
+:root{
+	--DarkBG   : url(https://i.imgur.com/gDdgJSG.jpeg);   /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif) ( url(link) ) */
+	--LightBG  : url(https://feorev.github.io/Themes/Discord/FVUI/assets/Wallpapers/light.avif);  /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif) ( url(link) ) */
+}
+:root.theme-dark{
+  --bgimage: var(--DarkBG)
+}
+:root.theme-light{
+  --bgimage: var(--LightBG)
+}
+
+:root{
+  --image: var(--bgimage);
+	--OpacityBG: 60%;
+	--BlurBG: 0px;
+}
+
+
+:root{
+	--DisableBlur: calc(1 - var(--DisableOpacity));
+	--tblur4: blur(calc(var(--DisableBlur) * 4px))!important;
+	--tblur8: blur(calc(var(--DisableBlur) * 8px))!important;
+	--tblur16: blur(calc(var(--DisableBlur) * 16px))!important;
+}
