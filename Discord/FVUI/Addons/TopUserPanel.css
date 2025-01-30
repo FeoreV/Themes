@@ -2,18 +2,18 @@
 /*=============================================
 =              FVUI compatibility            =
 =============================================*/
-.sidebar_a4d4d9>.container_ee69e0,
-.sidebar_a4d4d9>.privateChannels_f0963d{
+.sidebar_c48ade>.container__2637a,
+.sidebar_c48ade>.privateChannels__35e86{
   margin-bottom: 0!important;
 } 
-.container_ee69e0 .content_eed6a8::before {
+.container__2637a .content__99f8c::before {
   height: 15vh!important;
 }
-.sidebar_a4d4d9 .scroller_c43953 {
+.sidebar_c48ade .scroller__629e4 {
   margin-top: -10vh;
 }
 
-.inner_adcaac{display: none;}
+.inner_e131a9{display: none;}
 /*=====  End of Section FVUI compatibility  ======*/
 
 /*=============================================
@@ -21,7 +21,7 @@
 =============================================*/
 
 
-#app-mount .panels_a4d4d9{
+#app-mount .panels_c48ade{
   order: -1;
   padding-top: 1px;
   margin-top: 10px;
@@ -30,23 +30,23 @@
 }
 
 
-#app-mount .searchBar_f0963d,
-#app-mount .container_fd6364 {
+#app-mount .searchBar__35e86,
+#app-mount .container_f37cb1 {
   order:10;
   position: absolute;
   bottom: 0!important;
 }
 
-.sidebar_a4d4d9>.container_ee69e0,
-.sidebar_a4d4d9>.privateChannels_f0963d{
+.sidebar_c48ade>.container__2637a,
+.sidebar_c48ade>.privateChannels__35e86{
   margin-top: -9vh!important;
 } 
-.sidebar_a4d4d9 .content_eed6a8{
+.sidebar_c48ade .content__99f8c{
   margin-top: 4.5vh
 }
 
-.animatedContainer_fd6364,
-.content_eed6a8>div[aria-hidden="true"][style="height: 84px;"]
+.animatedContainer_f37cb1,
+.content__99f8c>div[aria-hidden="true"][style="height: 84px;"]
 {display: none}
 
 /*=====  End of Section TUP  ======*/
