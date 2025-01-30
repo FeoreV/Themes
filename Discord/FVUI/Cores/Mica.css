@@ -1,10 +1,3 @@
-/**
-* @name !mica
-* @author ٴFeoreVٴ#3377
-* @description mica 
-* @version  DEV
-* @authorId 489785940546551831
-*/
 
 /*=============================================
 =                    Data                     =
@@ -22,7 +15,7 @@
 /*=============================================
 =                    Alert                    =
 =============================================*/
-.wordmarkWindows_a934d8::after{
+.wordmarkWindows__421ed::after{
 	position: absolute;
 	left: 10px;
 
@@ -48,7 +41,7 @@
   background: none !important;
 }
 
-.theme-light .wordmarkWindows_a934d8::before { /*THEME-LIGHT*/
+.theme-light .wordmarkWindows__421ed::before { /*THEME-LIGHT*/
     position: fixed;
 	left: 50%;
 
@@ -60,7 +53,7 @@
 }
 
 
-.sidebar_a4d4d9,
-.sidebar_a4d4d9 { 
+.sidebar_c48ade,
+.sidebar_c48ade { 
     background: none;
 }
