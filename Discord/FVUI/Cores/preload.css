@@ -137,11 +137,11 @@
 
 /*----------  BG  ----------*/
 
-.app_bd26cc{
+.app_a3002d{
   animation: loading-effects var(--loading-screen)!important;
 }
 
-.appMount_ea7e65::before{
+.appMount__51fd7::before{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -161,7 +161,7 @@
 
 /*----------  Text  ----------*/
 
-.containerTop_b18d5c {
+.containerTop__45edc {
 	display        : flex;
 	justify-content: center;
 	align-items    : center;
@@ -182,7 +182,7 @@
   loaderr forwards 1s 5s!important;
 }
 
-.containerTop_b18d5c::after {
+.containerTop__45edc::after {
 	position: absolute;
 
 	content    : var(--FVUI);
@@ -197,7 +197,7 @@
 }
 
 
-.containerTop_b18d5c::before {
+.containerTop__45edc::before {
 	position: absolute;
 
   bottom: 50px;
