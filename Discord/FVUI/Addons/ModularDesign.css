@@ -1,17 +1,8 @@
-/**
-* @name !ModularDesign
-* @author ٴFeoreVٴ#3377
-* @description ModularDesign
-* @version  DEV
-* @authorId 489785940546551831
-*/
-
-
 
 /*=============================================
 =                 ModularDesign               =
 =============================================*/
-body #app-mount .guilds_a4d4d9{
+body #app-mount .guilds_c48ade{
 	height: var(--guilds-md-hsl-temp-height, calc(100vh - var(--outlineMG) * 2) - 18px /*titlebar*/)!important;
 	margin: var(--guilds-md-hsl-temp-margin, calc(var(--outlineMG)) 0 calc(var(--outlineMG)) var(--outlineMG))!important;
 	left  : var(--guilds-md-hsl-temp-left)!important;
@@ -58,17 +49,17 @@ body #app-mount .guilds_a4d4d9{
 }
 /*----------  General - Main  ----------*/
 
-#app-mount .container_ee69e0{
+#app-mount .container__2637a{
 	background: transparent; /* !!! */
 }
 
-#app-mount .guilds_a4d4d9, /* guilds */ 
-#app-mount .sidebar_a4d4d9, /* list */
-#app-mount .container_c2739c, /* friendlist */
-#app-mount .chat_a7d72e, /* chat */
-#app-mount .applicationStore_cecc86, /* applicationStore */
-#app-mount .shop_e77fa3, /* shop */
-#app-mount .layer_d4b6c5 > .standardSidebarView_c25c6d>:is(.sidebarRegion_c25c6d,.contentRegion_c25c6d) /* settings */
+#app-mount .guilds_c48ade, /* guilds */ 
+#app-mount .sidebar_c48ade, /* list */
+#app-mount .container__133bf, /* friendlist */
+#app-mount .chat_f75fb0, /* chat */
+#app-mount .applicationStore_f07d62, /* applicationStore */
+#app-mount .shop__6db1d, /* shop */
+#app-mount .layer__960e4 > .standardSidebarView__23e6b>:is(.sidebarRegion__23e6b,.contentRegion__23e6b) /* settings */
 {
 	color: var(--outlineCLR_MUI, rgb(var(--outlineCLR)));
 	outline: var(--outline) solid currentcolor;
@@ -86,13 +77,13 @@ body #app-mount .guilds_a4d4d9{
 
 
 :is(
-#app-mount .guilds_a4d4d9, /* guilds */ 
-#app-mount .sidebar_a4d4d9, /* list */
-#app-mount .container_c2739c, /* friendlist */
-#app-mount .chat_a7d72e, /* chat */
-#app-mount .applicationStore_cecc86, /* applicationStore */
-#app-mount .shop_e77fa3, /* shop */
-#app-mount .layer_d4b6c5 > .standardSidebarView_c25c6d>:is(.sidebarRegion_c25c6d,.contentRegion_c25c6d) /* settings */
+#app-mount .guilds_c48ade, /* guilds */ 
+#app-mount .sidebar_c48ade, /* list */
+#app-mount .container__133bf, /* friendlist */
+#app-mount .chat_f75fb0, /* chat */
+#app-mount .applicationStore_f07d62, /* applicationStore */
+#app-mount .shop__6db1d, /* shop */
+#app-mount .layer__960e4 > .standardSidebarView__23e6b>:is(.sidebarRegion__23e6b,.contentRegion__23e6b) /* settings */
 )::before
 {
 	content: "";
@@ -105,22 +96,22 @@ body #app-mount .guilds_a4d4d9{
 	backdrop-filter: var(--outlineBLUR);
 }
 
-#app-mount .chat_a7d72e,
-#app-mount .applicationStore_cecc86,
-#app-mount .container_c2739c,
-#app-mount .contentRegion_c25c6d,
-#app-mount .shop_e77fa3{
+#app-mount .chat_f75fb0,
+#app-mount .applicationStore_f07d62,
+#app-mount .container__133bf,
+#app-mount .contentRegion__23e6b,
+#app-mount .shop__6db1d{
 	margin-right: var(--outlineMG)!important
 }
 
-.base_a4d4d9{ /* HSL fix */
+.base_c48ade{ /* HSL fix */
 	margin: calc(var(--outlineMG) * var(--HSL_top_enabled_MD) * 3 ) 0 calc(var(--outlineMG) * var(--HSL_bottom_enabled_MD) * 3 ) 0!important;
 }
 
-.shop_e77fa3{
+.shop__6db1d{
 	height: calc(100% - var(--outlineMG) * 2);
 }
-.shopScroll_e77fa3 {
+.shopScroll__6db1d {
 	max-height: calc(100% - var(--outlineMG) * 2);
 }
 
