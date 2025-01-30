@@ -7,14 +7,14 @@
   --ML-role-background: var(--opacity02a); /* role color */
 }
 
-#app-mount .member_a31c43{
+#app-mount .member__5d473{
   background: var(--ML-member-background)!important;
   border-radius: 0;
   width: 100%;
   max-width: none;
   margin-left: 0;
 }
-.membersGroup_cbd271{
+.membersGroup_c8ffbb{
   background: var(--ML-role-background)!important;
   margin: 0px!important;
 
@@ -25,14 +25,14 @@
   align-items: center;
 }
 
-.member_a31c43:has(+.membersGroup_cbd271){
+.member__5d473:has(+.membersGroup_c8ffbb){
   border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius)!important;
   margin-bottom: 10px;
 }
-.membersGroup_cbd271:has(+.member_a31c43){
+.membersGroup_c8ffbb:has(+.member__5d473){
   border-radius: var(--ML-border-radius) var(--ML-border-radius) 0 0!important;
 }
-.memberInner_a31c43{
+.memberInner__5d473{
   border-radius: inherit;
 }
 /*=====  End of Section MemberList background  ======*/
