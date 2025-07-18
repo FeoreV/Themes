@@ -5,6 +5,13 @@
 * @version  DEV
 * @authorId 489785940546551831
 */
+/**
+* @name !11
+* @author ٴFeoreVٴ#3377
+* @description 11 
+* @version  DEV
+* @authorId 489785940546551831
+*/
 
 /*=============================================
 =                    Data                     =
@@ -30,7 +37,7 @@
 	--warring11:  "Choose ONE of the suggested themes";
 }
 
-.wordmarkWindows__421ed::after{
+.bar_c38106::after{
 	position: absolute;
 	left: 10px;
 
@@ -54,31 +61,10 @@
 /*=============================================
 =                    Code                     =
 =============================================*/
-
-:root [id^="popout_"]{
-	--background-secondary: var(--opacity01a)!important; /* popups*/
+.bg__960e4{
+	background: none;
 }
-
-.content_f75fb0.container_c791b2>.mainTableContainer__09a38{ /* memberlist */
-  backdrop-filter: blur(8px);
-}
-
-.sidebar_c48ade{
-  background: none!important;
-}
-.shopScroll__6db1d,
-.shopScroll__6db1d>.pageWrapper__6db1d  {
-  background: none!important;
-}
-
-.title_f75fb0,
-.channelTextArea_f75fb0, 
-.wrapper__44df5{
-  background: var(--full02)!important;
-}
-
-
-.app_a3002d::before{
+.bg__960e4::before{
   background-size: cover!important;
   position: absolute;
   width: 100%;
@@ -87,19 +73,16 @@
   opacity:var(--OpacityBG);
   filter:blur(var(--BlurBG))
 }
-.app_a3002d::before{
+.bg__960e4::before{
   background-image: var(--image);
 }
 
-
-
-.mentioned__5126c{
+.mentioned__5126c {
   backdrop-filter: var(--blur4);
 }
 
-.callContainer_cb9592{ /*screen demo*/
-  backdrop-filter: var(--blur8);
-}
-.container__2637a{
-  background: none!important;
-}
+
+
+
+
+
