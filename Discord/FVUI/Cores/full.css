@@ -1,2 +1,66 @@
-@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/badges.css);:root{--DisableBlur: calc(1 - var(--DisableOpacity));--blur4: blur(calc(var(--DisableBlur) * 4px))!important;--blur8: blur(calc(var(--DisableBlur) * 8px))!important;--blur16: blur(calc(var(--DisableBlur) * 16px))!important;--opacitybackdrop:.5!important;}:root {--modal-background: var(--opacity02a)!important; --opacitybackdrop:rgba(0,0,0,.5)!important;}:root {--full01: var(--full01_full_MUI, rgba(var(--color1), 0.4))!important;--full02: var(--full02_full_MUI, rgba(var(--color2), 0.4))!important;--full020a: var(--full020a_full_MUI, rgba(var(--color2), 0.1))!important;--full01a: var(--full01a_full_MUI, rgba(var(--color1), 0.3))!important;--full02a: var(--full02a_full_MUI, rgba(var(--color2), 0.3))!important;--full01b: var(--full01b_full_MUI, rgba(var(--color1), 0.2))!important;--full02b: var(--full02b_full_MUI, rgba(var(--color2), 0.2))!important;--full01c: var(--full01c_full_MUI, rgba(var(--color1), 0.1))!important;--full02c: var(--full02c_full_MUI, rgba(var(--color1), 0.1))!important;--full03: var(--full03_full_MUI, rgba(var(--color3), 0.5))!important;--full03a: var(--full03a_full_MUI, rgba(var(--color3), 0.2))!important;}.bd-toast.toast-success{background-color:rgb(67, 181, 129, 0.1);backdrop-filter:BLUR(4px);}.bd-toast.toast-info{background-color:rgb(34, 117, 201, 0.3); backdrop-filter:BLUR(4px);}.bd-toast{background:transparent;backdrop-filter:BLUR(4px);}.channelTextArea_f75fb0,.wrapper__44df5,.title_f75fb0{background: var(--full02)!important;}
- 
+/**
+* @name !full
+* @author ٴFeoreVٴ#3377
+* @description full 
+* @version  DEV
+* @authorId 489785940546551831
+*/
+@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Badges/badges.css);
+
+:root{
+	--DisableBlur: calc(1 - var(--DisableOpacity));
+	--blur4: blur(calc(var(--DisableBlur) * 4px))!important;
+	--blur8: blur(calc(var(--DisableBlur) * 8px))!important;
+	--blur16: blur(calc(var(--DisableBlur) * 16px))!important;
+	--opacitybackdrop:.5!important;
+}
+:root {
+	--modal-background: var(--opacity02a)!important; /*additional bg / profile bg/ other modal bg */	
+	--opacitybackdrop:rgba(0,0,0,.5)!important;
+}
+
+:root {
+	--full01: var(--full01_full_MUI, rgba(var(--color1), 0.4))!important;
+	--full02: var(--full02_full_MUI, rgba(var(--color2), 0.4))!important;
+
+	--full020a: var(--full020a_full_MUI, rgba(var(--color2), 0.1))!important;
+
+	--full01a: var(--full01a_full_MUI, rgba(var(--color1), 0.3))!important;
+	--full02a: var(--full02a_full_MUI, rgba(var(--color2), 0.3))!important;
+
+	--full01b: var(--full01b_full_MUI, rgba(var(--color1), 0.2))!important;
+	--full02b: var(--full02b_full_MUI, rgba(var(--color2), 0.2))!important;
+
+	--full01c: var(--full01c_full_MUI, rgba(var(--color1), 0.1))!important;
+	--full02c: var(--full02c_full_MUI, rgba(var(--color1), 0.1))!important;
+
+	--full03: var(--full03_full_MUI, rgba(var(--color3), 0.5))!important;
+	--full03a: var(--full03a_full_MUI, rgba(var(--color3), 0.2))!important;
+}
+
+
+
+
+
+
+/*~~~ 9.0 BetterDiscord ~~~*/
+.bd-toast.toast-success{background-color:rgb(67, 181, 129, 0.1);backdrop-filter:BLUR(4px);}
+.bd-toast.toast-info{background-color:rgb(34, 117, 201, 0.3); backdrop-filter:BLUR(4px);}
+.bd-toast{background:transparent;backdrop-filter:BLUR(4px);}
+
+
+
+
+
+.channelTextArea_a7d72e,
+.wrapper_faf5ab,
+.title_a7d72e{
+    background: var(--full02)!important;
+}
+
+
+
+
+
+
+

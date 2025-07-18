@@ -1,3 +1,10 @@
+/**
+* @name !materialwin
+* @author ٴFeoreVٴ#3377
+* @description materialyou 
+* @version  DEV
+* @authorId 489785940546551831
+*/
 :root {
 	--accentcolor: var(--accentcolor-HUE), var(--accentcolor-SATURATION); 
 }

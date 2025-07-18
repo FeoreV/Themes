@@ -1,8 +1,17 @@
+/**
+* @name !ModularDesign
+* @author ٴFeoreVٴ#3377
+* @description ModularDesign
+* @version  DEV
+* @authorId 489785940546551831
+*/
+
+
 
 /*=============================================
 =                 ModularDesign               =
 =============================================*/
-body #app-mount .guilds_c48ade{
+body #app-mount .guilds_a4d4d9{
 	height: var(--guilds-md-hsl-temp-height, calc(100vh - var(--outlineMG) * 2) - 18px /*titlebar*/)!important;
 	margin: var(--guilds-md-hsl-temp-margin, calc(var(--outlineMG)) 0 calc(var(--outlineMG)) var(--outlineMG))!important;
 	left  : var(--guilds-md-hsl-temp-left)!important;
@@ -49,12 +58,25 @@ body #app-mount .guilds_c48ade{
 }
 /*----------  General - Main  ----------*/
 
+#app-mount .panels_c48ade{
+	left: 137px!important;
+	bottom: 40px!important;
+}
+
+.layer_da8173:has(.user-profile-popout){
+	bottom: 22px!important;
+	left: 137px!important;
+	border-radius: var(--outlineBR);
+}
+
 #app-mount .container__2637a{
 	background: transparent; /* !!! */
 }
 
 #app-mount .guilds_c48ade, /* guilds */ 
-#app-mount .sidebar_c48ade, /* list */
+#app-mount .guilds_c48ade , /* list */
+#app-mount .sidebarList_c48ade  , /* list */
+
 #app-mount .container__133bf, /* friendlist */
 #app-mount .chat_f75fb0, /* chat */
 #app-mount .applicationStore_f07d62, /* applicationStore */
@@ -71,6 +93,8 @@ body #app-mount .guilds_c48ade{
 
 	padding: 3px;
 	box-sizing: border-box;
+
+	max-height: 92vh;
 }
 
 
@@ -78,7 +102,8 @@ body #app-mount .guilds_c48ade{
 
 :is(
 #app-mount .guilds_c48ade, /* guilds */ 
-#app-mount .sidebar_c48ade, /* list */
+#app-mount .guilds_c48ade , /* list */
+#app-mount .sidebarList_c48ade  , /* list */
 #app-mount .container__133bf, /* friendlist */
 #app-mount .chat_f75fb0, /* chat */
 #app-mount .applicationStore_f07d62, /* applicationStore */
@@ -121,5 +146,26 @@ body #app-mount .guilds_c48ade{
 
 
 
- 
+#bd-notices{
+	position: relative!important;
+	margin: var(--outlineMG) var(--outlineMG) 0 var(--outlineMG);
 
+}
+.bd-notice{
+	background: rgb(var(--outlineBG))!important;
+
+	color: var(--outlineCLR_MUI, rgb(var(--outlineCLR)));
+	background: none;
+	outline: var(--outline) solid currentcolor!important;
+	border-radius: calc(var(--outlineBR) / 2)!important;
+	box-shadow: 0 0 var(--outlineBS) currentcolor;
+
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+
+}
+
+.bd-notice-content{
+	color: #fff;
+}

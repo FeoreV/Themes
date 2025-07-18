@@ -1,8 +1,16 @@
+  /**
+* @name !preload
+* @author ٴFeoreVٴ#3377
+* @description preload 
+* @version  DEV
+* @authorId 489785940546551831
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap%27');  /*font*/
+@import url('https://fonts.cdnfonts.com/css/anurati');
 
 :root {
-  --FVUI: "Loading";
+  --FVUI: "LOADING";
   --font: "Comfortaa" ;
 }
 
@@ -74,6 +82,12 @@
 }
 
 
+
+
+
+
+
+
 /*=============================================
 =                Loading screen               =
 =============================================*/
@@ -141,7 +155,7 @@
   animation: loading-effects var(--loading-screen)!important;
 }
 
-.appMount__51fd7::before{
+#app-mount::before{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -205,4 +219,43 @@
 	content  : var(--version);
 	font-size: 30px;
 	color    : var(--color03);
+}
+
+
+/*----------  Logs  ----------*/
+
+bd-themes:has(style:not([id*=FVUI])){
+  min-width: 15vw;
+  max-width: 250px;
+  background: black;
+  outline: 1px solid red;
+  box-shadow: 0 0 10px red;
+  height: 48px;
+  right: 0;
+  display: block;
+  z-index: 99999;
+  position: absolute;
+  margin: 20px 10px;
+  bottom: 0;
+  border-radius: 8px;
+  font-size: 10px;
+  color: #fff;
+
+  transform: translateY(100vh);
+  transition: transform 3s 5s;
+
+  opacity: var(--undefined, 1);
+}
+
+bd-themes::after{
+  position: absolute;
+  content: "Important: a third-party theme is enabled. For a better FVUI experience, please disable it";
+  text-align: center;
+  padding: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

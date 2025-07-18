@@ -1,3 +1,10 @@
+/**
+* @name !default
+* @author ٴFeoreVٴ#3377
+* @description default 
+* @version  DEV
+* @authorId 489785940546551831
+*/
 
 /*=============================================
 =                    Data                     =
@@ -11,7 +18,7 @@
 =                    Alert                    =
 =============================================*/
 
-.wordmarkWindows__421ed::after{
+.bar_c38106::after{
 	position: absolute;
 	left: 10px;
 
@@ -31,6 +38,6 @@
 :root{
 	--bg-overlay-3: var(--color02)!important; /* optimis */
 }
-.sidebar_c48ade { /* optimis */
+.sidebar_a4d4d9 { /* optimis */
     background: var(--color02);
 }
